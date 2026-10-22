@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { ReaderNavigation } from "@/components/reader-navigation";
 import { ReaderDialogues } from "@/components/reader-dialogues";
@@ -32,7 +33,7 @@ export default async function Home({
         跳到对话正文
       </a>
       <header className="reader-header">
-        <a className="reader-brand" href="/" aria-label="韩语对话课首页">
+        <Link className="reader-brand" href="/" aria-label="韩语对话课首页">
           <span className="brand-mark" aria-hidden="true">
             말
           </span>
@@ -40,7 +41,7 @@ export default async function Home({
             <strong>韩语对话课</strong>
             <span>韩语 · 中文对照</span>
           </span>
-        </a>
+        </Link>
         <span className="reader-count">26 周对话</span>
       </header>
       <main className="reader-main">
@@ -57,18 +58,22 @@ export default async function Home({
         <ReaderDialogues key={lesson.id} lesson={lesson} />
         <footer className="reader-footer" aria-label="切换课程">
           {previous ? (
-            <a className="previous" href={`/?lesson=${previous.id}`} rel="prev">
+            <Link
+              className="previous"
+              href={`/?lesson=${previous.id}`}
+              rel="prev"
+            >
               <span>← 上一课</span>
               <strong>{previous.title}</strong>
-            </a>
+            </Link>
           ) : (
             <span />
           )}
           {next ? (
-            <a className="next" href={`/?lesson=${next.id}`} rel="next">
+            <Link className="next" href={`/?lesson=${next.id}`} rel="next">
               <span>下一课 →</span>
               <strong>{next.title}</strong>
-            </a>
+            </Link>
           ) : (
             <span />
           )}

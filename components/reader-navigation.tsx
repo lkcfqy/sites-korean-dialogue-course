@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import type { ReaderLessonSummary } from "@/lib/reader-types";
 
 export function ReaderNavigation({
@@ -9,12 +10,13 @@ export function ReaderNavigation({
   lessons: ReaderLessonSummary[];
   currentId: string;
 }) {
+  const router = useRouter();
   const current = lessons.find((lesson) => lesson.id === currentId)!;
   const weeks = [...new Set(lessons.map((lesson) => lesson.week))];
   const weekLessons = lessons.filter((lesson) => lesson.week === current.week);
 
   function openLesson(id: string) {
-    window.location.assign(`/?lesson=${encodeURIComponent(id)}`);
+    router.push(`/?lesson=${encodeURIComponent(id)}`);
   }
 
   return (
