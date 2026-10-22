@@ -1,0 +1,17 @@
+{
+  "headwords": 6129,
+  "mainWords": 4980,
+  "mainWordsWithThreeContexts": 4980,
+  "wordSentenceAndDialogueContexts": 41500,
+  "globalDistinctWordExamples": 41500,
+  "authoredBilingualExamples": 425,
+  "expressionExamples": 130,
+  "deepPassages": 48,
+  "legacyReadingPassages": 7,
+  "totalReadingPassages": 60,
+  "minPassageHangul": 940,
+  "maxPassageHangul": 1269,
+  "readingBridgePassages": 5,
+  "minBridgeHangul": 234,
+  "maxBridgeHangul": 528
+}

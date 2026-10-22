@@ -1,0 +1,11 @@
+{
+  "dictionaryRelease": "2026-09-19",
+  "archiveSha256": "f9c1b9309afe66429a92cca1b2c426db25ec809d04103aca74c3a23859280df6",
+  "license": "CC BY-SA 2.0 KR",
+  "headwords": 6129,
+  "mainWords": 4980,
+  "sentenceAndDialogueContexts": 41076,
+  "mainWithAtLeastOne": 4980,
+  "mainWithAtLeastThree": 4742,
+  "mainWithAtLeastFive": 2548
+}

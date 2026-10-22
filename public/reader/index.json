@@ -1,0 +1,1289 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "id": "w01d1",
+      "week": 1,
+      "day": 1,
+      "title": "第一天报到",
+      "scene": "在教室门口确认班级和身份。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w01d2",
+      "week": 1,
+      "day": 2,
+      "title": "这是谁的书",
+      "scene": "区分眼前的书和别人的笔。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w01d3",
+      "week": 1,
+      "day": 3,
+      "title": "听不清时怎么说",
+      "scene": "请对方放慢速度，并确认一个词的意思。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w01d4",
+      "week": 1,
+      "day": 4,
+      "title": "教室里缺一把椅子",
+      "scene": "确认物品有没有、放在哪里。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w01d5",
+      "week": 1,
+      "day": 5,
+      "title": "认识同桌",
+      "scene": "交换国籍和正在学习的语言。",
+      "sectionCount": 1
+    },
+    {
+      "id": "w01d6",
+      "week": 1,
+      "day": 6,
+      "title": "相识与开口 · 综合交流",
+      "scene": "两位初学者第一次见面，后来谈到发音。",
+      "sectionCount": 1
+    },
+    {
+      "id": "w02d1",
+      "week": 2,
+      "day": 1,
+      "title": "一天从几点开始",
+      "scene": "说明起床、上班和吃饭的日常顺序。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w02d2",
+      "week": 2,
+      "day": 2,
+      "title": "介绍家里的人",
+      "scene": "从照片认人，说明家人职业。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w02d3",
+      "week": 2,
+      "day": 3,
+      "title": "午休见不到人",
+      "scene": "区分现在正在做的事与平时的习惯。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w02d4",
+      "week": 2,
+      "day": 4,
+      "title": "星期天不开门",
+      "scene": "用否定说明营业时间和个人安排。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w02d5",
+      "week": 2,
+      "day": 5,
+      "title": "走错了办公室",
+      "scene": "核对楼层、部门和来访对象。",
+      "sectionCount": 1
+    },
+    {
+      "id": "w02d6",
+      "week": 2,
+      "day": 6,
+      "title": "身份与日常工作 · 综合交流",
+      "scene": "两人谈论图书管理员的工作与日常生活。",
+      "sectionCount": 1
+    },
+    {
+      "id": "w03d1",
+      "week": 3,
+      "day": 1,
+      "title": "记错了日期",
+      "scene": "确认日历上的日期、星期和约定。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w03d2",
+      "week": 3,
+      "day": 2,
+      "title": "公交车晚点",
+      "scene": "说明迟到原因，给出新的到达时间。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w03d3",
+      "week": 3,
+      "day": 3,
+      "title": "两个安排撞在一起",
+      "scene": "说明冲突并换一个双方都有空的时间。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w03d4",
+      "week": 3,
+      "day": 4,
+      "title": "预约理发",
+      "scene": "询问空位，说明需要多长时间。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w03d5",
+      "week": 3,
+      "day": 5,
+      "title": "视频通话的时差",
+      "scene": "区分双方当地时间，避免凌晨打扰。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w03d6",
+      "week": 3,
+      "day": 6,
+      "title": "约时间 · 综合交流",
+      "scene": "朋友商量在三点见面，确认地点和安排。",
+      "sectionCount": 1
+    },
+    {
+      "id": "w04d1",
+      "week": 4,
+      "day": 1,
+      "title": "菜单上看不懂的菜",
+      "scene": "确认食材、辣度和份量后点餐。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w04d2",
+      "week": 4,
+      "day": 2,
+      "title": "多送了一份汤",
+      "scene": "发现订单不符，向店员说明。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w04d3",
+      "week": 4,
+      "day": 3,
+      "title": "买早餐打包",
+      "scene": "在柜台区分堂食和带走，说明数量。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w04d4",
+      "week": 4,
+      "day": 4,
+      "title": "和朋友分账",
+      "scene": "核对各自点了什么，询问能否分开付款。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w04d5",
+      "week": 4,
+      "day": 5,
+      "title": "餐桌上的过敏说明",
+      "scene": "清楚说明不能吃的食材，避免含糊请求。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w04d6",
+      "week": 4,
+      "day": 6,
+      "title": "在餐馆点餐 · 综合交流",
+      "scene": "两人在餐馆谈论泡菜汤并完成点餐。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w05d1",
+      "week": 5,
+      "day": 1,
+      "title": "裤子尺寸不合适",
+      "scene": "说明试穿结果，比较腰围和长度。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w05d2",
+      "week": 5,
+      "day": 2,
+      "title": "促销不等于便宜",
+      "scene": "比较单价、数量和实际需要。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w05d3",
+      "week": 5,
+      "day": 3,
+      "title": "颜色与照片不一样",
+      "scene": "核对商品颜色，询问退换条件。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w05d4",
+      "week": 5,
+      "day": 4,
+      "title": "在市场买水果",
+      "scene": "比较成熟度、重量和保存时间。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w05d5",
+      "week": 5,
+      "day": 5,
+      "title": "买充电器先看接口",
+      "scene": "用具体条件询问适配情况。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w05d6",
+      "week": 5,
+      "day": 6,
+      "title": "购物与比较 · 综合交流",
+      "scene": "顾客比较包的价格与质量。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w06d1",
+      "week": 6,
+      "day": 1,
+      "title": "地铁坐反了方向",
+      "scene": "确认站名、行进方向和换乘位置。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w06d2",
+      "week": 6,
+      "day": 2,
+      "title": "找到没有招牌的入口",
+      "scene": "按地标描述路线，确认左右和前后。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w06d3",
+      "week": 6,
+      "day": 3,
+      "title": "末班车赶不上了",
+      "scene": "根据时间和费用选择回家方式。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w06d4",
+      "week": 6,
+      "day": 4,
+      "title": "行李箱落在公交车上",
+      "scene": "提供失物特征、路线和下车时间。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w06d5",
+      "week": 6,
+      "day": 5,
+      "title": "轮椅如何到站台",
+      "scene": "询问无台阶路线，核实电梯位置。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w06d6",
+      "week": 6,
+      "day": 6,
+      "title": "问路与交通 · 综合交流",
+      "scene": "路人询问去市政府的路线。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w07d1",
+      "week": 7,
+      "day": 1,
+      "title": "听到了却没听懂",
+      "scene": "区分发音识别与理解整句，向老师具体求助。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w07d2",
+      "week": 7,
+      "day": 2,
+      "title": "作业要求理解错了",
+      "scene": "确认任务的范围和完成方式。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w07d3",
+      "week": 7,
+      "day": 3,
+      "title": "两种说法都对吗",
+      "scene": "区分语法正确与场合合适。",
+      "sectionCount": 6
+    },
+    {
+      "id": "w07d4",
+      "week": 7,
+      "day": 4,
+      "title": "记住的词不会用",
+      "scene": "通过搭配区分相近动词。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w07d5",
+      "week": 7,
+      "day": 5,
+      "title": "学习时间总被打断",
+      "scene": "描述分心原因，协商可以坚持的学习安排。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w07d6",
+      "week": 7,
+      "day": 6,
+      "title": "课堂与自学 · 综合交流",
+      "scene": "同学交流韩语课的学习安排。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w08d1",
+      "week": 8,
+      "day": 1,
+      "title": "邀请时先问方便不方便",
+      "scene": "邀请新朋友到家中，给对方留下拒绝余地。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w08d2",
+      "week": 8,
+      "day": 2,
+      "title": "婉拒聚会",
+      "scene": "说明不能参加的原因，并提出另一次见面。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w08d3",
+      "week": 8,
+      "day": 3,
+      "title": "野餐遇到雨",
+      "scene": "根据天气变化修改计划并通知所有人。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w08d4",
+      "week": 8,
+      "day": 4,
+      "title": "临时多来一位客人",
+      "scene": "核实座位、人数和费用，避免擅自决定。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w08d5",
+      "week": 8,
+      "day": 5,
+      "title": "决定谁带什么",
+      "scene": "分担聚会准备，核对数量与遗漏。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w08d6",
+      "week": 8,
+      "day": 6,
+      "title": "邀请与安排 · 综合交流",
+      "scene": "朋友商量一起运动，练习提出邀请和调整计划。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w09d1",
+      "week": 9,
+      "day": 1,
+      "title": "熬夜习惯怎么改变",
+      "scene": "回顾反复失败的原因，把目标缩小。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w09d2",
+      "week": 9,
+      "day": 2,
+      "title": "运动后反而放弃",
+      "scene": "比较过高计划和可以持续的小安排。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w09d3",
+      "week": 9,
+      "day": 3,
+      "title": "冲动购买后的反省",
+      "scene": "描述触发行为的场景，并替换应对方法。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w09d4",
+      "week": 9,
+      "day": 4,
+      "title": "把通勤变成练习时间",
+      "scene": "适应真实生活限制，选择合适的学习方式。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w09d5",
+      "week": 9,
+      "day": 5,
+      "title": "三周之后回顾变化",
+      "scene": "用可观察的事实描述进步和仍存在的问题。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w09d6",
+      "week": 9,
+      "day": 6,
+      "title": "习惯与改变 · 综合交流",
+      "scene": "朋友谈论坚持冥想的习惯。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w10d1",
+      "week": 10,
+      "day": 1,
+      "title": "描述症状的开始和变化",
+      "scene": "向医生说明时间、位置和变化，不自行下诊断。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w10d2",
+      "week": 10,
+      "day": 2,
+      "title": "药袋说明看不清",
+      "scene": "向药师确认处方上的服用方法。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w10d3",
+      "week": 10,
+      "day": 3,
+      "title": "预约改到能去的时间",
+      "scene": "核对门诊、准备事项和预约变更。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w10d4",
+      "week": 10,
+      "day": 4,
+      "title": "陪朋友就医",
+      "scene": "区分代述与本人感受，避免漏掉重要信息。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w10d5",
+      "week": 10,
+      "day": 5,
+      "title": "症状暂时缓解之后",
+      "scene": "向医护询问后续观察与复诊条件。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w10d6",
+      "week": 10,
+      "day": 6,
+      "title": "就医与说明症状 · 综合交流",
+      "scene": "患者向医生说明头痛，询问用药与复诊。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w11d1",
+      "week": 11,
+      "day": 1,
+      "title": "夜间漏水报修",
+      "scene": "准确描述位置、开始时间和影响。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w11d2",
+      "week": 11,
+      "day": 2,
+      "title": "看房时没问到的费用",
+      "scene": "区分月租、管理费和另计费用。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w11d3",
+      "week": 11,
+      "day": 3,
+      "title": "向邻居反映噪声",
+      "scene": "描述具体时段与影响，提出可操作的请求。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w11d4",
+      "week": 11,
+      "day": 4,
+      "title": "洗衣机坏了但师傅没来",
+      "scene": "追问预约失约，协调进门和新的时间。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w11d5",
+      "week": 11,
+      "day": 5,
+      "title": "搬走前核对房屋状态",
+      "scene": "分清原有痕迹和新增损坏，保存双方记录。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w11d6",
+      "week": 11,
+      "day": 6,
+      "title": "住房与维修 · 综合交流",
+      "scene": "住户与物业沟通漏水问题及维修安排。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w12d1",
+      "week": 12,
+      "day": 1,
+      "title": "订错了入住日期",
+      "scene": "说明订单与实际行程差异，询问变更条件。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w12d2",
+      "week": 12,
+      "day": 2,
+      "title": "车票售罄后的选择",
+      "scene": "比较换乘、到达时间和预算。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w12d3",
+      "week": 12,
+      "day": 3,
+      "title": "房间和预订不符",
+      "scene": "指出可核实的差异并要求合理处理。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w12d4",
+      "week": 12,
+      "day": 4,
+      "title": "行程留出缓冲",
+      "scene": "避免只按地图最短时间安排旅行。",
+      "sectionCount": 6
+    },
+    {
+      "id": "w12d5",
+      "week": 12,
+      "day": 5,
+      "title": "旅行结束后给出具体评价",
+      "scene": "区分感受、事实与建议，避免笼统好坏。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w12d6",
+      "week": 12,
+      "day": 6,
+      "title": "旅行与住宿 · 综合交流",
+      "scene": "朋友计划去釜山旅行并预订住宿。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w13d1",
+      "week": 13,
+      "day": 1,
+      "title": "第一次独自处理问题",
+      "scene": "按事件顺序叙述意外、应对和结果。",
+      "sectionCount": 6
+    },
+    {
+      "id": "w13d2",
+      "week": 13,
+      "day": 2,
+      "title": "记忆和照片对不上",
+      "scene": "承认记忆不确定，用资料修正叙述。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w13d3",
+      "week": 13,
+      "day": 3,
+      "title": "误会是怎么发生的",
+      "scene": "分别转述双方说法，区分行为与意图。",
+      "sectionCount": 6
+    },
+    {
+      "id": "w13d4",
+      "week": 13,
+      "day": 4,
+      "title": "以前常去的店关门了",
+      "scene": "比较过去的习惯和现在的变化，表达复杂感受。",
+      "sectionCount": 6
+    },
+    {
+      "id": "w13d5",
+      "week": 13,
+      "day": 5,
+      "title": "失败经历能说明什么",
+      "scene": "从一次挫折中提取具体教训，避免否定自己。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w13d6",
+      "week": 13,
+      "day": 6,
+      "title": "经历与回忆 · 综合交流",
+      "scene": "朋友聊起一次面试经历，描述经过与感受。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w14d1",
+      "week": 14,
+      "day": 1,
+      "title": "推荐不等于适合所有人",
+      "scene": "给出评价依据，并限定适用范围。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w14d2",
+      "week": 14,
+      "day": 2,
+      "title": "线上会议是否更高效",
+      "scene": "比较不同工作任务，避免一概而论。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w14d3",
+      "week": 14,
+      "day": 3,
+      "title": "不同意朋友的结论",
+      "scene": "先准确复述，再提出反例和保留意见。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w14d4",
+      "week": 14,
+      "day": 4,
+      "title": "经验可以怎样作证",
+      "scene": "说明个人经历的价值和代表性限制。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w14d5",
+      "week": 14,
+      "day": 5,
+      "title": "用数据改变原来的看法",
+      "scene": "面对反证时缩小或修正主张。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w14d6",
+      "week": 14,
+      "day": 6,
+      "title": "表达观点与理由 · 综合交流",
+      "scene": "两人讨论远程办公的便利与局限。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w15d1",
+      "week": 15,
+      "day": 1,
+      "title": "同事的任务已经满了",
+      "scene": "说明需求与期限，协商优先级。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w15d2",
+      "week": 15,
+      "day": 2,
+      "title": "会议上发现计算有误",
+      "scene": "及时纠正错误，保留对他人的尊重。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w15d3",
+      "week": 15,
+      "day": 3,
+      "title": "向上级表达不同意见",
+      "scene": "用风险与替代方案提出异议。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w15d4",
+      "week": 15,
+      "day": 4,
+      "title": "交接不能只发文件",
+      "scene": "说明背景、未决事项和接手人的责任边界。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w15d5",
+      "week": 15,
+      "day": 5,
+      "title": "别人帮忙后如何反馈",
+      "scene": "报告采用情况，对未采纳建议给出原因。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w15d6",
+      "week": 15,
+      "day": 6,
+      "title": "协作与委婉请求 · 综合交流",
+      "scene": "同事讨论报告的修改、截止时间和分工。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w16d1",
+      "week": 16,
+      "day": 1,
+      "title": "送到的东西已经损坏",
+      "scene": "陈述证据和诉求，避免不必要指责。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w16d2",
+      "week": 16,
+      "day": 2,
+      "title": "说好了退款却没到账",
+      "scene": "追踪流程，区分批准和实际到账。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w16d3",
+      "week": 16,
+      "day": 3,
+      "title": "评价差不等于事实全错",
+      "scene": "面对负面反馈，区分可核实内容与情绪。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w16d4",
+      "week": 16,
+      "day": 4,
+      "title": "要求超过服务范围",
+      "scene": "设定边界并提出可行的补救方式。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w16d5",
+      "week": 16,
+      "day": 5,
+      "title": "避免同类问题再发生",
+      "scene": "从单次补救推进到流程原因。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w16d6",
+      "week": 16,
+      "day": 6,
+      "title": "问题与投诉 · 综合交流",
+      "scene": "顾客与客服就破损沟通事实和解决办法。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w17d1",
+      "week": 17,
+      "day": 1,
+      "title": "便宜的方案总成本更高",
+      "scene": "比较初始费用、维护和退出成本。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w17d2",
+      "week": 17,
+      "day": 2,
+      "title": "搬近公司是否值得",
+      "scene": "比较节省时间与居住成本，并承认个人权重不同。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w17d3",
+      "week": 17,
+      "day": 3,
+      "title": "两个好处不能同时最大化",
+      "scene": "在有限预算下公开取舍依据。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w17d4",
+      "week": 17,
+      "day": 4,
+      "title": "别人的评分不符合我的需求",
+      "scene": "检验评分样本、使用条件和评价维度。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w17d5",
+      "week": 17,
+      "day": 5,
+      "title": "暂不决定也是一种选择",
+      "scene": "估计等待价值、期限与机会成本。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w17d6",
+      "week": 17,
+      "day": 6,
+      "title": "比较与选择 · 综合交流",
+      "scene": "朋友比较用火车出行的成本与便利。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w18d1",
+      "week": 18,
+      "day": 1,
+      "title": "图书馆周日是否开放",
+      "scene": "讨论受益人、工作人员负担和经费。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w18d2",
+      "week": 18,
+      "day": 2,
+      "title": "停车位改成儿童活动区",
+      "scene": "比较空间分配，听取不同居民的需要。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w18d3",
+      "week": 18,
+      "day": 3,
+      "title": "通知只发在手机上",
+      "scene": "识别服务可达性问题，提出补充渠道。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w18d4",
+      "week": 18,
+      "day": 4,
+      "title": "社区清洁责任分配",
+      "scene": "区分个人责任、制度条件和执行方式。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w18d5",
+      "week": 18,
+      "day": 5,
+      "title": "少数意见如何进入决定",
+      "scene": "设计有回应的讨论过程，避免形式化征求意见。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w18d6",
+      "week": 18,
+      "day": 6,
+      "title": "社区与公共议题 · 综合交流",
+      "scene": "居民讨论本地交通政策的变化。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w19d1",
+      "week": 19,
+      "day": 1,
+      "title": "辞职之前先验证方向",
+      "scene": "讨论转行的动机、约束与可逆试验。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w19d2",
+      "week": 19,
+      "day": 2,
+      "title": "原定计划与照护责任冲突",
+      "scene": "协商资源与分工，避免把结构问题归咎个人。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w19d3",
+      "week": 19,
+      "day": 3,
+      "title": "已经投入很多还能放弃吗",
+      "scene": "区分已付出的成本与未来收益。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w19d4",
+      "week": 19,
+      "day": 4,
+      "title": "目标达成不了怎么办",
+      "scene": "设置调整条件，处理进度与质量的冲突。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w19d5",
+      "week": 19,
+      "day": 5,
+      "title": "成功故事没有说出的部分",
+      "scene": "辨别选择偏差、资源条件和可复制性。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w19d6",
+      "week": 19,
+      "day": 6,
+      "title": "长期计划与取舍 · 综合交流",
+      "scene": "朋友讨论以资格证书为目标时的时间安排和现实限制。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w20d1",
+      "week": 20,
+      "day": 1,
+      "title": "礼貌不能只按国籍解释",
+      "scene": "讨论文化差异时保留个体和情境。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w20d2",
+      "week": 20,
+      "day": 2,
+      "title": "传统需要原样保存吗",
+      "scene": "区分形式、意义、传承者与适应性改变。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w20d3",
+      "week": 20,
+      "day": 3,
+      "title": "字幕翻译为什么改了说法",
+      "scene": "讨论直译、隐含意义和文化背景。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w20d4",
+      "week": 20,
+      "day": 4,
+      "title": "公共展览如何说明争议",
+      "scene": "区分展示、赞同与必要的历史背景。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w20d5",
+      "week": 20,
+      "day": 5,
+      "title": "文化交流中的不舒服如何说",
+      "scene": "表达影响、确认意图，协商双方边界。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w20d6",
+      "week": 20,
+      "day": 6,
+      "title": "文化与礼仪 · 综合交流",
+      "scene": "两人讨论参加节日聚会时的礼节和文化差异。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w21d1",
+      "week": 21,
+      "day": 1,
+      "title": "收入增加却没有更宽裕",
+      "scene": "区分名义收入、物价和实际购买力。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w21d2",
+      "week": 21,
+      "day": 2,
+      "title": "低价背后由谁承担成本",
+      "scene": "讨论外部成本和消费选择的约束。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w21d3",
+      "week": 21,
+      "day": 3,
+      "title": "平均收入掩盖了什么",
+      "scene": "用教学数据辨析平均数、中位数和分布。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w21d4",
+      "week": 21,
+      "day": 4,
+      "title": "分期付款让价格变小了吗",
+      "scene": "辨析月供、总价和未来承诺。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w21d5",
+      "week": 21,
+      "day": 5,
+      "title": "家庭预算中的看不见的劳动",
+      "scene": "把照护时间与家庭成员协商纳入资源分配。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w21d6",
+      "week": 21,
+      "day": 6,
+      "title": "家庭经济与消费 · 综合交流",
+      "scene": "两人讨论物价变化对家庭预算的影响。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w22d1",
+      "week": 22,
+      "day": 1,
+      "title": "限塑政策的替代品问题",
+      "scene": "比较整个使用周期，而不只看材料名称。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w22d2",
+      "week": 22,
+      "day": 2,
+      "title": "扩大道路为什么仍堵车",
+      "scene": "讨论诱发需求和指标的时间跨度。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w22d3",
+      "week": 22,
+      "day": 3,
+      "title": "公园建好后谁被迫离开",
+      "scene": "讨论环境改善、租金和分配效应。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w22d4",
+      "week": 22,
+      "day": 4,
+      "title": "个人节电与产业转型",
+      "scene": "厘清行动层次，避免把责任全部推给一方。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w22d5",
+      "week": 22,
+      "day": 5,
+      "title": "灾害风险地图怎么读",
+      "scene": "区分概率、个体后果和不确定性表达。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w22d6",
+      "week": 22,
+      "day": 6,
+      "title": "环境与城市 · 综合交流",
+      "scene": "居民讨论城市的垃圾问题、责任和可行措施。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w23d1",
+      "week": 23,
+      "day": 1,
+      "title": "相关性不等于因果",
+      "scene": "通过教学调查辨析第三变量与反向因果。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w23d2",
+      "week": 23,
+      "day": 2,
+      "title": "算法推荐为什么越来越相似",
+      "scene": "分析选择、反馈和多样性的循环。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w23d3",
+      "week": 23,
+      "day": 3,
+      "title": "自动判断出错由谁解释",
+      "scene": "讨论准确率之外的申诉、责任和影响。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w23d4",
+      "week": 23,
+      "day": 4,
+      "title": "数据公开与个人隐私",
+      "scene": "辨析去标识化、再识别和必要性。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w23d5",
+      "week": 23,
+      "day": 5,
+      "title": "“研究证明”究竟证明多少",
+      "scene": "核对出处、样本和结论范围。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w23d6",
+      "week": 23,
+      "day": 6,
+      "title": "科技与信息判断 · 综合交流",
+      "scene": "两人讨论人工智能相关报道，辨别证据与影响。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w24d1",
+      "week": 24,
+      "day": 1,
+      "title": "相同投入是否就是公平",
+      "scene": "区分机会均等、需求差异和结果评价。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w24d2",
+      "week": 24,
+      "day": 2,
+      "title": "考试分数能代表全部能力吗",
+      "scene": "讨论测量目标、可比性与教学反作用。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w24d3",
+      "week": 24,
+      "day": 3,
+      "title": "在线课程完成率低的原因",
+      "scene": "检验参与门槛、样本组成与学习目标。",
+      "sectionCount": 4
+    },
+    {
+      "id": "w24d4",
+      "week": 24,
+      "day": 4,
+      "title": "兴趣与就业目标如何并存",
+      "scene": "讨论教育的多种价值，避免虚假二选一。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w24d5",
+      "week": 24,
+      "day": 5,
+      "title": "教师反馈为何不能只给答案",
+      "scene": "分析认知过程、自主性和支架的逐步撤除。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w24d6",
+      "week": 24,
+      "day": 6,
+      "title": "教育与机会 · 综合交流",
+      "scene": "两人探讨教育差距与学习机会的公平性。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w25d1",
+      "week": 25,
+      "day": 1,
+      "title": "老龄化只意味着负担吗",
+      "scene": "讨论人口结构、照护与群体内部差异。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w25d2",
+      "week": 25,
+      "day": 2,
+      "title": "生育意愿与现实条件",
+      "scene": "区分个人选择、调查意向和结构制约。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w25d3",
+      "week": 25,
+      "day": 3,
+      "title": "移民政策中的数字与人",
+      "scene": "讨论劳动需求、权利、长期融入和地方差异。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w25d4",
+      "week": 25,
+      "day": 4,
+      "title": "远程办公对谁有利",
+      "scene": "识别职业差异、家庭环境和隐形负担。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w25d5",
+      "week": 25,
+      "day": 5,
+      "title": "地方人口减少怎么回应",
+      "scene": "比较扩张思路、基本服务与生活质量。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w25d6",
+      "week": 25,
+      "day": 6,
+      "title": "社会问题与多方立场 · 综合交流",
+      "scene": "两人讨论低生育率，区分现象、成因与不同群体的立场。",
+      "sectionCount": 2
+    },
+    {
+      "id": "w26d1",
+      "week": 26,
+      "day": 1,
+      "title": "先定义争论的对象",
+      "scene": "发现同词异义，重新明确问题和评价标准。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w26d2",
+      "week": 26,
+      "day": 2,
+      "title": "回应对方最有力的理由",
+      "scene": "准确重述反方后回应，不歪曲成容易击败的说法。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w26d3",
+      "week": 26,
+      "day": 3,
+      "title": "证据冲突时如何综合",
+      "scene": "比较研究条件和质量，避免机械折中。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w26d4",
+      "week": 26,
+      "day": 4,
+      "title": "提出可检验的政策建议",
+      "scene": "把目标、机制、实施条件和退出条件连起来。",
+      "sectionCount": 3
+    },
+    {
+      "id": "w26d5",
+      "week": 26,
+      "day": 5,
+      "title": "给出有边界但有立场的结论",
+      "scene": "在不确定中明确判断、依据和改变意见的条件。",
+      "sectionCount": 5
+    },
+    {
+      "id": "w26d6",
+      "week": 26,
+      "day": 6,
+      "title": "综合论证与审慎结论 · 综合交流",
+      "scene": "两人就基本收入相关方案进行综合论证并形成审慎结论。",
+      "sectionCount": 13
+    },
+    {
+      "id": "w27d6",
+      "week": 27,
+      "day": 6,
+      "title": "补充对话",
+      "scene": "在新的场景和交流目的中使用已排程词汇；这些是结课后的新材料，主课仍为 26 周。",
+      "sectionCount": 10
+    }
+  ],
+  "aliases": {
+    "w01d7": "w01d1",
+    "w02d7": "w02d1",
+    "w03d7": "w03d1",
+    "w04d7": "w04d1",
+    "w05d7": "w05d1",
+    "w06d7": "w06d1",
+    "w07d7": "w07d1",
+    "w08d7": "w08d1",
+    "w09d7": "w09d1",
+    "w10d7": "w10d1",
+    "w11d7": "w11d1",
+    "w12d7": "w12d1",
+    "w13d7": "w13d1",
+    "w14d7": "w14d1",
+    "w15d7": "w15d1",
+    "w16d7": "w16d1",
+    "w17d7": "w17d1",
+    "w18d7": "w18d1",
+    "w19d7": "w19d1",
+    "w20d7": "w20d1",
+    "w21d7": "w21d1",
+    "w22d7": "w22d1",
+    "w23d7": "w23d1",
+    "w24d7": "w24d1",
+    "w25d7": "w25d1",
+    "w26d7": "w26d1"
+  }
+}

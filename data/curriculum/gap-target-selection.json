@@ -1,0 +1,2033 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-08",
+  "sourceRoot": "/Users/lkc/Downloads/korean S/korean-dialogues",
+  "scope": "40 selected real lexical/sense material gaps from current 2,205 zero-linked main headwords; not an exhaustive rereview of all 2,205 dictionary senses. No repository writes, compilation, or publishing.",
+  "sourceAuditSha256": "effb6735e03bf4a31ab2af8e05e6434ca82a9501c7bda09a0f01e42de58c54a3",
+  "capturedAuditTotals": {
+    "weeks": 26,
+    "days": 182,
+    "reviewOnlyDays": 26,
+    "originalSections": 646,
+    "originalSceneSections": 516,
+    "originalLines": 8029,
+    "authoredOriginalLinesMatched": 8029,
+    "distinctKoreanTexts": 8025,
+    "scheduledReviewLineExposures": 34127,
+    "mainScheduledWords": 4980,
+    "allDictionaryHeadwords": 6129,
+    "linkedCourseHeadwords": 3276,
+    "linkedMainWords": 2775,
+    "missingMainCourseLinks": 2205,
+    "missingMainWordsWithSpellingCandidates": 32,
+    "missingMainWordsWithoutSpellingCandidates": 2173,
+    "linkedWordsMissingContextIndex": 0,
+    "sameScheduledDayMainWords": 1739,
+    "mainWordsWithTwoDifferentNewSceneTexts": 2204,
+    "mainWordsWithThreeDifferentNewSceneTexts": 1757,
+    "mainWordsWithNewSceneAtLeast7DaysAfterFirst": 1989,
+    "medianNextNewSceneGapDaysForRecurringMainWords": 11,
+    "annotations": {
+      "linked": 61552,
+      "ambiguous": 0,
+      "unlinked": 1931
+    }
+  },
+  "missingRowsChecked": 2205,
+  "mainWordRowsChecked": 4980,
+  "earlyWeeks1to6Missing": 80,
+  "method": [
+    "Read all current word records and reconcile 2,205 missing words against originalLines=0.",
+    "Use original26-week scheduledLessonId, not vocabulary.json lessonId (that legacy field can differ).",
+    "Read selected40 meanings/definitions and inspect whole-course original KO (8,029; reviews excluded) for full headwords and likely inflections, then distinguish genuine senses from substrings.",
+    "Selected noun/verb heads must have actual sense/POS evidence in two different new task scenes, at least7 course days apart after original schedule; paired scenes avoid d7."
+  ],
+  "groups": [
+    {
+      "id": "portable-home-items",
+      "side": "A",
+      "targets": ["모자", "양말", "거울", "휴지통", "볼펜"],
+      "days": ["w09d1", "w10d1"],
+      "purposes": [
+        "合住者出门前找用品、确认位置并处理包装",
+        "活动结束后核对借物归还与下一次出门清单"
+      ]
+    },
+    {
+      "id": "pantry-ingredients",
+      "side": "A",
+      "targets": ["소금", "쌀", "밀가루", "식빵", "버터"],
+      "days": ["w13d1", "w14d1"],
+      "purposes": [
+        "同住者核对早餐材料和购物分工",
+        "采购后重新安排早餐，分清米面与剩余材料"
+      ]
+    },
+    {
+      "id": "school-route",
+      "side": "A",
+      "targets": ["서쪽", "서점", "운동장", "교문", "초등학교"],
+      "days": ["w10d1", "w11d1"],
+      "purposes": [
+        "向当地朋友问去小学旁书店的路线，纠正入口判断",
+        "向书店店员确认约见小学朋友的集合位置与校门路线"
+      ]
+    },
+    {
+      "id": "recreation-devices",
+      "side": "A",
+      "targets": ["텔레비전", "라디오", "게임", "춤", "추다"],
+      "days": ["w07d3", "w08d3"],
+      "purposes": [
+        "活动室安排休闲活动，分清听音乐、看示范和练习位置",
+        "活动后询问借用设备与报名下一次舞蹈练习的安排"
+      ]
+    },
+    {
+      "id": "sports-events",
+      "side": "B",
+      "targets": ["스포츠", "야구", "축구", "선수", "경기"],
+      "days": ["w09d3", "w10d3"],
+      "purposes": [
+        "朋友核对活动海报，按时间和项目选择看哪场比赛",
+        "观看后纠正笔记中的项目/选手，决定如何向同学介绍"
+      ]
+    },
+    {
+      "id": "cooking-process",
+      "side": "B",
+      "targets": ["썰다", "끓이다", "담그다", "고추장", "양배추"],
+      "days": ["w13d3", "w14d3"],
+      "purposes": [
+        "同住者商量当次做饭分工，澄清备菜与口味选择",
+        "整理上次做饭记录，按实际操作重新写清步骤和食材"
+      ]
+    },
+    {
+      "id": "school-music-report",
+      "side": "B",
+      "targets": ["칠판", "기자", "대회", "졸업생", "악기"],
+      "days": ["w12d2", "w13d2"],
+      "purposes": [
+        "学生记者访谈校友音乐活动筹备，核实演出和比赛不同",
+        "报道编辑向筹备者核对稿件，纠正人物身份、活动名与乐器"
+      ]
+    },
+    {
+      "id": "rural-plant-reading",
+      "side": "B",
+      "targets": ["농업", "농촌", "식물", "뿌리", "잎"],
+      "days": ["w13d4", "w14d4"],
+      "purposes": [
+        "同学阅读虚构乡村展览说明，区分乡村地点、农业工作与植物部位",
+        "参观后共同写观察记录，澄清看见的叶/根与不能推出的农业结论"
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "side": "A",
+      "group": 1,
+      "headword": "모자",
+      "usedSenseZh": "帽子",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "帽子",
+          "definition": "戴在头上以表示礼貌或阻挡严寒暑热等的东西。",
+          "entryId": "69297",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "母子",
+          "definition": "母亲和儿子。",
+          "entryId": "55580",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w06d2",
+      "plannedLessons": ["w09d1", "w10d1"],
+      "plannedPurposes": [
+        "合住者出门前找用品、确认位置并处理包装",
+        "活动结束后核对借物归还与下一次出门清单"
+      ],
+      "reason": "出门准备和合住物品归属需要具体物品名称；此前衣服/位置/书写任务虽有材料，不能替代帽子、袜子、镜子、垃圾桶和圆珠笔这些缺少原句的词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["모자"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 1,
+      "headword": "양말",
+      "usedSenseZh": "袜子",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "袜子",
+          "definition": "为保护脚或防冷而穿戴在脚上的用线或布制成的东西。",
+          "entryId": "62513",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w08d5",
+      "plannedLessons": ["w09d1", "w10d1"],
+      "plannedPurposes": [
+        "合住者出门前找用品、确认位置并处理包装",
+        "活动结束后核对借物归还与下一次出门清单"
+      ],
+      "reason": "出门准备和合住物品归属需要具体物品名称；此前衣服/位置/书写任务虽有材料，不能替代帽子、袜子、镜子、垃圾桶和圆珠笔这些缺少原句的词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["양말"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 1,
+      "headword": "거울",
+      "usedSenseZh": "镜子",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "镜子",
+          "definition": "可以照出物体样子的薄而平的物品。",
+          "entryId": "59325",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "镜子，写照",
+          "definition": "(喻义)如实地显示或呈现某个事实。",
+          "entryId": "59325",
+          "senseId": "2"
+        },
+        {
+          "pos": "명사",
+          "meaning": "榜样，典范",
+          "definition": "可以成为模范或教训的。",
+          "entryId": "59325",
+          "senseId": "3"
+        }
+      ],
+      "scheduledLessonId": "w07d4",
+      "plannedLessons": ["w09d1", "w10d1"],
+      "plannedPurposes": [
+        "合住者出门前找用品、确认位置并处理包装",
+        "活动结束后核对借物归还与下一次出门清单"
+      ],
+      "reason": "出门准备和合住物品归属需要具体物品名称；此前衣服/位置/书写任务虽有材料，不能替代帽子、袜子、镜子、垃圾桶和圆珠笔这些缺少原句的词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["거울"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 1,
+      "headword": "휴지통",
+      "usedSenseZh": "垃圾桶",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "废纸篓，废纸桶，垃圾篓，垃圾桶",
+          "definition": "用于扔无法使用的纸或垃圾等的桶。",
+          "entryId": "31509",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w06d5",
+      "plannedLessons": ["w09d1", "w10d1"],
+      "plannedPurposes": [
+        "合住者出门前找用品、确认位置并处理包装",
+        "活动结束后核对借物归还与下一次出门清单"
+      ],
+      "reason": "出门准备和合住物品归属需要具体物品名称；此前衣服/位置/书写任务虽有材料，不能替代帽子、袜子、镜子、垃圾桶和圆珠笔这些缺少原句的词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["휴지통"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 1,
+      "headword": "볼펜",
+      "usedSenseZh": "圆珠笔",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "圆珠笔",
+          "definition": "笔尖的小钢珠随着笔的移动一起滚动、同时带出墨水来写字的一种书写工具。",
+          "entryId": "59469",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w07d6",
+      "plannedLessons": ["w09d1", "w10d1"],
+      "plannedPurposes": [
+        "合住者出门前找用品、确认位置并处理包装",
+        "活动结束后核对借物归还与下一次出门清单"
+      ],
+      "reason": "出门准备和合住物品归属需要具体物品名称；此前衣服/位置/书写任务虽有材料，不能替代帽子、袜子、镜子、垃圾桶和圆珠笔这些缺少原句的词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["볼펜"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 2,
+      "headword": "소금",
+      "usedSenseZh": "盐",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "盐，咸盐",
+          "definition": "有咸味的白色粉末。",
+          "entryId": "61167",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "盐",
+          "definition": "(喻义)必不可缺的人。",
+          "entryId": "61167",
+          "senseId": "2"
+        }
+      ],
+      "scheduledLessonId": "w07d4",
+      "plannedLessons": ["w13d1", "w14d1"],
+      "plannedPurposes": [
+        "同住者核对早餐材料和购物分工",
+        "采购后重新安排早餐，分清米面与剩余材料"
+      ],
+      "reason": "买食材和核对存量需要区分未煮米、面粉、盐、吐司和黄油；已教밥/빵/음식不等于这些特定材料已经被教会。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["소금"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 2,
+      "headword": "쌀",
+      "usedSenseZh": "大米（未煮熟的米）",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "米，大米",
+          "definition": "做饭吃的，稻谷脱壳后的仁儿。",
+          "entryId": "62094",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w09d4",
+      "plannedLessons": ["w13d1", "w14d1"],
+      "plannedPurposes": [
+        "同住者核对早餐材料和购物分工",
+        "采购后重新安排早餐，分清米面与剩余材料"
+      ],
+      "reason": "买食材和核对存量需要区分未煮米、面粉、盐、吐司和黄油；已教밥/빵/음식不等于这些特定材料已经被教会。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["쌀"],
+        "rawCandidateCount": 1,
+        "rawCandidates": [
+          {
+            "lessonId": "w21d2",
+            "scene": "虚构教学场景：两位朋友讨论购买便宜衣服的预算约束，并追问生产与废弃环节。",
+            "lineId": "w21d2-deep-w19-22-27-1",
+            "ko": "이 셔츠, 배송비까지 포함해서 만 원이래요. 어떻게 이렇게 값쌀 수 있죠?",
+            "zh": "这件衬衫含运费才一万韩元。怎么能这么便宜？"
+          }
+        ],
+        "interpretation": "唯一子串候选值为값쌀 수，来自값싸다（便宜），不是大米。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 2,
+      "headword": "밀가루",
+      "usedSenseZh": "面粉",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "面，面粉",
+          "definition": "由小麦磨成的粉末。",
+          "entryId": "57411",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w08d6",
+      "plannedLessons": ["w13d1", "w14d1"],
+      "plannedPurposes": [
+        "同住者核对早餐材料和购物分工",
+        "采购后重新安排早餐，分清米面与剩余材料"
+      ],
+      "reason": "买食材和核对存量需要区分未煮米、面粉、盐、吐司和黄油；已教밥/빵/음식不等于这些特定材料已经被教会。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["밀가루"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 2,
+      "headword": "식빵",
+      "usedSenseZh": "吐司面包",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "吐司面包",
+          "definition": "就餐时食用的清淡的四方形面包。",
+          "entryId": "65318",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w08d1",
+      "plannedLessons": ["w13d1", "w14d1"],
+      "plannedPurposes": [
+        "同住者核对早餐材料和购物分工",
+        "采购后重新安排早餐，分清米面与剩余材料"
+      ],
+      "reason": "买食材和核对存量需要区分未煮米、面粉、盐、吐司和黄油；已教밥/빵/음식不等于这些特定材料已经被教会。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["식빵"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 2,
+      "headword": "버터",
+      "usedSenseZh": "黄油",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "黄油",
+          "definition": "一种主要涂在面包上或用来做菜的食品，呈黄色，由牛奶中的脂肪固化而成。",
+          "entryId": "58455",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w12d1",
+      "plannedLessons": ["w13d1", "w14d1"],
+      "plannedPurposes": [
+        "同住者核对早餐材料和购物分工",
+        "采购后重新安排早餐，分清米面与剩余材料"
+      ],
+      "reason": "买食材和核对存量需要区分未煮米、面粉、盐、吐司和黄油；已教밥/빵/음식不等于这些特定材料已经被教会。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["버터"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 3,
+      "headword": "서쪽",
+      "usedSenseZh": "西边",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "西边，西面",
+          "definition": "东南西北四方位之一，太阳落山的方向。",
+          "entryId": "65559",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w07d3",
+      "plannedLessons": ["w10d1", "w11d1"],
+      "plannedPurposes": [
+        "向当地朋友问去小学旁书店的路线，纠正入口判断",
+        "向书店店员确认约见小学朋友的集合位置与校门路线"
+      ],
+      "reason": "问路需要明确方向、校门、运动场、书店和小学这一学校级别；已教东边/大学/高中/教室不算对应目标词头和具体义项覆盖。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["서쪽"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 3,
+      "headword": "서점",
+      "usedSenseZh": "书店",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "书店",
+          "definition": "卖书的商店。",
+          "entryId": "24163",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w07d5",
+      "plannedLessons": ["w10d1", "w11d1"],
+      "plannedPurposes": [
+        "向当地朋友问去小学旁书店的路线，纠正入口判断",
+        "向书店店员确认约见小学朋友的集合位置与校门路线"
+      ],
+      "reason": "问路需要明确方向、校门、运动场、书店和小学这一学校级别；已教东边/大学/高中/教室不算对应目标词头和具体义项覆盖。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["서점"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 3,
+      "headword": "운동장",
+      "usedSenseZh": "运动场",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "运动场，体育场",
+          "definition": "为能够进行体育比赛、游玩等而设有多种器具或设施的宽阔场所。",
+          "entryId": "26891",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w08d5",
+      "plannedLessons": ["w10d1", "w11d1"],
+      "plannedPurposes": [
+        "向当地朋友问去小学旁书店的路线，纠正入口判断",
+        "向书店店员确认约见小学朋友的集合位置与校门路线"
+      ],
+      "reason": "问路需要明确方向、校门、运动场、书店和小学这一学校级别；已教东边/大学/高中/教室不算对应目标词头和具体义项覆盖。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["운동장"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 3,
+      "headword": "교문",
+      "usedSenseZh": "校门",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "校门，校门口",
+          "definition": "学校的门。",
+          "entryId": "31382",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w09d4",
+      "plannedLessons": ["w10d1", "w11d1"],
+      "plannedPurposes": [
+        "向当地朋友问去小学旁书店的路线，纠正入口判断",
+        "向书店店员确认约见小学朋友的集合位置与校门路线"
+      ],
+      "reason": "问路需要明确方向、校门、运动场、书店和小学这一学校级别；已教东边/大学/高中/教室不算对应目标词头和具体义项覆盖。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["교문"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 3,
+      "headword": "초등학교",
+      "usedSenseZh": "小学",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "小学",
+          "definition": "为儿童进行基础教育的学校。六周岁入学，接受六年的基础教育。",
+          "entryId": "32791",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w07d2",
+      "plannedLessons": ["w10d1", "w11d1"],
+      "plannedPurposes": [
+        "向当地朋友问去小学旁书店的路线，纠正入口判断",
+        "向书店店员确认约见小学朋友的集合位置与校门路线"
+      ],
+      "reason": "问路需要明确方向、校门、运动场、书店和小学这一学校级别；已教东边/大学/高中/教室不算对应目标词头和具体义项覆盖。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["초등학교"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 4,
+      "headword": "텔레비전",
+      "usedSenseZh": "电视机",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "电视，电视机",
+          "definition": "接收电视台以电波传送的图像与声音后使其显示出来的机器。",
+          "entryId": "27373",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w06d2",
+      "plannedLessons": ["w07d3", "w08d3"],
+      "plannedPurposes": [
+        "活动室安排休闲活动，分清听音乐、看示范和练习位置",
+        "活动后询问借用设备与报名下一次舞蹈练习的安排"
+      ],
+      "reason": "活动选择与设备借用需要电视、收音机、游戏与跳舞的实际功能；已有唱歌/手机音频不代表这些设备或舞蹈已经有可靠语境。춤名词和추다动词分别提供句法证据。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["텔레비전"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 4,
+      "headword": "라디오",
+      "usedSenseZh": "收音机/广播",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "电台广播",
+          "definition": "广播局以电波形式把声音发出，让有收讯装置的人们收听；或指那种广播。",
+          "entryId": "66029",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "收音机",
+          "definition": "可以接收广播局发送的电波并把电波转换为音声的机械。",
+          "entryId": "66029",
+          "senseId": "2"
+        }
+      ],
+      "scheduledLessonId": "w06d5",
+      "plannedLessons": ["w07d3", "w08d3"],
+      "plannedPurposes": [
+        "活动室安排休闲活动，分清听音乐、看示范和练习位置",
+        "活动后询问借用设备与报名下一次舞蹈练习的安排"
+      ],
+      "reason": "活动选择与设备借用需要电视、收音机、游戏与跳舞的实际功能；已有唱歌/手机音频不代表这些设备或舞蹈已经有可靠语境。춤名词和추다动词分别提供句法证据。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["라디오"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 4,
+      "headword": "게임",
+      "usedSenseZh": "游戏",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "游戏，比赛",
+          "definition": "制定规则、分出胜负的玩法。",
+          "entryId": "57276",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "比赛",
+          "definition": "体育赛事或体育竞赛。",
+          "entryId": "57276",
+          "senseId": "2"
+        },
+        {
+          "pos": "명사",
+          "meaning": "场，局，盘",
+          "definition": "计算比赛次数的数量单位。",
+          "entryId": "57276",
+          "senseId": "3"
+        }
+      ],
+      "scheduledLessonId": "w05d1",
+      "plannedLessons": ["w07d3", "w08d3"],
+      "plannedPurposes": [
+        "活动室安排休闲活动，分清听音乐、看示范和练习位置",
+        "活动后询问借用设备与报名下一次舞蹈练习的安排"
+      ],
+      "reason": "活动选择与设备借用需要电视、收音机、游戏与跳舞的实际功能；已有唱歌/手机音频不代表这些设备或舞蹈已经有可靠语境。춤名词和추다动词分别提供句法证据。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["게임"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 4,
+      "headword": "춤",
+      "usedSenseZh": "舞蹈名词",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "舞蹈",
+          "definition": "随着音乐或节奏舞动身体。",
+          "entryId": "29542",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w03d6",
+      "plannedLessons": ["w07d3", "w08d3"],
+      "plannedPurposes": [
+        "活动室安排休闲活动，分清听音乐、看示范和练习位置",
+        "活动后询问借用设备与报名下一次舞蹈练习的安排"
+      ],
+      "reason": "活动选择与设备借用需要电视、收音机、游戏与跳舞的实际功能；已有唱歌/手机音频不代表这些设备或舞蹈已经有可靠语境。춤名词和추다动词分别提供句法证据。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["춤"],
+        "rawCandidateCount": 1,
+        "rawCandidates": [
+          {
+            "lessonId": "w25d1",
+            "scene": "教学假设报告：虚构社区三位退休成员，各自处境不同，检视老龄化讨论中的统计、照护与自主性。",
+            "lineId": "w25d1-deep-w23-26-26-8",
+            "ko": "그러나 개인별 사정을 모두 조사하면 행정 비용이 커지고 선별 과정에서 누락이 생긴다는 반론도 설득력이 있으므로, 맞춤 지원이 언제나 낫다고 말할 수 없다.",
+            "zh": "不过，有人反驳说，逐一调查个人情况会增加行政成本，筛选时也可能遗漏。这一意见有说服力，所以不能说定制支持一定更好。"
+          }
+        ],
+        "interpretation": "唯一子串候选为맞춤 지원（定制支持），不是舞蹈。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "A",
+      "group": 4,
+      "headword": "추다",
+      "usedSenseZh": "跳（舞）动词",
+      "dictionarySensesRead": [
+        {
+          "pos": "동사",
+          "meaning": "跳",
+          "definition": "做跳舞动作。",
+          "entryId": "17161",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w06d6",
+      "plannedLessons": ["w07d3", "w08d3"],
+      "plannedPurposes": [
+        "活动室安排休闲活动，分清听音乐、看示范和练习位置",
+        "活动后询问借用设备与报名下一次舞蹈练习的安排"
+      ],
+      "reason": "活动选择与设备借用需要电视、收音机、游戏与跳舞的实际功能；已有唱歌/手机音频不代表这些设备或舞蹈已经有可靠语境。춤名词和추다动词分别提供句法证据。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": [
+          "추다",
+          "추어요",
+          "춰요",
+          "췄",
+          "추고",
+          "추는",
+          "출",
+          "춤을",
+          "춤은"
+        ],
+        "rawCandidateCount": 179,
+        "rawCandidates": [
+          {
+            "lessonId": "w09d4",
+            "scene": "朋友选择在地铁上能连续听懂的短内容。",
+            "lineId": "w09d4-immersion-44-22",
+            "ko": "목적지에 도착하면 듣기를 멈추고 해야 할 일을 준비해요.",
+            "zh": "到目的地就停下听音频，准备要做的事。"
+          },
+          {
+            "lessonId": "w09d5",
+            "scene": "朋友回顾三周的作息，区分持续变化与暂时波动。",
+            "lineId": "w09d5-immersion-45-22",
+            "ko": "이제는 남의 시간표보다 제 생활에 맞추고 싶어요.",
+            "zh": "现在比起别人的时间表，我更想符合自己的生活。"
+          },
+          {
+            "lessonId": "w11d4",
+            "scene": "住户确认洗衣机故障、预约变动和费用说明。",
+            "lineId": "w11d4-immersion-56-1",
+            "ko": "세탁기가 돌아가다가 멈췄어요.",
+            "zh": "洗衣机转着转着停了。"
+          },
+          {
+            "lessonId": "w13d5",
+            "scene": "两人回顾演讲故障，制定不依赖设备的应对办法。",
+            "lineId": "w13d5-immersion-74-11",
+            "ko": "멈췄을 때 쓸 표현도 연습하면 좋겠어.",
+            "zh": "也可以练习一下中断时要用的表达。"
+          },
+          {
+            "lessonId": "w15d2",
+            "scene": "会议中同事发现人数被重复计算，委婉请求核对。",
+            "lineId": "w15d2-immersion-89-10",
+            "ko": "회의를 잠시 멈추고 수정할까요?",
+            "zh": "暂停会议修改一下好吗？"
+          },
+          {
+            "lessonId": "w16d1",
+            "scene": "顾客与客服核实缺件，避免在未经确认前继续组装。",
+            "lineId": "w16d1-immersion-99-3",
+            "ko": "네, 흔들려서 멈췄어요.",
+            "zh": "没有，发现晃动就停了。"
+          },
+          {
+            "lessonId": "w18d5",
+            "scene": "虚构居民讨论短报告：同一位报告人朗读；人数、两次会议、试行期限及退出条件均为教学假设，区分到场意见、尚未收集的意见和有限试行结论。",
+            "lineId": "w18d5-reading-bridges-5-11",
+            "ko": "시간을 제한해도 불편이 반복되거나 현장 관리가 어려워지면 시험 운영을 잠시 멈추고 장소와 방식을 다시 논의할 예정이다.",
+            "zh": "如果限制时段后困扰仍反复发生，或现场管理变得困难，计划暂时停止试运行，重新讨论地点和方式。"
+          },
+          {
+            "lessonId": "w19d1",
+            "scene": "连续报告；人物、金额和工时均为教学假设，讨论职业转型的可逆试验，不提供就业收入承诺。",
+            "lineId": "w19d1-deep-w19-22-2-8",
+            "ko": "첫 과제는 친구 가게의 메뉴판을 다시 만드는 것으로, 글씨가 예쁜지를 평가받기보다 손님이 가격과 알레르기 표시를 쉽게 찾을 수 있는지 확인하는 데 초점을 맞췄습니다.",
+            "zh": "第一项任务是重做朋友店里的菜单，重点不是评价字体漂亮与否，而是确认客人能否方便地找到价格和过敏原标识。"
+          },
+          {
+            "lessonId": "w19d1",
+            "scene": "连续报告；人物、金额和工时均为教学假设，讨论职业转型的可逆试验，不提供就业收入承诺。",
+            "lineId": "w19d1-deep-w19-22-2-10",
+            "ko": "두 번째 과제는 전혀 다른 가게의 안내문으로 정했는데, 같은 친구의 취향에 맞추는 능력이 다양한 의뢰를 처리하는 능력과 같지는 않다는 점을 확인하기 위해서였습니다.",
+            "zh": "第二项任务选为另一家完全不同的店的告示，是为了确认：迎合同一位朋友的喜好，并不等于能够处理不同的委托。"
+          },
+          {
+            "lessonId": "w19d4",
+            "scene": "设置调整条件，处理进度与质量的冲突。",
+            "lineId": "w19d4-8",
+            "ko": "네. 목표를 낮췄다고 숨기기보다 현재 할 수 있는 것과 남은 간극을 정확히 아는 게 중요해요.",
+            "zh": "对，比起隐瞒目标有所调整，更重要的是准确知道目前能做什么，以及还有什么差距。"
+          },
+          {
+            "lessonId": "w19d4",
+            "scene": "虚构教学场景：项目组整理无障碍城市指南；提交数量与核实质量冲突，一方怕延期，另一方拒绝把未核实条目标成完成。",
+            "lineId": "w19d4-deep-w19-22-7-6",
+            "ko": "그런데 잘못 안내하면 직접 간 사람이 돌아와야 하잖아요. 숫자를 맞추는 것보다…",
+            "zh": "可是如果指引错了，亲自去的人就得折返。比起凑够数量……"
+          },
+          {
+            "lessonId": "w19d6",
+            "scene": "虚构教学场景：朋友检查半年学习计划；一方误以为减少休息就能加课，另一方谈清加班、家庭约定和暂停条件。",
+            "lineId": "w19d6-deep-w19-22-11-14",
+            "ko": "응. 늦추는 걸 실패라고 부르지 않을게. 계획은 지키는 사람뿐 아니라 고치는 사람도 필요하네.",
+            "zh": "嗯，我不会把延期称为失败。计划需要有人执行，也需要有人修改。"
+          },
+          {
+            "lessonId": "w19d6",
+            "scene": "半年证书学习的虚构时间预算报告；所有工时为教学假设，讨论资源约束，不推断任何证书的合格所需时长。",
+            "lineId": "w19d6-deep-w19-22-12-13",
+            "ko": "이 사례에서는 새로운 자료를 추가하는 일을 한 달 동안 멈추고, 그동안 쌓인 과제를 끝내면서 어떤 부분에서 자주 막히는지 기록하는 방식으로 범위를 좁혔습니다.",
+            "zh": "本案例把范围缩小为：一个月内停止添加新资料，完成已积累的任务，同时记录经常卡在哪里。"
+          },
+          {
+            "lessonId": "w19d6",
+            "scene": "半年证书学习的虚构时间预算报告；所有工时为教学假设，讨论资源约束，不推断任何证书的合格所需时长。",
+            "lineId": "w19d6-deep-w19-22-12-16",
+            "ko": "계획을 고치는 시점과 이유를 미리 적어 두면 성과가 나쁠 때마다 목표를 낮추는 일을 줄일 수 있지만, 예상하지 못한 큰 변화가 생겼을 때까지 처음의 조건을 고집할 필요는 없습니다.",
+            "zh": "事先写下修改计划的时间与理由，可以减少每当成果不好就降低目标的做法，但出现未预料的重大变化时，不必仍固守最初条件。"
+          },
+          {
+            "lessonId": "w20d2",
+            "scene": "虚构村落节庆的改编案例；节目时长、参与人数和访谈结果均为教学假设，不冒充真实民俗资料。",
+            "lineId": "w20d2-deep-w19-22-16-16",
+            "ko": "관람객의 취향에 맞추는 일이 수입을 만들더라도 그 수입이 누구에게 돌아가고 다음 연습에 어떤 자원을 제공하는지 불분명하다면, 전승자의 부담만 커질 수도 있습니다.",
+            "zh": "即使迎合观众喜好带来收入，若不清楚收入归谁、为下一次练习提供哪些资源，也可能只增加传承者的负担。"
+          },
+          {
+            "lessonId": "w20d3",
+            "scene": "虚构教学场景：两人审阅虚构短片字幕；直译造成态度误读，双方在补充含义和保留观众判断之间协商。",
+            "lineId": "w20d3-deep-w19-22-17-12",
+            "ko": "제가 단어별로 맞추다가 장면을 잃었네요. 처음 보는 사람한테도 한번 보여 줄까요?",
+            "zh": "我顾着逐词对齐，把场景丢了。也给初次看的人试看片段，好吗？"
+          },
+          {
+            "lessonId": "w23d1",
+            "scene": "教学假设报告：比较24人的运动与睡眠记录；数值只用于说明分析方法。",
+            "lineId": "w23d1-deep-w23-26-2-20",
+            "ko": "따라서 포스터의 화살표를 지우는 일은 성과를 감추는 것이 아니라, 확인한 관계와 확인할 원인을 서로 다른 단계로 묘사하는 일이다.",
+            "zh": "因此，去掉海报上的箭头并非隐藏成果，而是将已经确认的关系与尚待确认的原因，表述为两个不同的分析阶段。"
+          },
+          {
+            "lessonId": "w25d2",
+            "scene": "教学假设：访谈主持人想简化生育意愿问卷摘要，轮班工作的受访者希望保留意愿背后的现实条件。",
+            "lineId": "w25d2-deep-w23-26-27-11",
+            "ko": "선택을 보장하는 조건에 초점을 맞추고, 실제 선택은 예측이라고 쓰지 않겠습니다.",
+            "zh": "我会把重点放在保障选择的条件上，也不会把实际选择当成已经可以预测的结果。"
+          },
+          {
+            "lessonId": "w25d3",
+            "scene": "教学假设报告：虚构八位移居劳动者，其中五人结业、三人时间冲突，讨论语言、劳动权利与地方安顿。",
+            "lineId": "w25d3-deep-w23-26-30-7",
+            "ko": "따라서 적응을 개인이 현장의 관행에 맞추는 일로만 설명하기보다, 기관이 자신의 안내와 운영 방식을 바꾸는 상호 과정으로 볼 필요가 있다.",
+            "zh": "因此，适应不能只被说成个人顺应工作现场的惯例，也应被视为一个相互过程：机构同样需要改变说明和运行方式。"
+          },
+          {
+            "lessonId": "w26d1",
+            "scene": "发现同词异义，重新明确问题和评价标准。",
+            "lineId": "w26d1-8",
+            "ko": "맞습니다. 개념과 범위를 맞추고 나면 의견 차이가 사실 판단 때문인지 가치의 우선순위 때문인지 드러납니다.",
+            "zh": "对，统一概念与范围后，就能看出意见分歧来自事实判断，还是价值优先级。"
+          },
+          {
+            "lessonId": "w26d1",
+            "scene": "发现同词异义，重新明确问题和评价标准。",
+            "lineId": "w26d1-immersion-178-6",
+            "ko": "먼저 논의의 대상을 맞추는 것이 필요합니다.",
+            "zh": "需要先统一讨论对象。"
+          },
+          {
+            "lessonId": "w26d3",
+            "scene": "教学假设评论：虚构阅读项目两份内部报告，十二人词汇检查提高10分，八人新文章论据任务未变化。",
+            "lineId": "w26d3-deep-w23-26-42-14",
+            "ko": "반대로 단어를 익히는 것이 목표라면 판단의 중심이 달라진다. 자료의 우선순위는 원하는 결론에 맞추는 것이 아니라 먼저 정한 질문에 맞추어야 한다.",
+            "zh": "反过来，如果目标是学会词汇，判断重点就会不同。资料的优先次序应对应事先确定的问题，而不是想得到的结论。"
+          },
+          {
+            "lessonId": "w26d4",
+            "scene": "教学假设政策说明：虚构夜课五天共60次错过班车，拟在明确司机、费用和其他乘客条件后试调时刻。",
+            "lineId": "w26d4-deep-w23-26-44-4",
+            "ko": "수업이 끝나는 시각과 마지막 버스의 출발이 너무 가까운 것이 원인이라고 가정하면, 출발을 늦추는 조정이 이용 실패를 줄일 수 있다는 경로를 제시할 수 있다.",
+            "zh": "如果假设原因是下课时间与末班车发车时间太接近，就可以提出一种作用路径：延迟发车，可能减少错过公交的次数。"
+          }
+        ],
+        "interpretation": "179 个宽搜索候选包含출구/제출/멈추다/맞추다/늦추다/감추다等；收紧到独立추다常见变化词形边界后0条，并无可靠跳舞义。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 5,
+      "headword": "스포츠",
+      "usedSenseZh": "体育运动",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "体育，运动，竞赛",
+          "definition": "根据规定的规则活动身体，较量体能或技能的活动。",
+          "entryId": "62511",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w06d6",
+      "plannedLessons": ["w09d3", "w10d3"],
+      "plannedPurposes": [
+        "朋友核对活动海报，按时间和项目选择看哪场比赛",
+        "观看后纠正笔记中的项目/选手，决定如何向同学介绍"
+      ],
+      "reason": "生活活动与后续新闻阅读常需区分具体体育项目、比赛和选手，既有一般운동不替代这些概念。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["스포츠"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 5,
+      "headword": "야구",
+      "usedSenseZh": "棒球",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "棒球",
+          "definition": "各由九名队员组成的两队轮流攻守，用棍子击打对方选手投出的球并绕赛场一周即可得分的比赛。",
+          "entryId": "62512",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w06d4",
+      "plannedLessons": ["w09d3", "w10d3"],
+      "plannedPurposes": [
+        "朋友核对活动海报，按时间和项目选择看哪场比赛",
+        "观看后纠正笔记中的项目/选手，决定如何向同学介绍"
+      ],
+      "reason": "生活活动与后续新闻阅读常需区分具体体育项目、比赛和选手，既有一般운동不替代这些概念。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["야구"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 5,
+      "headword": "축구",
+      "usedSenseZh": "足球",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "足球",
+          "definition": "由11人组成一队，主要用脚将球踢入对方球门的体育比赛，进球多的一方获胜。",
+          "entryId": "36700",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "傻子，笨蛋",
+          "definition": "(贬称)做出愚蠢行为的人。",
+          "entryId": "82168",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w07d5",
+      "plannedLessons": ["w09d3", "w10d3"],
+      "plannedPurposes": [
+        "朋友核对活动海报，按时间和项目选择看哪场比赛",
+        "观看后纠正笔记中的项目/选手，决定如何向同学介绍"
+      ],
+      "reason": "生活活动与后续新闻阅读常需区分具体体育项目、比赛和选手，既有一般운동不替代这些概念。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["축구"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 5,
+      "headword": "선수",
+      "usedSenseZh": "运动员/选手",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "选手，运动员",
+          "definition": "体育比赛中被选为代表的人；或指以运动为职业的人。",
+          "entryId": "62050",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "先下手，先机",
+          "definition": "在别人做之前先行动。",
+          "entryId": "62948",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "好手，高手",
+          "definition": "(喻义)擅长做或经常做某事的人。",
+          "entryId": "62050",
+          "senseId": "2"
+        },
+        {
+          "pos": "명사",
+          "meaning": "先手",
+          "definition": "围棋或象棋中先下棋子；或指比对方先下在重要的位置。",
+          "entryId": "62948",
+          "senseId": "2"
+        }
+      ],
+      "scheduledLessonId": "w08d1",
+      "plannedLessons": ["w09d3", "w10d3"],
+      "plannedPurposes": [
+        "朋友核对活动海报，按时间和项目选择看哪场比赛",
+        "观看后纠正笔记中的项目/选手，决定如何向同学介绍"
+      ],
+      "reason": "生活活动与后续新闻阅读常需区分具体体育项目、比赛和选手，既有一般운동不替代这些概念。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["선수"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 5,
+      "headword": "경기",
+      "usedSenseZh": "比赛",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "竞技，比赛，竞赛",
+          "definition": "互相比较运动或技术等的能力。",
+          "entryId": "60094",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "经济状况",
+          "definition": "买卖或交易中表现出的景气与不景气等，与经济领域有关的状况。",
+          "entryId": "25710",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "惊风，抽风",
+          "definition": "身体突然颤抖厉害并晕厥的疾病。",
+          "entryId": "32355",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w08d6",
+      "plannedLessons": ["w09d3", "w10d3"],
+      "plannedPurposes": [
+        "朋友核对活动海报，按时间和项目选择看哪场比赛",
+        "观看后纠正笔记中的项目/选手，决定如何向同学介绍"
+      ],
+      "reason": "生活活动与后续新闻阅读常需区分具体体育项目、比赛和选手，既有一般운동不替代这些概念。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["경기"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 6,
+      "headword": "썰다",
+      "usedSenseZh": "切（食材）",
+      "dictionarySensesRead": [
+        {
+          "pos": "동사",
+          "meaning": "切，锯",
+          "definition": "用刀或锯向下摁并前后移动而将某物轧断或弄成许多块。",
+          "entryId": "29774",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w10d3",
+      "plannedLessons": ["w13d3", "w14d3"],
+      "plannedPurposes": [
+        "同住者商量当次做饭分工，澄清备菜与口味选择",
+        "整理上次做饭记录，按实际操作重新写清步骤和食材"
+      ],
+      "reason": "简单做饭与过程说明需要具体切/煮/浸泡动作及食材、酱料；不以볶다/음식等相关词代算本词，也不输出安全/健康建议。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["썰", "썬", "썰었", "썰어"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 6,
+      "headword": "끓이다",
+      "usedSenseZh": "煮/烧开",
+      "dictionarySensesRead": [
+        {
+          "pos": "동사",
+          "meaning": "煮沸，烧开",
+          "definition": "给液体加热，使其冒气泡。",
+          "entryId": "59474",
+          "senseId": "1"
+        },
+        {
+          "pos": "동사",
+          "meaning": "煮，烧",
+          "definition": "把食物放进水或液体里加热，制作食品。",
+          "entryId": "59474",
+          "senseId": "2"
+        },
+        {
+          "pos": "동사",
+          "meaning": "心急如焚，担惊受怕，焦虑",
+          "definition": "由于担心或费神而产生激动的情绪。",
+          "entryId": "59474",
+          "senseId": "3"
+        }
+      ],
+      "scheduledLessonId": "w10d3",
+      "plannedLessons": ["w13d3", "w14d3"],
+      "plannedPurposes": [
+        "同住者商量当次做饭分工，澄清备菜与口味选择",
+        "整理上次做饭记录，按实际操作重新写清步骤和食材"
+      ],
+      "reason": "简单做饭与过程说明需要具体切/煮/浸泡动作及食材、酱料；不以볶다/음식等相关词代算本词，也不输出安全/健康建议。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["끓이", "끓여", "끓였", "끓일"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 6,
+      "headword": "담그다",
+      "usedSenseZh": "浸泡（不教未经核实的食品安全操作）",
+      "dictionarySensesRead": [
+        {
+          "pos": "동사",
+          "meaning": "浸泡",
+          "definition": "放入液体中。",
+          "entryId": "62832",
+          "senseId": "1"
+        },
+        {
+          "pos": "동사",
+          "meaning": "腌制",
+          "definition": "为了使辛奇、酒、酱、虾酱等食物腌熟或发酵，将材料混合并放入容器中。",
+          "entryId": "62832",
+          "senseId": "2"
+        }
+      ],
+      "scheduledLessonId": "w12d2",
+      "plannedLessons": ["w13d3", "w14d3"],
+      "plannedPurposes": [
+        "同住者商量当次做饭分工，澄清备菜与口味选择",
+        "整理上次做饭记录，按实际操作重新写清步骤和食材"
+      ],
+      "reason": "简单做饭与过程说明需要具体切/煮/浸泡动作及食材、酱料；不以볶다/음식等相关词代算本词，也不输出安全/健康建议。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["담그", "담가", "담갔", "담글"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 6,
+      "headword": "고추장",
+      "usedSenseZh": "韩式辣椒酱",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "韩式辣椒酱",
+          "definition": "以辣椒面为主材料而制成的韩国传统调味料，色泽偏红。",
+          "entryId": "18359",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w12d2",
+      "plannedLessons": ["w13d3", "w14d3"],
+      "plannedPurposes": [
+        "同住者商量当次做饭分工，澄清备菜与口味选择",
+        "整理上次做饭记录，按实际操作重新写清步骤和食材"
+      ],
+      "reason": "简单做饭与过程说明需要具体切/煮/浸泡动作及食材、酱料；不以볶다/음식等相关词代算本词，也不输出安全/健康建议。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["고추장"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 6,
+      "headword": "양배추",
+      "usedSenseZh": "卷心菜",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "卷心菜，甘蓝，洋白菜",
+          "definition": "厚实且宽阔的绿叶内由稍泛白的嫩叶层层包裹形成的球状蔬菜，从西方引进而来。",
+          "entryId": "71585",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w12d2",
+      "plannedLessons": ["w13d3", "w14d3"],
+      "plannedPurposes": [
+        "同住者商量当次做饭分工，澄清备菜与口味选择",
+        "整理上次做饭记录，按实际操作重新写清步骤和食材"
+      ],
+      "reason": "简单做饭与过程说明需要具体切/煮/浸泡动作及食材、酱料；不以볶다/음식等相关词代算本词，也不输出安全/健康建议。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["양배추"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 7,
+      "headword": "칠판",
+      "usedSenseZh": "黑板",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "黑板",
+          "definition": "可用粉笔在上面写字的深绿色或黑色平板。",
+          "entryId": "18796",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w07d2",
+      "plannedLessons": ["w12d2", "w13d2"],
+      "plannedPurposes": [
+        "学生记者访谈校友音乐活动筹备，核实演出和比赛不同",
+        "报道编辑向筹备者核对稿件，纠正人物身份、活动名与乐器"
+      ],
+      "reason": "学校活动报道与访谈需要黑板、记者、毕业生、比赛/大会及乐器这些确切对象和角色；既有学生/老师/报道功能不能代替这些具体词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["칠판"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 7,
+      "headword": "기자",
+      "usedSenseZh": "记者",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "记者",
+          "definition": "在报纸、杂志、广播等中调查将要报道的新闻并攥稿编辑的人。",
+          "entryId": "61280",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w08d3",
+      "plannedLessons": ["w12d2", "w13d2"],
+      "plannedPurposes": [
+        "学生记者访谈校友音乐活动筹备，核实演出和比赛不同",
+        "报道编辑向筹备者核对稿件，纠正人物身份、活动名与乐器"
+      ],
+      "reason": "学校活动报道与访谈需要黑板、记者、毕业生、比赛/大会及乐器这些确切对象和角色；既有学生/老师/报道功能不能代替这些具体词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["기자"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 7,
+      "headword": "대회",
+      "usedSenseZh": "比赛/大会（在原句中明确实际指哪类活动）",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "大会",
+          "definition": "许多人聚集的聚会或会议。",
+          "entryId": "61306",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "比赛，大赛",
+          "definition": "许多人较量实力或技术的活动。",
+          "entryId": "61306",
+          "senseId": "2"
+        }
+      ],
+      "scheduledLessonId": "w08d2",
+      "plannedLessons": ["w12d2", "w13d2"],
+      "plannedPurposes": [
+        "学生记者访谈校友音乐活动筹备，核实演出和比赛不同",
+        "报道编辑向筹备者核对稿件，纠正人物身份、活动名与乐器"
+      ],
+      "reason": "学校活动报道与访谈需要黑板、记者、毕业生、比赛/大会及乐器这些确切对象和角色；既有学生/老师/报道功能不能代替这些具体词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["대회"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 7,
+      "headword": "졸업생",
+      "usedSenseZh": "毕业生",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "毕业生",
+          "definition": "修完由学校、幼儿园等规定的全部课程的学生。",
+          "entryId": "91754",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w08d4",
+      "plannedLessons": ["w12d2", "w13d2"],
+      "plannedPurposes": [
+        "学生记者访谈校友音乐活动筹备，核实演出和比赛不同",
+        "报道编辑向筹备者核对稿件，纠正人物身份、活动名与乐器"
+      ],
+      "reason": "学校活动报道与访谈需要黑板、记者、毕业生、比赛/大会及乐器这些确切对象和角色；既有学生/老师/报道功能不能代替这些具体词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["졸업생"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 7,
+      "headword": "악기",
+      "usedSenseZh": "乐器",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "乐器",
+          "definition": "演凑音乐的器具。",
+          "entryId": "71368",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w11d6",
+      "plannedLessons": ["w12d2", "w13d2"],
+      "plannedPurposes": [
+        "学生记者访谈校友音乐活动筹备，核实演出和比赛不同",
+        "报道编辑向筹备者核对稿件，纠正人物身份、活动名与乐器"
+      ],
+      "reason": "学校活动报道与访谈需要黑板、记者、毕业生、比赛/大会及乐器这些确切对象和角色；既有学生/老师/报道功能不能代替这些具体词义。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["악기"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 8,
+      "headword": "농업",
+      "usedSenseZh": "农业",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "农业",
+          "definition": "农耕之事；或指从事农耕的职业。",
+          "entryId": "62413",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w08d1",
+      "plannedLessons": ["w13d4", "w14d4"],
+      "plannedPurposes": [
+        "同学阅读虚构乡村展览说明，区分乡村地点、农业工作与植物部位",
+        "参观后共同写观察记录，澄清看见的叶/根与不能推出的农业结论"
+      ],
+      "reason": "后续环境与城乡主题阅读需要区分农业工作、乡村地点、植物整体及根/叶；目前对应语义原句不足，补具体观察而不把词语当未经核实的科学结论。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["농업"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 8,
+      "headword": "농촌",
+      "usedSenseZh": "农村/乡村",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "农村",
+          "definition": "从事农业生产的人所聚居的村子。",
+          "entryId": "83179",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w12d6",
+      "plannedLessons": ["w13d4", "w14d4"],
+      "plannedPurposes": [
+        "同学阅读虚构乡村展览说明，区分乡村地点、农业工作与植物部位",
+        "参观后共同写观察记录，澄清看见的叶/根与不能推出的农业结论"
+      ],
+      "reason": "后续环境与城乡主题阅读需要区分农业工作、乡村地点、植物整体及根/叶；目前对应语义原句不足，补具体观察而不把词语当未经核实的科学结论。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["농촌"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 8,
+      "headword": "식물",
+      "usedSenseZh": "植物",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "植物",
+          "definition": "与草木一样无法靠自身力量移动的生命体。",
+          "entryId": "65315",
+          "senseId": "1"
+        }
+      ],
+      "scheduledLessonId": "w12d4",
+      "plannedLessons": ["w13d4", "w14d4"],
+      "plannedPurposes": [
+        "同学阅读虚构乡村展览说明，区分乡村地点、农业工作与植物部位",
+        "参观后共同写观察记录，澄清看见的叶/根与不能推出的农业结论"
+      ],
+      "reason": "后续环境与城乡主题阅读需要区分农业工作、乡村地点、植物整体及根/叶；目前对应语义原句不足，补具体观察而不把词语当未经核实的科学结论。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["식물"],
+        "rawCandidateCount": 2,
+        "rawCandidates": [
+          {
+            "lessonId": "w22d6",
+            "scene": "环境综合说明用虚构社区数据核对减量、回收质量和劳动负担，提出可复查试点。",
+            "lineId": "w22d6-deep-w19-22-48-2",
+            "ko": "오늘은 오백 가구가 사는 가상의 지역에서 일주일 동안 천 킬로그램이 나왔다고 가정하고, 음식물 사백, 재활용품 삼백오십, 일반 쓰레기 이백오십 킬로그램으로 나누겠습니다.",
+            "zh": "今天假设一个五百户的虚构社区一周产生一千公斤垃圾，其中厨余四百、可回收品三百五十、一般垃圾两百五十公斤。"
+          },
+          {
+            "lessonId": "w22d6",
+            "scene": "环境综合说明用虚构社区数据核对减量、回收质量和劳动负担，提出可复查试点。",
+            "lineId": "w22d6-deep-w19-22-48-8",
+            "ko": "음식물 쓰레기가 줄었다면 필요한 양만 구입한 결과일 수도 있고 외식이 늘어 식당에서 더 많이 나온 결과일 수도 있어, 가정의 감소를 전체 발생량 감소로 바로 보아서는 안 됩니다.",
+            "zh": "厨余减少可能源于只买所需数量，也可能源于外食增加、餐馆产生更多，因此不能把家庭减少直接视为整体产生量减少。"
+          }
+        ],
+        "interpretation": "两条子串候选均음식물/음식물 쓰레기（食物/厨余），不是植物。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 8,
+      "headword": "뿌리",
+      "usedSenseZh": "植物的根",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "根",
+          "definition": "植物的一部分。深入土壤中吸收及传送水分和养分并支撑枝干。",
+          "entryId": "60318",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "根",
+          "definition": "事物深扎在他处的下端部分。",
+          "entryId": "60318",
+          "senseId": "2"
+        },
+        {
+          "pos": "명사",
+          "meaning": "根源，根基",
+          "definition": "(喻义)构成事物或现象的基础或基本。",
+          "entryId": "60318",
+          "senseId": "3"
+        }
+      ],
+      "scheduledLessonId": "w12d6",
+      "plannedLessons": ["w13d4", "w14d4"],
+      "plannedPurposes": [
+        "同学阅读虚构乡村展览说明，区分乡村地点、农业工作与植物部位",
+        "参观后共同写观察记录，澄清看见的叶/根与不能推出的农业结论"
+      ],
+      "reason": "后续环境与城乡主题阅读需要区分农业工作、乡村地点、植物整体及根/叶；目前对应语义原句不足，补具体观察而不把词语当未经核实的科学结论。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["뿌리"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    },
+    {
+      "side": "B",
+      "group": 8,
+      "headword": "잎",
+      "usedSenseZh": "叶子",
+      "dictionarySensesRead": [
+        {
+          "pos": "명사",
+          "meaning": "叶子",
+          "definition": "长在茎干末端或周围的植物的营养器官，呈绿色扁平状。",
+          "entryId": "70793",
+          "senseId": "1"
+        },
+        {
+          "pos": "명사",
+          "meaning": "叶，片",
+          "definition": "计算树叶、草叶、花瓣等的单位。",
+          "entryId": "70793",
+          "senseId": "2"
+        },
+        {
+          "pos": "명사",
+          "meaning": "叶",
+          "definition": "把植物名放在前面，表示该植物的叶子。",
+          "entryId": "70793",
+          "senseId": "3"
+        }
+      ],
+      "scheduledLessonId": "w05d5",
+      "plannedLessons": ["w13d4", "w14d4"],
+      "plannedPurposes": [
+        "同学阅读虚构乡村展览说明，区分乡村地点、农业工作与植物部位",
+        "参观后共同写观察记录，澄清看见的叶/根与不能推出的农业结论"
+      ],
+      "reason": "后续环境与城乡主题阅读需要区分农业工作、乡村地点、植物整体及根/叶；目前对应语义原句不足，补具体观察而不把词语当未经核实的科学结论。",
+      "currentAuditEvidence": {
+        "coverageStatus": "no-linked-or-spelling-evidence-needs-corpus-or-morphology-review",
+        "originalLines": 0,
+        "distinctKoreanTexts": 0,
+        "originalSceneIds": [],
+        "originalExamples": [],
+        "spellingCandidates": []
+      },
+      "originalCorpusCheck": {
+        "searchedForms": ["잎"],
+        "rawCandidateCount": 0,
+        "rawCandidates": [],
+        "interpretation": "对应完整词头及检查词形未在原课找到相关义项原句；机器零链接和候选扫描一致。",
+        "reliableTargetSenseOccurrencesFound": 0
+      },
+      "coverageInterpretation": "真实目标词义的新材料缺口；相关领域已教不作“从未接触这个领域”的断言，未把子串/同形义/词典独立例句计为课内覆盖。"
+    }
+  ],
+  "rejectedExamples": [
+    {
+      "word": "칠월/십일월/사월/잘하다",
+      "reason": "先前已经发现并修复的原文索引漏链，不作为本轮新语料目标。"
+    },
+    {
+      "word": "오래간만/선생/경찰관/사진기/티브이",
+      "reason": "相关近词或变体已有或将由具体已有概念承接；优先级不足，不把词头未链接直接说成重大概念缺材。"
+    },
+    {
+      "word": "계/급/호/드세다",
+      "reason": "多义/专门量词或较难自然初级教会，暂不为凑40强塞。"
+    },
+    {
+      "word": "일월/이월/삼월/오월/유월/팔월/구월/시월/십이월",
+      "reason": "日期数字与月的功能已有材料，月份连写词头不等于日期概念缺失；需要单独字形/索引审读。"
+    }
+  ],
+  "limits": [
+    "Word-record reconciliation covers all2,205 missing rows, but individual content investigation here covers selected40 and rejected candidate examples, not all2,205 senses.",
+    "Conservative candidate search can miss irregular/contextual lexical evidence; root will independently read and regenerate exact canonical annotations.",
+    "Related domains and functional expressions may already have been taught; this plan adds missing specific lexemes/senses, not claims40 entire concepts were absent.",
+    "No independent native-speaker review, learner mastery,24h browser test or complete project claim."
+  ],
+  "reconciliationEvidence": {
+    "originalWeekMetadataFile": "/Users/lkc/Downloads/korean S/korean-dialogues/data/immersion-index.json",
+    "lessonDaysChecked": 182,
+    "all26WeeksInOrder": true,
+    "uniqueFirstIntroductionDates": 4980,
+    "allWordRecordDatesMatchSchedule": true,
+    "missingListEqualsExactlyAllZeroOriginalLines": true,
+    "missingUniqueWords": 2205,
+    "duplicateMainHeadwords": 0
+  }
+}

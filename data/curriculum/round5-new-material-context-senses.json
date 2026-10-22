@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-08",
+  "independentNativeSpeakerReview": false,
+  "source": "data/immersion/gap-expansion-e.json",
+  "sourceSha256": "0d8982e5a62f5c0a740f7965f13c130f2f3eed07c5ec6a95c8638247bb380924",
+  "scope": "8处新原句精准解释；旧38处继续保留独立验收统计。相当大／多参照本地krdict29025 sense5定义；当前官方页面的呈现序号不同，不混用编号。",
+  "decisions": [
+    {
+      "lineId": "w26d6-gap-expansion-e-5-8",
+      "lessonId": "w26d6",
+      "ko": "적은 응답이라도 검토에 드는 노력은 상당하군요.",
+      "wordIndex": 5,
+      "surface": "상당하군요.",
+      "headword": "상당하다",
+      "contextMeaning": "相当大；这里指核查所需的努力很多",
+      "morphologyNote": "상당하- + -군요 表示说话人发现或感叹这个程度；不是动词“相当于某金额”。",
+      "dictionaryMeaning": "상당하다：相当；相应；价值；相当于；合",
+      "otherSenses": [
+        "水平、实力或程度很高／相当好",
+        "适合或接近某程度",
+        "与某金额或数值相当；需区别形容词与动词词条"
+      ],
+      "reason": "逐句核对新场景中的搭配、韩中对应和本地词典的POS/定义，限定为此完整原句与词位置；상당하다不作同形词全局覆盖。",
+      "confidence": "reviewed-project-inference",
+      "dictionarySenseEvidence": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当好，相当强",
+          "definition": "水平或实力、 程度非常高。",
+          "entryId": "29025",
+          "senseId": "2"
+        },
+        {
+          "source": "krdict",
+          "pos": "동사",
+          "meaning": "相当于，合",
+          "definition": "达到一定的数额或数值。",
+          "entryId": "93635",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当，相应",
+          "definition": "接近于或适于某个程度。",
+          "entryId": "29025",
+          "senseId": "3"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "价值，相当于",
+          "definition": "等同于一定的额数或数值。",
+          "entryId": "29025",
+          "senseId": "4"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当大，相当多",
+          "definition": "十分多。",
+          "entryId": "29025",
+          "senseId": "5"
+        }
+      ]
+    },
+    {
+      "lineId": "w27d6-gap-expansion-e-6-5",
+      "lessonId": "w27d6",
+      "ko": "이렇게 범위를 구분하는 데 상당한 시간이 필요하네요.",
+      "wordIndex": 4,
+      "surface": "상당한",
+      "headword": "상당하다",
+      "contextMeaning": "相当多；这里指区分问卷范围所需的时间很多",
+      "morphologyNote": "상당하- + 修饰名词的 -ㄴ → 상당한，修饰 시간이；不是数值换算或价值相当。",
+      "dictionaryMeaning": "상당하다：相当；相应；价值；相当于；合",
+      "otherSenses": [
+        "水平、实力或程度很高／相当好",
+        "适合或接近某程度",
+        "与某金额或数值相当；需区别形容词与动词词条"
+      ],
+      "reason": "逐句核对新场景中的搭配、韩中对应和本地词典的POS/定义，限定为此完整原句与词位置；상당하다不作同形词全局覆盖。",
+      "confidence": "reviewed-project-inference",
+      "dictionarySenseEvidence": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当好，相当强",
+          "definition": "水平或实力、 程度非常高。",
+          "entryId": "29025",
+          "senseId": "2"
+        },
+        {
+          "source": "krdict",
+          "pos": "동사",
+          "meaning": "相当于，合",
+          "definition": "达到一定的数额或数值。",
+          "entryId": "93635",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当，相应",
+          "definition": "接近于或适于某个程度。",
+          "entryId": "29025",
+          "senseId": "3"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "价值，相当于",
+          "definition": "等同于一定的额数或数值。",
+          "entryId": "29025",
+          "senseId": "4"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当大，相当多",
+          "definition": "十分多。",
+          "entryId": "29025",
+          "senseId": "5"
+        }
+      ]
+    },
+    {
+      "lineId": "w26d6-gap-expansion-e-11-4",
+      "lessonId": "w26d6",
+      "ko": "벽에 바싹 붙여 놓으면 문을 여는 데 걸릴 것 같아요.",
+      "wordIndex": 1,
+      "surface": "바싹",
+      "headword": "바싹",
+      "contextMeaning": "紧贴；把花盆靠墙放得很近",
+      "morphologyNote": "바싹 是副词，修饰 붙여 놓으면 的靠紧放置；벽에 指靠近的墙。",
+      "dictionaryMeaning": "바싹：干巴巴；紧紧地",
+      "otherSenses": [
+        "紧贴、靠近；另一个本批场景实际使用此义",
+        "干透；另一个本批场景实际使用此义",
+        "程度突然增加或减少、紧张用力等；需要另看搭配，不能只按词形判断"
+      ],
+      "reason": "逐句核对新场景中的搭配、韩中对应和本地词典的POS/定义，限定为此完整原句与词位置；바싹不作同形词全局覆盖。",
+      "confidence": "reviewed-project-inference",
+      "dictionarySenseEvidence": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "干巴巴",
+          "definition": "几乎没有水分，干枯或减少的样子。",
+          "entryId": "15808",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "紧紧地",
+          "definition": "非常紧贴或靠近的样子。",
+          "entryId": "15808",
+          "senseId": "2"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "猛然，骤然",
+          "definition": "突然增加或减少的样子。",
+          "entryId": "15808",
+          "senseId": "3"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "顽固地，刚愎地",
+          "definition": "固执己见的样子。",
+          "entryId": "15808",
+          "senseId": "4"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "紧绷地",
+          "definition": "非常紧张或使劲的样子。",
+          "entryId": "15808",
+          "senseId": "5"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "瘪瘪地",
+          "definition": "身体非常消瘦的样子。",
+          "entryId": "15808",
+          "senseId": "6"
+        }
+      ]
+    },
+    {
+      "lineId": "w27d6-gap-expansion-e-12-3",
+      "lessonId": "w27d6",
+      "ko": "문은 열려요. 다만 잎 하나가 바싹 말라 있더라고요.",
+      "wordIndex": 5,
+      "surface": "바싹",
+      "headword": "바싹",
+      "contextMeaning": "干透；这里描述观察到的一片叶子很干",
+      "morphologyNote": "바싹 是副词，修饰 말라 있다 的干燥状态；잎 하나 是所观察的对象，不推断原因。",
+      "dictionaryMeaning": "바싹：干巴巴；紧紧地",
+      "otherSenses": [
+        "紧贴、靠近；另一个本批场景实际使用此义",
+        "干透；另一个本批场景实际使用此义",
+        "程度突然增加或减少、紧张用力等；需要另看搭配，不能只按词形判断"
+      ],
+      "reason": "逐句核对新场景中的搭配、韩中对应和本地词典的POS/定义，限定为此完整原句与词位置；바싹不作同形词全局覆盖。",
+      "confidence": "reviewed-project-inference",
+      "dictionarySenseEvidence": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "干巴巴",
+          "definition": "几乎没有水分，干枯或减少的样子。",
+          "entryId": "15808",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "紧紧地",
+          "definition": "非常紧贴或靠近的样子。",
+          "entryId": "15808",
+          "senseId": "2"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "猛然，骤然",
+          "definition": "突然增加或减少的样子。",
+          "entryId": "15808",
+          "senseId": "3"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "顽固地，刚愎地",
+          "definition": "固执己见的样子。",
+          "entryId": "15808",
+          "senseId": "4"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "紧绷地",
+          "definition": "非常紧张或使劲的样子。",
+          "entryId": "15808",
+          "senseId": "5"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "瘪瘪地",
+          "definition": "身体非常消瘦的样子。",
+          "entryId": "15808",
+          "senseId": "6"
+        }
+      ]
+    },
+    {
+      "lineId": "w26d6-gap-expansion-e-1-2",
+      "lessonId": "w26d6",
+      "ko": "지금 다른 팀도 발표 연습이 한창이에요. 우리도 두 문장부터 시작할까요?",
+      "wordIndex": 5,
+      "surface": "한창이에요.",
+      "headword": "한창",
+      "contextMeaning": "正旺；其他组正在热火朝天地练习发表",
+      "morphologyNote": "本句为名词 한창 + 이다 的礼貌句尾 한창이에요；描述练习正在进行的旺盛状态。",
+      "dictionaryMeaning": "한창：正旺；正盛；正是时候；正；正好",
+      "otherSenses": [
+        "也可作副词，描述活动正在最旺盛地进行；本句由 이다 构成名词谓语"
+      ],
+      "reason": "逐句核对新场景中的搭配、韩中对应和本地词典的POS/定义，限定为此完整原句与词位置；한창不作同形词全局覆盖。",
+      "confidence": "reviewed-project-inference",
+      "dictionarySenseEvidence": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "正旺，正盛，正是时候",
+          "definition": "某事最有活力、最旺盛发展的时候；或指某种状态最成熟的时候。",
+          "entryId": "89055",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "正，正好",
+          "definition": "某事发展最蓬勃旺盛的样子；或指某个状态发展到最完善的样子。",
+          "entryId": "89056",
+          "senseId": "1"
+        }
+      ]
+    },
+    {
+      "lineId": "w27d6-gap-expansion-e-2-7",
+      "lessonId": "w27d6",
+      "ko": "다른 팀은 지금 토론이 한창이라 끝나는 시간을 기다려야 해요.",
+      "wordIndex": 4,
+      "surface": "한창이라",
+      "headword": "한창",
+      "contextMeaning": "正旺；其他组的讨论正在热烈进行",
+      "morphologyNote": "한창 + 이다 + -라 构成说明理由的 한창이라；正在热烈讨论是等待结束的理由。",
+      "dictionaryMeaning": "한창：正旺；正盛；正是时候；正；正好",
+      "otherSenses": [
+        "也可作副词，描述活动正在最旺盛地进行；本句由 이다 构成名词谓语"
+      ],
+      "reason": "逐句核对新场景中的搭配、韩中对应和本地词典的POS/定义，限定为此完整原句与词位置；한창不作同形词全局覆盖。",
+      "confidence": "reviewed-project-inference",
+      "dictionarySenseEvidence": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "正旺，正盛，正是时候",
+          "definition": "某事最有活力、最旺盛发展的时候；或指某种状态最成熟的时候。",
+          "entryId": "89055",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "正，正好",
+          "definition": "某事发展最蓬勃旺盛的样子；或指某个状态发展到最完善的样子。",
+          "entryId": "89056",
+          "senseId": "1"
+        }
+      ]
+    },
+    {
+      "lineId": "w26d6-gap-expansion-e-17-7",
+      "lessonId": "w26d6",
+      "ko": "친구가 오늘 두 시간 이내에 답할 수 있다고 했어요.",
+      "wordIndex": 4,
+      "surface": "이내에",
+      "headword": "이내",
+      "contextMeaning": "以内；这一次约定在两小时之内回复",
+      "morphologyNote": "이내 是表示范围的名词，与地点／时间范围助词 -에 结合为 이내에；앞面的 두 시간 明确两小时期限，不是“立刻”。",
+      "dictionaryMeaning": "이내：马上；立刻；之后就；以内；(强调)我的。",
+      "otherSenses": [
+        "作副词时可表示马上、立刻",
+        "作副词时也可表示从某时开始一直",
+        "古体 관형사 词条有强调“我的”的用法；这里不使用"
+      ],
+      "reason": "逐句核对新场景中的搭配、韩中对应和本地词典的POS/定义，限定为此完整原句与词位置；이내不作同形词全局覆盖。",
+      "confidence": "reviewed-project-inference",
+      "dictionarySenseEvidence": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "马上，立刻",
+          "definition": "当时就；或指不推迟而立即。",
+          "entryId": "24107",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "以内",
+          "definition": "一定范围之内。",
+          "entryId": "24109",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "관형사",
+          "meaning": "(强调)我的。",
+          "definition": "(强调)我的。",
+          "entryId": "71633",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "之后就",
+          "definition": "从某时一直。",
+          "entryId": "24107",
+          "senseId": "2"
+        }
+      ]
+    },
+    {
+      "lineId": "w27d6-gap-expansion-e-18-5",
+      "lessonId": "w27d6",
+      "ko": "두 시간 이내에 답해 준 친구 덕분에 빨리 찾았어요.",
+      "wordIndex": 2,
+      "surface": "이내에",
+      "headword": "이내",
+      "contextMeaning": "以内；朋友这一次在两小时内作了回复",
+      "morphologyNote": "두 시간 이내에 是回复所处的时间范围；同形副词“马上”不符合这个计量结构。",
+      "dictionaryMeaning": "이내：马上；立刻；之后就；以内；(强调)我的。",
+      "otherSenses": [
+        "作副词时可表示马上、立刻",
+        "作副词时也可表示从某时开始一直",
+        "古体 관형사 词条有强调“我的”的用法；这里不使用"
+      ],
+      "reason": "逐句核对新场景中的搭配、韩中对应和本地词典的POS/定义，限定为此完整原句与词位置；이내不作同形词全局覆盖。",
+      "confidence": "reviewed-project-inference",
+      "dictionarySenseEvidence": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "马上，立刻",
+          "definition": "当时就；或指不推迟而立即。",
+          "entryId": "24107",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "以内",
+          "definition": "一定范围之内。",
+          "entryId": "24109",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "관형사",
+          "meaning": "(强调)我的。",
+          "definition": "(强调)我的。",
+          "entryId": "71633",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "之后就",
+          "definition": "从某时一直。",
+          "entryId": "24107",
+          "senseId": "2"
+        }
+      ]
+    }
+  ]
+}

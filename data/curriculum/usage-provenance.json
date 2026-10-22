@@ -1,0 +1,16 @@
+{
+  "dictionaryRelease": "2026-09-19",
+  "archiveSha256": "f9c1b9309afe66429a92cca1b2c426db25ec809d04103aca74c3a23859280df6",
+  "license": "CC BY-SA 2.0 KR",
+  "headwords": 6129,
+  "missing": [],
+  "edited": 109,
+  "editedContexts": 24,
+  "currentUsageNormalization": {
+    "revision": "2026-10-07-machine-context-v1",
+    "removedNonKoreanUsageFragments": 2,
+    "humanReview": false,
+    "independentNativeSpeakerReview": false,
+    "scope": "Archive attribution is unchanged. Two punctuation-only examples were removed; current usable counts are validated in course-depth-statistics.json."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "researchedAt": "2026-10-09",
+  "purpose": "Human Korean listening resources for a gradual guided-to-natural immersion path",
+  "verification": {
+    "method": "Official website pages and official YouTube search metadata",
+    "audioAuditioned": false,
+    "embedPlaybackTested": false,
+    "limitations": "Direct YouTube/oEmbed fetches were blocked by the executor proxy; browser-source fetches of embed URLs were throttled. Titles, publisher identity, descriptions and source URLs were verified through web results. Level and week placements are editorial suggestions, not publisher assessments. No full transcripts, downloaded audio or redistribution rights are supplied."
+  },
+  "embedding": {
+    "permissionSource": "https://www.easy-languages.org/contact",
+    "permissionSummary": "Easy Languages permits embedding its YouTube videos on websites and linking them in courses without prior permission; downloading and re-uploading requires separate licensing contact.",
+    "formatSource": "https://developers.google.com/youtube/player_parameters",
+    "implementation": "For Easy Languages cards, use the official YouTube iframe URL and include the watch link as a permanent fallback. Load on user selection; preserve player controls and attribution. Do not claim successful playback until tested in the deployed site."
+  },
+  "officialCollections": [
+    {
+      "title": "Super Easy Korean - Korean for beginners",
+      "url": "https://www.youtube.com/playlist?list=PLA5UIoabheFPLRreMP6wEAscRHwg3jgy3",
+      "linkedFrom": "https://www.easy-languages.org/our-languages"
+    },
+    {
+      "title": "Easy Korean - Learn Korean from the Streets",
+      "url": "https://www.youtube.com/playlist?list=PLA5UIoabheFP2gBWM9maXVOb0af9nWuHN",
+      "linkedFrom": "https://www.easy-languages.org/our-languages"
+    }
+  ],
+  "resources": [
+    {
+      "id": "easy-korean-travel-phrases",
+      "title": "15 must-know expressions when travelling in Korea | Super Easy Korean 21",
+      "publisher": "Easy Languages",
+      "sourceUrl": "https://www.youtube.com/watch?v=in3QD4BzUB4",
+      "embedUrl": "https://www.youtube.com/embed/in3QD4BzUB4",
+      "presentation": "embed-with-outbound-fallback",
+      "videoId": "in3QD4BzUB4",
+      "level": "Beginner with support",
+      "suggestedWeeks": [5, 8],
+      "recordingType": "Guided human speech; beginner bridge rather than spontaneous conversation",
+      "context": "Travel expressions demonstrated by the episode producers Nahee and Sumin.",
+      "captionEvidence": "Publisher describes its local-language episodes as subtitled in the original language and English; episode caption toggles and timing were not inspected.",
+      "practice": "Watch a short section with support, replay one expression, then say it in your own travel scenario.",
+      "labelZh": "旅行表达示范",
+      "practiceZh": "先听一个短片段，再在自己的出行情境里说一遍。"
+    },
+    {
+      "id": "easy-korean-free-time",
+      "title": "Free time | Easy Korean 8",
+      "publisher": "Easy Languages",
+      "sourceUrl": "https://www.youtube.com/watch?v=6VTsafbqMGk",
+      "embedUrl": "https://www.youtube.com/embed/6VTsafbqMGk",
+      "presentation": "embed-with-outbound-fallback",
+      "videoId": "6VTsafbqMGk",
+      "level": "Supported upper beginner / intermediate",
+      "suggestedWeeks": [9, 13],
+      "recordingType": "Authentic street interviews",
+      "context": "Jungtaek asks people what they do in their free time.",
+      "captionEvidence": "Official description states original-language and English subtitles.",
+      "practice": "Listen to one answer for its main activity. Check the subtitles, then give a short answer about your own free time.",
+      "labelZh": "街头采访：空闲时间",
+      "practiceZh": "抓住一个人的主要活动，再说说自己的安排。"
+    },
+    {
+      "id": "easy-korean-travel-destinations",
+      "title": "Easy Korean 7 - Travel destinations",
+      "publisher": "Easy Languages",
+      "sourceUrl": "https://www.youtube.com/watch?v=fsKPdvFAs_c",
+      "embedUrl": "https://www.youtube.com/embed/fsKPdvFAs_c",
+      "presentation": "embed-with-outbound-fallback",
+      "videoId": "fsKPdvFAs_c",
+      "level": "Intermediate with support",
+      "suggestedWeeks": [14, 18],
+      "recordingType": "Authentic street interviews",
+      "context": "Sungyeol asks people where they would travel if they had two to four weeks for a holiday.",
+      "captionEvidence": "Official description states original-language and English subtitles.",
+      "practice": "Catch the destination and one reason from a single answer, then explain a place you would visit.",
+      "labelZh": "街头采访：旅行选择",
+      "practiceZh": "听出目的地与理由，比较两个人的选择。"
+    },
+    {
+      "id": "easy-korean-summer",
+      "title": "Easy Korean 2 - Summer",
+      "publisher": "Easy Languages",
+      "sourceUrl": "https://www.youtube.com/watch?v=a_DMz8O5ynI",
+      "embedUrl": "https://www.youtube.com/embed/a_DMz8O5ynI",
+      "presentation": "embed-with-outbound-fallback",
+      "videoId": "a_DMz8O5ynI",
+      "level": "Intermediate / stretch listening",
+      "suggestedWeeks": [19, 21],
+      "recordingType": "Authentic street interviews",
+      "context": "Jungtaek and Sungyeol ask people what summer means to them.",
+      "captionEvidence": "Official description states original-language and English subtitles.",
+      "practice": "Compare two answers. Record a short summary of their different views and your own association with summer.",
+      "labelZh": "街头采访：夏天",
+      "practiceZh": "概括两种不同的感受，再补充自己的看法。"
+    },
+    {
+      "id": "ttmik-natural-hour",
+      "title": "1 HOUR Natural Korean Conversation 🇰🇷 - Listening Practice [KOR/ENG SUB]",
+      "publisher": "Talk To Me In Korean",
+      "sourceUrl": "https://www.youtube.com/watch?v=6Y7VwFR5cDg",
+      "embedUrl": null,
+      "presentation": "outbound-resource",
+      "videoId": "6Y7VwFR5cDg",
+      "level": "Upper intermediate / advanced stretch",
+      "suggestedWeeks": [22, 26],
+      "recordingType": "Natural conversation by native speakers, according to the official description",
+      "context": "Four longer discussions: college memories, language-learning mistakes, pet peeves and names.",
+      "captionEvidence": "Title indicates Korean/English subtitles; official description says English subtitles can be enabled with CC.",
+      "chapters": [
+        {
+          "startSeconds": 0,
+          "endSeconds": 969,
+          "topic": "College memories"
+        },
+        {
+          "startSeconds": 970,
+          "endSeconds": 1769,
+          "topic": "Language-learning mistakes"
+        },
+        {
+          "startSeconds": 1770,
+          "endSeconds": 2735,
+          "topic": "Pet peeves"
+        },
+        {
+          "startSeconds": 2736,
+          "endSeconds": 3665,
+          "topic": "Names"
+        }
+      ],
+      "practice": "Choose one discussion and listen in small sections. First summarize the main idea, then replay with captions to check missing details.",
+      "rightsNote": "No explicit blanket embedding/reuse permission was verified for this publisher; use the official outbound video link.",
+      "labelZh": "自然长对话",
+      "practiceZh": "选择一个话题分段听，再用韩语复述主要意思。"
+    }
+  ]
+}

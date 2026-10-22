@@ -1,0 +1,9 @@
+{
+  "baselineCommit": "90d18137ead7a471d35f40f1503d0d2e62867a70",
+  "baselineOriginalIds": 8029,
+  "currentOriginalIds": 8269,
+  "fieldsCompared": ["lessonId", "sectionKey", "scene", "speaker", "ko", "zh"],
+  "changedOriginals": [],
+  "addedOriginalIds": 240,
+  "scope": "Original non-review fields compared against the opening snapshot; word annotations intentionally updated separately."
+}

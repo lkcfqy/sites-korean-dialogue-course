@@ -1,0 +1,142 @@
+{
+  "revision": "2026-10-07-machine-context-v1",
+  "review": {
+    "method": "agent-assisted context correction",
+    "independentNativeSpeakerReview": false,
+    "limitations": "机器规则和代理校订，不构成独立母语教师审校；未列出的 사는 在缺少明确购买宾语时保留歧义。"
+  },
+  "decisions": [
+    {
+      "lineId": "w08d6-immersion-40-14",
+      "ko": "네. 근처에 사는 친구가 함께 역까지 갈 거예요.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w17d2-7",
+      "ko": "남들이 가깝게 사는 게 최고라고 해도 제 예산부터 봐야겠네요.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w17d2-immersion-112-9",
+      "ko": "같은 집에서 사는 건 원하지 않으셔.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w17d2-immersion-112-10",
+      "ko": "가까이 사는 것과 함께 사는 건 다르네.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w21d3-deep-w19-22-30-16",
+      "ko": "가구의 생활을 비교한다면 같은 이백만 원이라도 혼자 사는 경우와 여러 가족이 함께 쓰는 경우가 다르므로, 가구원 수를 고려했는지도 질문해야 합니다.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w21d5-deep-w19-22-34-2",
+      "ko": "오늘은 실제 가족의 기록이 아니라 두 사람이 함께 사는 가상의 사례를 사용해, 가사 분담을 논의할 때 돈과 시간을 어떤 순서로 확인할 수 있는지 살펴보겠습니다.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w22d3-deep-w19-22-41-7",
+      "ko": "조사에서는 지금 사는 주민들만 만났대요. 떠난 분들 의견은 없고요.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w22d4-deep-w19-22-43-7",
+      "ko": "오래된 집에 사는 사람에게 새 창문을 달라고 하는 것도 무리겠네요.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w22d6-deep-w19-22-48-2",
+      "ko": "오늘은 오백 가구가 사는 가상의 지역에서 일주일 동안 천 킬로그램이 나왔다고 가정하고, 음식물 사백, 재활용품 삼백오십, 일반 쓰레기 이백오십 킬로그램으로 나누겠습니다.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w25d1-deep-w23-26-26-4",
+      "ko": "혼자 사는 사람에게는 가까운 연락망이 중요할 수 있지만, 배우자를 돌보는 사람에게는 자신의 휴식을 보장받을 시간이 먼저 필요할 수 있다.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w25d5-2",
+      "ko": "유입을 늘리는 노력과 함께 이미 사는 사람이 필요한 서비스를 이용할 수 있게 하는 전략도 필요해요.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    },
+    {
+      "lineId": "w25d5-deep-w23-26-33-2",
+      "ko": "사람들이 오면 좋죠. 그런데 지금 사는 사람의 아침 버스가 먼저 없어지게 생겼어요.",
+      "surface": "사는",
+      "lemmas": [
+        "살다"
+      ],
+      "meaning": "살다：居住、生活（本句）",
+      "rule": "living-sa-neun-context",
+      "basis": "整句的地点、独居、居民或共同生活语境；代理校订。"
+    }
+  ]
+}

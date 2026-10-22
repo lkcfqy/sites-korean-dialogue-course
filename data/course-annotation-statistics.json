@@ -1,0 +1,18 @@
+{
+  "revision": "2026-10-07-machine-context-v1",
+  "scope": "Canonical dictionary-backed lemmas on original course lines; unresolved candidates excluded. Machine annotations, not independently reviewed text occurrence coverage.",
+  "independentNativeSpeakerReview": false,
+  "originalLineTokens": {
+    "linked": 67842,
+    "ambiguous": 0,
+    "unlinked": 2073
+  },
+  "machineContextRuleTokens": 201,
+  "mainWordsWithCourseContextLinks": 2979,
+  "sameDaySceneWords": 1746,
+  "limitations": [
+    "Linked lemmas do not prove contextual sense correctness or student mastery.",
+    "Missing links do not prove a headword never appears in the text.",
+    "Context rules cover known agent-assisted decisions; unresolved readings are not linked."
+  ]
+}

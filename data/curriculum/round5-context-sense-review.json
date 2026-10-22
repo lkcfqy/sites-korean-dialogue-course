@@ -1,0 +1,2803 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-08",
+  "independentNativeSpeakerReview": false,
+  "corpus": {
+    "originalLines": 8269,
+    "distinctKoreanTexts": 8265,
+    "source": "public/immersion/week-01.json ... week-26.json; non-review original sections only",
+    "sourceHashes": {
+      "public/immersion/week-01.json": "03c1db1f25c329172aa5f455f5e7ab91997db344ff20aa81bf72fcee6bb4bf76",
+      "public/immersion/week-02.json": "ecfbd3cc575ce424b86b91dd8634ca7eb623ec227c66e709651137b81d8f1250",
+      "public/immersion/week-03.json": "50fcc800d8f2f7ffbaf6f81f3bb7d3d8dff85dffc98542cfeeb14b1354426c52",
+      "public/immersion/week-04.json": "98d048da5d93e80604134a0bc2a4bd7fbb809dbfd376dd9cf252a32669308427",
+      "public/immersion/week-05.json": "9b4d50d8cf4d925cfd0ec81d7ce58198f6f0faa4e5cdd49cfc1f0265e2030f0e",
+      "public/immersion/week-06.json": "4cb6667370a7f28558e50da2b4dcc62d933b1cf04a03cf587a160ba238f5ab74",
+      "public/immersion/week-07.json": "fbe57d5a13bf9f93e259f699ed11e704f6794f540f89d0d192c2b10394708ce3",
+      "public/immersion/week-08.json": "199377e976bba30631fda50ecae2cb933df4a79d0a8876339ed1da5a6e10d766",
+      "public/immersion/week-09.json": "bfeb632d0ac5369f6a835652126be2bab6d6107474b22183f3efcc482457ceff",
+      "public/immersion/week-10.json": "7575be432537b8f1dc483e656b4d608ca70c7d969736d113d59b6f3d17965442",
+      "public/immersion/week-11.json": "eb8a8ebfbe8863f59350613456225ce8be82a14be766d38f785371db9eeafd7f",
+      "public/immersion/week-12.json": "1180f59ac5a285555b590f8abcd6e37de6fbd5ee058fd48cc391aad26a35576d",
+      "public/immersion/week-13.json": "32e198b58e740cadccd41eec35e83fb272029453fcb1db3a727888e590719e19",
+      "public/immersion/week-14.json": "353dbf149a24bcb8806a9788be38e301cf966d35dba5444033e199fad3597418",
+      "public/immersion/week-15.json": "7a975ea72da2707007d326bd3f3ddf74b7cacb804f0e120c9cce6969f75ea4d9",
+      "public/immersion/week-16.json": "98a12ca4c66d18d1e51f5b5b559dcfb4bf6a977af0c8e2df76ff16aa1e5ea90f",
+      "public/immersion/week-17.json": "dd40a036d2920292af557633ae78572cd073a3272eba139570483a766a787b6c",
+      "public/immersion/week-18.json": "389c0f588156579eee853113c4827e11152b194818c257384fd438a91079c0d5",
+      "public/immersion/week-19.json": "bc06dc698e55853d05e7f149f848ec40252659e155d00b2ec5b9fb0f642b4168",
+      "public/immersion/week-20.json": "ad50b2e27b364ad90e6bb1a6e242ea11f64b655da0e2a0bc659cd59db1110a87",
+      "public/immersion/week-21.json": "4b49d00a39b3f0cfd3be14e8a25dec33c4b580aedbbb099f1b46e8a82a1bdd0f",
+      "public/immersion/week-22.json": "608d41affcab05160702501ce88bc8299e94e2e3bc8c1280fb2fb442bcc3d312",
+      "public/immersion/week-23.json": "9eb3a7005e1e9f74d85a732e854b4404dad9c54caee3a21117100463a9f533cc",
+      "public/immersion/week-24.json": "007fe884227ff574fa07e5692af945a61faf7b1b35f379fb2702ed1518a73146",
+      "public/immersion/week-25.json": "397e49502c5e930c5de56a117a339d5287f24e3a335dc6cf7378255e705fd516",
+      "public/immersion/week-26.json": "1b757eca47d6cbae1e22f9c218c10e1107d3167e7108ce89c26d50fe5ef66512"
+    }
+  },
+  "summary": {
+    "decisions": 38,
+    "distinctLineIds": 38,
+    "differentHeadwords": 14,
+    "headwordCounts": {
+      "보다": 6,
+      "내다": 4,
+      "받다": 4,
+      "나다": 4,
+      "잡다": 3,
+      "풀다": 2,
+      "계시다": 3,
+      "드리다": 2,
+      "드시다": 1,
+      "여쭈다": 1,
+      "떨어지다": 2,
+      "붙다": 2,
+      "세우다": 2,
+      "지키다": 2
+    },
+    "allTargetsAlreadyLinked": true,
+    "overlapWithPrior41LineIds": 0,
+    "separateIndexFindings": 4,
+    "newCourseLines": 0
+  },
+  "decisions": [
+    {
+      "lineId": "w01d3-2",
+      "lessonId": "w01d3",
+      "ko": "다시 말할게요. 책을 보세요.",
+      "wordIndex": 3,
+      "surface": "보세요.",
+      "headword": "보다",
+      "contextMeaning": "看；把视线放在书上",
+      "senseTag": "看书",
+      "morphologyNote": "보- 与尊敬/礼貌请求形式 -세요 结合为 보세요；책을 是看的对象。本处不是 -어 보다 的“尝试”。",
+      "dictionaryMeaning": "보다：动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+      "otherSenses": [
+        "尝试做某事",
+        "比较：比……",
+        "认为；推测"
+      ],
+      "reason": "A先说没听清，B让其看书并再次说明，下一轮仍要求放慢；这里是直接看书的指令。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "我再说一次。请看书。",
+        "speaker": "B",
+        "sectionKey": "新内容-w01d3-0",
+        "sectionLabel": "今天的对话",
+        "scene": "请对方放慢速度，并确认一个词的意思。",
+        "contextNote": null,
+        "originalWordNote": "句末语尾",
+        "originalLemmas": [
+          "보다"
+        ],
+        "neighbors": [
+          {
+            "id": "w01d3-1",
+            "speaker": "A",
+            "ko": "미안해요. 잘 못 들었어요.",
+            "zh": "不好意思，我没听清。"
+          },
+          {
+            "id": "w01d3-3",
+            "speaker": "A",
+            "ko": "천천히 말해 주세요.",
+            "zh": "请说慢一点。"
+          },
+          {
+            "id": "w01d3-4",
+            "speaker": "B",
+            "ko": "네. 책을 보세요.",
+            "zh": "好的。请看书。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "26847",
+          "61190",
+          "62171"
+        ],
+        "dictionaryHeadwordMeaning": "动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w07d5-6",
+      "lessonId": "w07d5",
+      "ko": "새 단어를 익힌 뒤에는 어제 배운 대화를 다시 말해 보세요.",
+      "wordIndex": 9,
+      "surface": "보세요.",
+      "headword": "보다",
+      "contextMeaning": "试着说出、复述",
+      "senseTag": "尝试表达",
+      "morphologyNote": "말해 是 말하다 的连接形，后接辅助 보다；보세요 礼貌建议对方试做前面的动作。",
+      "dictionaryMeaning": "보다：动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+      "otherSenses": [
+        "用眼睛看",
+        "比较：比……",
+        "认为；推测"
+      ],
+      "reason": "前句抱怨一直背新词很累，后句提议确认不懂之处再复述；不是去观看昨天对话的文字。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "学完新词后，再试着说昨天学的对话。",
+        "speaker": "B",
+        "sectionKey": "新内容-w07d5-0",
+        "sectionLabel": "今天的对话",
+        "scene": "描述分心原因，协商可以坚持的学习安排。",
+        "contextNote": null,
+        "originalWordNote": "句末语尾",
+        "originalLemmas": [
+          "보다"
+        ],
+        "neighbors": [
+          {
+            "id": "w07d5-4",
+            "speaker": "B",
+            "ko": "그럼 한 시간 동안은 휴대폰을 다른 방에 두는 게 어때요?",
+            "zh": "那每次学一小时，期间把手机放在别的房间怎么样？"
+          },
+          {
+            "id": "w07d5-5",
+            "speaker": "A",
+            "ko": "새 단어만 계속 외우는 것도 힘들어요.",
+            "zh": "一直背新单词也很累。"
+          },
+          {
+            "id": "w07d5-7",
+            "speaker": "A",
+            "ko": "모르는 부분을 확인하고 다시 말하면 되겠네요.",
+            "zh": "确认不懂的地方后再说一次就行了吧。"
+          },
+          {
+            "id": "w07d5-8",
+            "speaker": "B",
+            "ko": "네. 오래 앉아 있는 것보다 집중해서 여러 번 꺼내 쓰는 게 중요해요.",
+            "zh": "对，比久坐更重要的是专心地多次回想并使用。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "26847",
+          "61190",
+          "62171"
+        ],
+        "dictionaryHeadwordMeaning": "动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w19d2-deep-w19-22-4-10",
+      "lessonId": "w19d2",
+      "ko": "따라서 정확히 같은 횟수를 기계적으로 맞추기보다 두 사람 모두 바꾸기 어려운 일정과 비교적 조정할 수 있는 시간을 먼저 공개하는 방식으로 협의를 시작했습니다.",
+      "wordIndex": 5,
+      "surface": "맞추기보다",
+      "headword": "보다",
+      "contextMeaning": "比起……；相比于……",
+      "senseTag": "比较选择",
+      "morphologyNote": "맞추기 是 맞추다 加名词化 -기；其后 보다 为比较助词。本标签只说明复合词形中的 보다，不改 맞추다 的组成。",
+      "dictionaryMeaning": "맞추다：配；组装；拼；比较；对；核对 / 보다：动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+      "otherSenses": [
+        "看见",
+        "试着做",
+        "推测"
+      ],
+      "reason": "报告先比较家庭双方难以改变的条件，再改用公开各自日程的协商方法；맞추기보다 对比机械凑相同次数与后面的替代做法。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "因此，他们没有机械地追求次数完全相同，而是先公开各自难以变动的安排和相对可调整的时间，以此开始协商。",
+        "speaker": "B",
+        "sectionKey": "新内容-w19d2-4",
+        "sectionLabel": "照护安排为何反复失衡",
+        "scene": "虚构家庭与工作安排的连续案例报告；讨论照护时间、资源和协商，不涉及医疗建议。",
+        "contextNote": null,
+        "originalWordNote": "名词化语尾",
+        "originalLemmas": [
+          "맞추다",
+          "보다"
+        ],
+        "neighbors": [
+          {
+            "id": "w19d2-deep-w19-22-4-8",
+            "speaker": "B",
+            "ko": "오빠는 당장 반씩 나누면 출근 시간을 지키기 어려워 수입이 줄어들 수 있다며, 가족 전체의 형편을 생각하면 지금의 분담을 유지해야 한다고 주장했습니다.",
+            "zh": "哥哥认为若立刻平分，就难以保证到店时间，收入可能下降，因此主张考虑整个家庭的经济状况，应维持当前分工。"
+          },
+          {
+            "id": "w19d2-deep-w19-22-4-9",
+            "speaker": "B",
+            "ko": "이 주장은 생계라는 현실적인 제약을 지적하지만, 한 사람의 소득을 지키기 위해 다른 사람의 경력과 휴식이 계속 희생되어도 괜찮다는 결론까지 정당화하지는 못합니다.",
+            "zh": "这个主张指出了生计这一现实约束，却不足以证明另一种结论合理：为了保住一个人的收入，可以持续牺牲另一个人的职业发展和休息。"
+          },
+          {
+            "id": "w19d2-deep-w19-22-4-11",
+            "speaker": "B",
+            "ko": "이번 목요일의 외출 시간을 오후로 옮길 수 있다면 오빠가 동행하고, 시간을 바꾸지 못한다면 외부의 도움을 구하는 연락을 오빠가 맡는 대체 방안을 정했습니다.",
+            "zh": "他们制定了替代方案：如果本周四的外出能改到下午，就由哥哥陪同；如果改不了，则由哥哥负责联系外部帮助。"
+          },
+          {
+            "id": "w19d2-deep-w19-22-4-12",
+            "speaker": "B",
+            "ko": "다만 외부의 도움을 받을 수 있다는 가정은 지역의 자원과 비용에 따라 달라지므로, 아직 확인하지 않은 서비스를 이미 확보된 수단처럼 계획에 넣어서는 안 됩니다.",
+            "zh": "不过，能否获得外部帮助取决于当地资源与费用，不能把尚未确认的服务，当成已经获得的手段放进计划。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "26847",
+          "61190",
+          "62171"
+        ],
+        "dictionaryHeadwordMeaning": "动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w10d4-immersion-50-15",
+      "lessonId": "w10d4",
+      "ko": "혼자 들으면 숫자를 잊을까 봐 걱정이에요.",
+      "wordIndex": 4,
+      "surface": "봐",
+      "headword": "보다",
+      "contextMeaning": "怕……；担心会……",
+      "senseTag": "担忧可能",
+      "morphologyNote": "잊을까 后接 봐，构成 -을까 봐；봐 是 보다 的缩合连接形，在此与 걱정이에요 表示担忧可能发生的事，不是实际看见忘记。",
+      "dictionaryMeaning": "보다：动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+      "otherSenses": [
+        "直接看",
+        "尝试",
+        "认为；根据迹象推测"
+      ],
+      "reason": "A请求陪伴读就诊说明，B提出请员工写下来；数字遗忘尚未发生，是A担心独自听说明后的可能结果。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "我担心一个人听会忘记数字。",
+        "speaker": "A",
+        "sectionKey": "新内容-w10d4-1",
+        "sectionLabel": "朋友帮忙但不替人回答",
+        "scene": "陪诊朋友协助交流，同时让患者自己描述感受。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "보다"
+        ],
+        "neighbors": [
+          {
+            "id": "w10d4-immersion-50-13",
+            "speaker": "A",
+            "ko": "진료가 끝나면 안내를 같이 읽어 줄래요?",
+            "zh": "看诊结束后，可以和我一起读说明吗？"
+          },
+          {
+            "id": "w10d4-immersion-50-14",
+            "speaker": "B",
+            "ko": "좋아요. 중요한 시간과 다음 예약을 확인해요.",
+            "zh": "好，确认重要时间和下次预约。"
+          },
+          {
+            "id": "w10d4-immersion-50-16",
+            "speaker": "B",
+            "ko": "직원에게 종이에 적어 달라고 할 수도 있어요.",
+            "zh": "也可以请员工写在纸上。"
+          },
+          {
+            "id": "w10d4-immersion-50-17",
+            "speaker": "A",
+            "ko": "제 건강 이야기는 다른 친구들에게 말하지 말아 주세요.",
+            "zh": "我的健康情况，请别告诉其他朋友。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "26847",
+          "61190",
+          "62171"
+        ],
+        "dictionaryHeadwordMeaning": "动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w20d4-deep-w19-22-19-7",
+      "lessonId": "w20d4",
+      "ko": "그럼 아예 빼는 게 낫다고 보세요?",
+      "wordIndex": 5,
+      "surface": "보세요?",
+      "headword": "보다",
+      "contextMeaning": "认为；看待为……",
+      "senseTag": "判断意见",
+      "morphologyNote": "낫다고 后接 보세요 问对方判断；-시- 敬重被问的对方，整句不是让人用眼睛看撤下来的画。",
+      "dictionaryMeaning": "보다：动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+      "otherSenses": [
+        "用眼睛看",
+        "尝试",
+        "比较"
+      ],
+      "reason": "策展人与社区代表讨论宣传画摆放，后句澄清并非首先要求撤掉，而要说明展示理由；当前是在问对方立场。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "那您认为干脆撤掉更好？",
+        "speaker": "A",
+        "sectionKey": "新内容-w20d4-2",
+        "sectionLabel": "展出的海报在替谁说话",
+        "scene": "虚构教学场景：策展人与社区代表讨论虚构旧工厂宣传画；画面吸引力与受害者经验可能冲突，双方协商展示比例和解释位置。",
+        "contextNote": null,
+        "originalWordNote": "句末语尾",
+        "originalLemmas": [
+          "보다"
+        ],
+        "neighbors": [
+          {
+            "id": "w20d4-deep-w19-22-19-5",
+            "speaker": "A",
+            "ko": "아, 그림과 설명을 따로 보고 지나갈 수도 있겠네요.",
+            "zh": "啊，人们也可能只看画，没看说明就走过去。"
+          },
+          {
+            "id": "w20d4-deep-w19-22-19-6",
+            "speaker": "B",
+            "ko": "맞아요. 여기서 일하던 가족 이야기를 가진 주민은 이런 배치가 불편할 수 있어요.",
+            "zh": "对。有家人在这里工作过的居民，可能会对这样的摆放感到不适。"
+          },
+          {
+            "id": "w20d4-deep-w19-22-19-8",
+            "speaker": "B",
+            "ko": "빼 달라는 말부터 하려던 건 아니에요. 왜 보여 주는지 입구에서도 읽히게 해 주세요.",
+            "zh": "我不是想先要求撤掉。请让人在入口也能读懂为什么展示。"
+          },
+          {
+            "id": "w20d4-deep-w19-22-19-9",
+            "speaker": "A",
+            "ko": "제작한 쪽의 의도와 실제 노동 조건을 같이 놓아야겠군요.",
+            "zh": "那就要把制作者意图与实际劳动条件放在一起。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "26847",
+          "61190",
+          "62171"
+        ],
+        "dictionaryHeadwordMeaning": "动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w13d2-3",
+      "lessonId": "w13d2",
+      "ko": "그러네요. 두꺼운 옷을 입어서 겨울이라고 생각했나 봐요.",
+      "wordIndex": 6,
+      "surface": "봐요.",
+      "headword": "보다",
+      "contextMeaning": "看来；大概……了",
+      "senseTag": "推测过去",
+      "morphologyNote": "생각했나 后接 봐요，构成过去形式加 -나 보다 的推测；不是“试着想”，也不是直接看到思想。",
+      "dictionaryMeaning": "보다：动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+      "otherSenses": [
+        "看",
+        "尝试",
+        "比较"
+      ],
+      "reason": "照片日期是四月，人物根据穿厚衣和记忆混淆推测自己先前误认为冬天；后面还承认白花可能被记成雪，保留不确定性。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "也是，可能因为穿得厚，我以为是冬天。",
+        "speaker": "A",
+        "sectionKey": "新内容-w13d2-0",
+        "sectionLabel": "今天的对话",
+        "scene": "承认记忆不确定，用资料修正叙述。",
+        "contextNote": null,
+        "originalWordNote": "句末语尾",
+        "originalLemmas": [
+          "보다"
+        ],
+        "neighbors": [
+          {
+            "id": "w13d2-1",
+            "speaker": "A",
+            "ko": "그 여행은 겨울이었죠? 눈이 많이 왔던 것 같아요.",
+            "zh": "那次旅行是冬天吧？我记得好像下了很多雪。"
+          },
+          {
+            "id": "w13d2-2",
+            "speaker": "B",
+            "ko": "사진 날짜를 보니 사월이네요. 다른 여행과 섞인 게 아닐까요?",
+            "zh": "看照片日期是四月，会不会和另一次旅行混了？"
+          },
+          {
+            "id": "w13d2-4",
+            "speaker": "B",
+            "ko": "산에서 갑자기 추워졌던 건 기억나요.",
+            "zh": "我记得在山上突然变冷了。"
+          },
+          {
+            "id": "w13d2-5",
+            "speaker": "A",
+            "ko": "제가 눈이라고 기억한 건 길가의 흰 꽃일 수도 있겠어요.",
+            "zh": "我记成雪的，可能是路边的白花。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "26847",
+          "61190",
+          "62171"
+        ],
+        "dictionaryHeadwordMeaning": "动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w04d4-7",
+      "lessonId": "w04d4",
+      "ko": "제가 카드로 다 낼게요. 나중에 보내 주세요.",
+      "wordIndex": 3,
+      "surface": "낼게요.",
+      "headword": "내다",
+      "contextMeaning": "付钱；支付费用",
+      "senseTag": "付款",
+      "morphologyNote": "내- 加意志词尾 -ㄹ게요 成 낼게요；카드로 说明付款方式，다 承接本次全部餐费。",
+      "dictionaryMeaning": "내다：开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+      "otherSenses": [
+        "交作业或文件",
+        "发出声音",
+        "产生或表现感情"
+      ],
+      "reason": "邻句正在分清每人加多少钱、能否分别结账，后句要收据；“我先全付、之后给我转来”锁定付款义。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "我先用卡付全部，你之后转给我吧。",
+        "speaker": "A",
+        "sectionKey": "新内容-w04d4-0",
+        "sectionLabel": "今天的对话",
+        "scene": "核对各自点了什么，询问能否分开付款。",
+        "contextNote": null,
+        "originalWordNote": "句末语尾",
+        "originalLemmas": [
+          "내다"
+        ],
+        "neighbors": [
+          {
+            "id": "w04d4-5",
+            "speaker": "A",
+            "ko": "맞아요. 이천 원씩 더 내면 돼요.",
+            "zh": "对，每人再付两千韩元就行。"
+          },
+          {
+            "id": "w04d4-6",
+            "speaker": "B",
+            "ko": "직원에게 따로 계산해 달라고 할까요?",
+            "zh": "要请店员分开结账吗？"
+          },
+          {
+            "id": "w04d4-8",
+            "speaker": "B",
+            "ko": "좋아요. 영수증도 받아 주세요.",
+            "zh": "好，也请把收据拿一下。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "89906",
+          "60625"
+        ],
+        "dictionaryHeadwordMeaning": "开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w07d6-12",
+      "lessonId": "w07d6",
+      "ko": "숙제는 언제까지 내야 해요?",
+      "wordIndex": 2,
+      "surface": "내야",
+      "headword": "내다",
+      "contextMeaning": "交；提交作业",
+      "senseTag": "提交作业",
+      "morphologyNote": "내야 是 내다 加 -어야，与 해요 组成必要/应做结构；언제까지 问提交截止时间。",
+      "dictionaryMeaning": "내다：开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+      "otherSenses": [
+        "支付费用",
+        "发出声音",
+        "开出通道或店铺"
+      ],
+      "reason": "邻句谈韩语课资料网页，下一句回答星期五之前交；不指给作业付钱。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "作业最晚什么时候交？",
+        "speaker": "B",
+        "sectionKey": "新内容-w07d6-0",
+        "sectionLabel": "综合对话",
+        "scene": "同学交流韩语课的学习安排。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "내다"
+        ],
+        "neighbors": [
+          {
+            "id": "w07d6-10",
+            "speaker": "B",
+            "ko": "한국어 자료는 어디에서 봐요?",
+            "zh": "韩语的资料在哪里看？"
+          },
+          {
+            "id": "w07d6-11",
+            "speaker": "A",
+            "ko": "수업 홈페이지에 올라와요.",
+            "zh": "会上传到课程网页。"
+          },
+          {
+            "id": "w07d6-13",
+            "speaker": "A",
+            "ko": "금요일까지 내면 돼요.",
+            "zh": "星期五之前交就行。"
+          },
+          {
+            "id": "w07d6-14",
+            "speaker": "B",
+            "ko": "같이 공부할 사람을 찾고 있어요.",
+            "zh": "我在找一起学习的人。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "89906",
+          "60625"
+        ],
+        "dictionaryHeadwordMeaning": "开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w07d6-20",
+      "lessonId": "w07d6",
+      "ko": "중요한 표현은 소리 내어 읽어요.",
+      "wordIndex": 3,
+      "surface": "내어",
+      "headword": "내다",
+      "contextMeaning": "发出声音；出声朗读",
+      "senseTag": "出声",
+      "morphologyNote": "내어 是 내다 的连接形，소리 是发出的声音（此处未显式带 를）；后接 읽어요 说明出声读。",
+      "dictionaryMeaning": "내다：开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+      "otherSenses": [
+        "付款",
+        "提交文件",
+        "使感情显现"
+      ],
+      "reason": "前后是讨论错题、整理不懂词和复习；把重要表达念出声，与付款和“靠自己终于完成”的辅助내다不同。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "重要的表达要出声读。",
+        "speaker": "B",
+        "sectionKey": "新内容-w07d6-0",
+        "sectionLabel": "综合对话",
+        "scene": "同学交流韩语课的学习安排。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "내다"
+        ],
+        "neighbors": [
+          {
+            "id": "w07d6-18",
+            "speaker": "B",
+            "ko": "틀린 답은 왜 틀렸는지 이야기해요.",
+            "zh": "错题我们聊聊为什么错。"
+          },
+          {
+            "id": "w07d6-19",
+            "speaker": "A",
+            "ko": "모르는 단어도 정리해요.",
+            "zh": "不懂的词也整理一下。"
+          },
+          {
+            "id": "w07d6-21",
+            "speaker": "A",
+            "ko": "주말에는 한국어를 다시 복습해요.",
+            "zh": "周末再复习韩语。"
+          },
+          {
+            "id": "w07d6-22",
+            "speaker": "B",
+            "ko": "다음 수업 전에 질문을 준비할게요.",
+            "zh": "下次上课前我会准备问题。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "89906",
+          "60625"
+        ],
+        "dictionaryHeadwordMeaning": "开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w13d3-1",
+      "lessonId": "w13d3",
+      "ko": "제가 약속을 취소했다고 친구가 화를 냈어요.",
+      "wordIndex": 5,
+      "surface": "냈어요.",
+      "headword": "내다",
+      "contextMeaning": "生气；发火（화를 내다）",
+      "senseTag": "表现怒气",
+      "morphologyNote": "냈어요 是 내다 的过去礼貌体；화를 是感情宾语，화를 내다 指生气/发怒。취소했다고 是转述，不自动证明真实取消。",
+      "dictionaryMeaning": "내다：开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+      "otherSenses": [
+        "支付",
+        "提交",
+        "发出声音"
+      ],
+      "reason": "后两句立刻询问是否真的说取消，并澄清信息只写可能迟到；本句报告朋友的反应，不能据此认定A真的取消。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "朋友因为我取消约定生气了。",
+        "speaker": "A",
+        "sectionKey": "新内容-w13d3-0",
+        "sectionLabel": "今天的对话",
+        "scene": "分别转述双方说法，区分行为与意图。",
+        "contextNote": null,
+        "originalWordNote": "时态或尊敬成分；句末语尾",
+        "originalLemmas": [
+          "내다"
+        ],
+        "neighbors": [
+          {
+            "id": "w13d3-2",
+            "speaker": "B",
+            "ko": "실제로 취소한다고 말했어요?",
+            "zh": "你真的说了取消吗？"
+          },
+          {
+            "id": "w13d3-3",
+            "speaker": "A",
+            "ko": "늦을 수도 있다고 메시지를 보냈는데, 친구는 못 온다는 뜻으로 읽었대요.",
+            "zh": "我发消息说可能会晚到，朋友却理解成了来不了。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "89906",
+          "60625"
+        ],
+        "dictionaryHeadwordMeaning": "开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w05d3-immersion-21-1",
+      "lessonId": "w05d3",
+      "ko": "주문한 외투를 오늘 받았어요.",
+      "wordIndex": 3,
+      "surface": "받았어요.",
+      "headword": "받다",
+      "contextMeaning": "收到、拿到订购的外套",
+      "senseTag": "收到物品",
+      "morphologyNote": "받았어요 是 받다 的过去礼貌体；주문한 외투를 为已订购且收到的物品。",
+      "dictionaryMeaning": "받다：收到；得到；收；收取；征收；顶",
+      "otherSenses": [
+        "接订单",
+        "接受培训",
+        "取得同意"
+      ],
+      "reason": "顾客接着说屏幕与实物颜色不同，明确已拿到商品；不是接受教育、接订单或头顶撞击。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "今天收到了订的外套。",
+        "speaker": "A",
+        "sectionKey": "新内容-w05d3-1",
+        "sectionLabel": "照片里的外套到了",
+        "scene": "顾客收到网购外套后询问实物颜色。",
+        "contextNote": null,
+        "originalWordNote": "时态或尊敬成分；句末语尾",
+        "originalLemmas": [
+          "받다"
+        ],
+        "neighbors": [
+          {
+            "id": "w05d3-immersion-21-2",
+            "speaker": "B",
+            "ko": "상품에 문제가 있으신가요?",
+            "zh": "商品有什么问题吗？"
+          },
+          {
+            "id": "w05d3-immersion-21-3",
+            "speaker": "A",
+            "ko": "화면에서는 회색이었는데 실제로는 갈색 같아요.",
+            "zh": "屏幕上是灰色，实物却像棕色。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "66636",
+          "61478"
+        ],
+        "dictionaryHeadwordMeaning": "收到；得到；收；收取；征收；顶",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w04d5-immersion-18-14",
+      "lessonId": "w04d5",
+      "ko": "네. 친구분 주문은 따로 받겠습니다.",
+      "wordIndex": 4,
+      "surface": "받겠습니다.",
+      "headword": "받다",
+      "contextMeaning": "接；接受点单",
+      "senseTag": "受理订单",
+      "morphologyNote": "받겠습니다 是 받다 加 -겠- 与正式礼貌结尾；本句店员表示将另接朋友的订单。",
+      "dictionaryMeaning": "받다：收到；得到；收；收取；征收；顶",
+      "otherSenses": [
+        "收到寄来的物品",
+        "接受培训",
+        "取得同意"
+      ],
+      "reason": "顾客自己的食物须先确认不能吃的食材，邻句询问可否先点朋友食物；店员分开受理，不是收到已做好的菜。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "可以，朋友的订单我另外接。",
+        "speaker": "B",
+        "sectionKey": "新内容-w04d5-1",
+        "sectionLabel": "先问调料再下单",
+        "scene": "顾客向店员说明不能吃的食材，不擅自判断菜名。",
+        "contextNote": null,
+        "originalWordNote": "时态或尊敬成分；句末语尾",
+        "originalLemmas": [
+          "받다"
+        ],
+        "neighbors": [
+          {
+            "id": "w04d5-immersion-18-12",
+            "speaker": "B",
+            "ko": "그렇게 하셔도 됩니다. 안전이 먼저니까요.",
+            "zh": "可以这样做，安全最重要。"
+          },
+          {
+            "id": "w04d5-immersion-18-13",
+            "speaker": "A",
+            "ko": "친구 음식은 먼저 주문할 수 있죠?",
+            "zh": "我朋友的菜可以先点吧？"
+          },
+          {
+            "id": "w04d5-immersion-18-15",
+            "speaker": "A",
+            "ko": "제 음식은 확인한 내용을 듣고 결정할게요.",
+            "zh": "我的菜等听完确认结果再决定。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "66636",
+          "61478"
+        ],
+        "dictionaryHeadwordMeaning": "收到；得到；收；收取；征收；顶",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w18d1-immersion-121-5",
+      "lessonId": "w18d1",
+      "ko": "교육을 받으면 전부 가능하지 않을까요?",
+      "wordIndex": 1,
+      "surface": "받으면",
+      "headword": "받다",
+      "contextMeaning": "接受、参加培训",
+      "senseTag": "接受培训",
+      "morphologyNote": "받으면 是 받다 的条件形；교육을 为所接受的培训。全句为讨论者的试探问法，不断言培训足以处理所有任务。",
+      "dictionaryMeaning": "받다：收到；得到；收；收取；征收；顶",
+      "otherSenses": [
+        "收到物品",
+        "领取工资",
+        "获得同意"
+      ],
+      "reason": "前句提个人信息和安全要另有责任，后句要求除培训外还需监督；本句谈接受培训，不是领取一本培训材料。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "经过培训，不是全部都能做吗？",
+        "speaker": "B",
+        "sectionKey": "新内容-w18d1-2",
+        "sectionLabel": "志愿者能够承担什么",
+        "scene": "居民讨论用志愿服务延长开放时间的责任边界。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "받다"
+        ],
+        "neighbors": [
+          {
+            "id": "w18d1-immersion-121-3",
+            "speaker": "B",
+            "ko": "책 정리나 안내를 도울 수 있어요.",
+            "zh": "可以帮忙整理书籍或引导。"
+          },
+          {
+            "id": "w18d1-immersion-121-4",
+            "speaker": "A",
+            "ko": "개인 정보와 안전 문제는 별도 책임이 필요해요.",
+            "zh": "个人信息和安全问题需要另有负责安排。"
+          },
+          {
+            "id": "w18d1-immersion-121-6",
+            "speaker": "A",
+            "ko": "교육뿐 아니라 감독할 사람도 있어야 해요.",
+            "zh": "除了培训，也需要监督人员。"
+          },
+          {
+            "id": "w18d1-immersion-121-7",
+            "speaker": "B",
+            "ko": "봉사 시간이 곧 직원 시간을 대신하진 않네요.",
+            "zh": "志愿服务时间并不直接替代员工时间啊。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "66636",
+          "61478"
+        ],
+        "dictionaryHeadwordMeaning": "收到；得到；收；收取；征收；顶",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w22d2-coverage-expansion-13-1",
+      "lessonId": "w22d2",
+      "ko": "인터뷰 영상을 홍보물에 넣으려고 하는데, 촬영할 때 받은 사전동의로 충분할까요?",
+      "wordIndex": 7,
+      "surface": "받은",
+      "headword": "받다",
+      "contextMeaning": "取得、获得事先同意",
+      "senseTag": "取得同意",
+      "morphologyNote": "받은 是 받다 的过去冠形形，修饰 사전동의；촬영할 때 限定原先取得同意的场合。",
+      "dictionaryMeaning": "받다：收到；得到；收；收取；征收；顶",
+      "otherSenses": [
+        "收到物品",
+        "受理订单",
+        "接受培训"
+      ],
+      "reason": "下一句明确原来只说课堂观看，如今公开范围改变要再问；取得拍摄时同意不等于授权所有以后用途。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "我想把采访视频放进宣传材料里，拍摄时取得的事先同意够用吗？",
+        "speaker": "A",
+        "sectionKey": "新内容-w22d2-5",
+        "sectionLabel": "课堂采访能直接拿去做宣传吗",
+        "scene": "A是学生项目的视频编辑，B是负责联络受访者的同组成员。两人讨论把课堂采访改作公开宣传时的同意范围、音乐使用记录和原文件访问权限。使用해요体。",
+        "contextNote": null,
+        "originalWordNote": "修饰名词的语尾",
+        "originalLemmas": [
+          "받다"
+        ],
+        "neighbors": [
+          {
+            "id": "w22d2-coverage-expansion-13-2",
+            "speaker": "B",
+            "ko": "그때는 수업에서만 보겠다고 했잖아요. 공개 범위가 달라지니 다시 물어보죠.",
+            "zh": "当时说的是只在课堂上看。公开范围变了，我们再问一下吧。"
+          },
+          {
+            "id": "w22d2-coverage-expansion-13-3",
+            "speaker": "A",
+            "ko": "네. 사전동의가 있었다는 이유로 어디에나 써도 된다고 생각하면 안 되겠네요.",
+            "zh": "好。不能因为之前取得过同意，就以为什么地方都能用。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "66636",
+          "61478"
+        ],
+        "dictionaryHeadwordMeaning": "收到；得到；收；收取；征收；顶",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w07d4-immersion-32-1",
+      "lessonId": "w07d4",
+      "ko": "빌리다를 알아도 말할 때는 생각이 안 나요.",
+      "wordIndex": 6,
+      "surface": "나요.",
+      "headword": "나다",
+      "contextMeaning": "想起；记起（本句为想不起来）",
+      "senseTag": "想起来",
+      "morphologyNote": "생각이 为主语；안 나요 否定 나다，整组 생각이 나다 表想起来。알아도 与 말할 때 对比认得词和开口时回忆不出。",
+      "dictionaryMeaning": "나다：动词：出现、发生；长出；发出（声音、气味等）。",
+      "otherSenses": [
+        "发出声音",
+        "出现干劲",
+        "-고 나서：做完以后"
+      ],
+      "reason": "后面追问实际使用场景，A说下雨想临时借朋友的伞；当前困难是主动回想빌리다，而非脑内长出物体。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "虽然认识빌리다，说话时却想不起来。",
+        "speaker": "A",
+        "sectionKey": "新内容-w07d4-1",
+        "sectionLabel": "知道词义却说不出句子",
+        "scene": "同学通过真实借伞场景理解词语的搭配。",
+        "contextNote": null,
+        "originalWordNote": "句末语尾",
+        "originalLemmas": [
+          "나다"
+        ],
+        "neighbors": [
+          {
+            "id": "w07d4-immersion-32-2",
+            "speaker": "B",
+            "ko": "어떤 상황에서 쓰고 싶었어요?",
+            "zh": "你想在什么情境里用？"
+          },
+          {
+            "id": "w07d4-immersion-32-3",
+            "speaker": "A",
+            "ko": "비가 와서 친구 우산을 잠깐 쓰고 싶었어요.",
+            "zh": "下雨了，想临时用朋友的伞。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "62210",
+          "62134"
+        ],
+        "dictionaryHeadwordMeaning": "动词：出现、发生；长出；发出（声音、气味等）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w11d3-immersion-55-3",
+      "lessonId": "w11d3",
+      "ko": "어젯밤 열한 시쯤 바닥에서 큰 소리가 났습니다.",
+      "wordIndex": 6,
+      "surface": "났습니다.",
+      "headword": "나다",
+      "contextMeaning": "发出、传来声音",
+      "senseTag": "声音产生",
+      "morphologyNote": "났습니다 是 나다 的过去正式礼貌体；소리가 为主语，바닥에서 是声音被听到的来源位置。",
+      "dictionaryMeaning": "나다：动词：出现、发生；长出；发出（声音、气味等）。",
+      "otherSenses": [
+        "想起",
+        "出现干劲",
+        "长出植物"
+      ],
+      "reason": "邻句问是不是搬家具声，A回答像是但不确定；确定的是听到大声，具体成因未证实。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "昨晚十一点左右，地板传来很大的声音。",
+        "speaker": "A",
+        "sectionKey": "新内容-w11d3-1",
+        "sectionLabel": "声音是从几时开始的",
+        "scene": "邻居沟通夜间噪声，区分具体声音与猜测。",
+        "contextNote": null,
+        "originalWordNote": "时态或尊敬成分；句末语尾",
+        "originalLemmas": [
+          "나다"
+        ],
+        "neighbors": [
+          {
+            "id": "w11d3-immersion-55-1",
+            "speaker": "A",
+            "ko": "늦은 시간에 찾아와서 죄송합니다.",
+            "zh": "这么晚来打扰，抱歉。"
+          },
+          {
+            "id": "w11d3-immersion-55-2",
+            "speaker": "B",
+            "ko": "괜찮습니다. 무슨 일이세요?",
+            "zh": "没关系，有什么事？"
+          },
+          {
+            "id": "w11d3-immersion-55-4",
+            "speaker": "B",
+            "ko": "가구를 옮기는 소리였나요?",
+            "zh": "是搬家具的声音吗？"
+          },
+          {
+            "id": "w11d3-immersion-55-5",
+            "speaker": "A",
+            "ko": "그런 것 같았지만 정확히는 모르겠습니다.",
+            "zh": "好像是，但我不能确定。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "62210",
+          "62134"
+        ],
+        "dictionaryHeadwordMeaning": "动词：出现、发生；长出；发出（声音、气味等）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w03d3-immersion-11-8",
+      "lessonId": "w03d3",
+      "ko": "영화를 보고 나서 먹어도 괜찮아요.",
+      "wordIndex": 2,
+      "surface": "나서",
+      "headword": "나다",
+      "contextMeaning": "做完……之后",
+      "senseTag": "动作完成后",
+      "morphologyNote": "보고 中 -고 连接后面的辅助 나다；나서 构成 -고 나서，表示看电影结束后再做后项。本处不是声音、气味出现。",
+      "dictionaryMeaning": "나다：动词：出现、发生；长出；发出（声音、气味等）。",
+      "otherSenses": [
+        "出现声音或现象",
+        "想起来",
+        "长出"
+      ],
+      "reason": "前句说五点前吃饭太早，当前把吃饭排在看电影之后；后句再商量买票与通知家人，锁定时间顺序。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "看完电影再吃也可以。",
+        "speaker": "B",
+        "sectionKey": "新内容-w03d3-1",
+        "sectionLabel": "电影和家人的电话",
+        "scene": "朋友调整电影时间，给家人的电话留出空当。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "나다"
+        ],
+        "neighbors": [
+          {
+            "id": "w03d3-immersion-11-6",
+            "speaker": "B",
+            "ko": "좋아요. 저녁을 먹고 볼까요?",
+            "zh": "好，吃过晚饭再看吗？"
+          },
+          {
+            "id": "w03d3-immersion-11-7",
+            "speaker": "A",
+            "ko": "다섯 시 전에 먹기에는 조금 이르네요.",
+            "zh": "五点前吃晚饭有点早。"
+          },
+          {
+            "id": "w03d3-immersion-11-9",
+            "speaker": "A",
+            "ko": "표를 지금 사면 될까요?",
+            "zh": "现在买票可以吗？"
+          },
+          {
+            "id": "w03d3-immersion-11-10",
+            "speaker": "B",
+            "ko": "네. 저는 먼저 가족에게 시간을 알려 줄게요.",
+            "zh": "可以，我先告诉家人时间。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "62210",
+          "62134"
+        ],
+        "dictionaryHeadwordMeaning": "动词：出现、发生；长出；发出（声音、气味等）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w07d6-24",
+      "lessonId": "w07d6",
+      "ko": "고마워요. 같이 하니까 힘이 나요.",
+      "wordIndex": 4,
+      "surface": "나요.",
+      "headword": "나다",
+      "contextMeaning": "产生干劲；精神振作起来",
+      "senseTag": "有干劲",
+      "morphologyNote": "힘이 为主语，나요 为 나다 的礼貌体；같이 하니까 表因为一起做而有干劲。",
+      "dictionaryMeaning": "나다：动词：出现、发生；长出；发出（声音、气味等）。",
+      "otherSenses": [
+        "想起",
+        "发出声音",
+        "长出"
+      ],
+      "reason": "邻句准备问题、鼓励这样会更容易，当前为一起学习获得动力；没有声称身体力量测量提高。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "谢谢，一起学让我更有干劲。",
+        "speaker": "B",
+        "sectionKey": "新内容-w07d6-0",
+        "sectionLabel": "综合对话",
+        "scene": "同学交流韩语课的学习安排。",
+        "contextNote": null,
+        "originalWordNote": "句末语尾",
+        "originalLemmas": [
+          "나다"
+        ],
+        "neighbors": [
+          {
+            "id": "w07d6-22",
+            "speaker": "B",
+            "ko": "다음 수업 전에 질문을 준비할게요.",
+            "zh": "下次上课前我会准备问题。"
+          },
+          {
+            "id": "w07d6-23",
+            "speaker": "A",
+            "ko": "그렇게 하면 훨씬 쉬워질 거예요.",
+            "zh": "那样做会容易得多。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "62210",
+          "62134"
+        ],
+        "dictionaryHeadwordMeaning": "动词：出现、发生；长出；发出（声音、气味等）。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w09d2-3",
+      "lessonId": "w09d2",
+      "ko": "네. 처음부터 계획을 너무 크게 잡았나 봐요.",
+      "wordIndex": 5,
+      "surface": "잡았나",
+      "headword": "잡다",
+      "contextMeaning": "设定、安排计划的规模",
+      "senseTag": "确定计划",
+      "morphologyNote": "잡았나 是 잡다 的过去形式接疑问成分，后有 봐요 形成推测；크게 说明计划规模定得大。",
+      "dictionaryMeaning": "잡다：抓；揪；捕",
+      "otherSenses": [
+        "用手握住",
+        "估算数量金额",
+        "抓住机会"
+      ],
+      "reason": "前面曾每天跑一小时而本周没出门，后面建议改成每周走三次；当前反思计划设得过大，不是抓住一个实物。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "是的，可能一开始把计划定得太大了。",
+        "speaker": "A",
+        "sectionKey": "新内容-w09d2-0",
+        "sectionLabel": "今天的对话",
+        "scene": "比较过高计划和可以持续的小安排。",
+        "contextNote": null,
+        "originalWordNote": "时态或尊敬成分；连接语尾",
+        "originalLemmas": [
+          "잡다"
+        ],
+        "neighbors": [
+          {
+            "id": "w09d2-1",
+            "speaker": "A",
+            "ko": "지난주에는 매일 한 시간씩 뛰다가 이번 주에는 안 나갔어요.",
+            "zh": "上周每天跑一小时，到了这周就没出门了。"
+          },
+          {
+            "id": "w09d2-2",
+            "speaker": "B",
+            "ko": "너무 힘들었어요?",
+            "zh": "太累了吗？"
+          },
+          {
+            "id": "w09d2-4",
+            "speaker": "B",
+            "ko": "매일 뛰기보다 일주일에 세 번 걷는 건 어때요?",
+            "zh": "比起每天跑步，一周走三次怎么样？"
+          },
+          {
+            "id": "w09d2-5",
+            "speaker": "A",
+            "ko": "그 정도로도 시작했다고 할 수 있을까요?",
+            "zh": "那样也算开始运动了吗？"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "70378"
+        ],
+        "dictionaryHeadwordMeaning": "抓；揪；捕",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w17d1-reading-bridges-3-3",
+      "lessonId": "w17d1",
+      "ko": "B 제품은 구입비가 9만 원이지만 매월 잉크값은 6천 원으로 잡았다.",
+      "wordIndex": 9,
+      "surface": "잡았다.",
+      "headword": "잡다",
+      "contextMeaning": "按某个金额估算、设定",
+      "senseTag": "估算金额",
+      "morphologyNote": "6천 원으로 中 으로 为估算采用的数值；잡았다 是书面过去陈述。本处把月墨水费作为报告假设。",
+      "dictionaryMeaning": "잡다：抓；揪；捕",
+      "otherSenses": [
+        "安排日期或计划",
+        "手握",
+        "抓住机会"
+      ],
+      "reason": "前句也对A产品作每月费用假设，后两句在相同打印量下计算六个月总费；不能把这个数字当作真实市场报价。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "B 产品的购买费用为九万韩元，但每月墨水费用按六千韩元计算。",
+        "speaker": "B",
+        "sectionKey": "新内容-w17d1-4",
+        "sectionLabel": "两台打印机的总费用比较",
+        "scene": "虚构小组购买方案报告：同一位报告人朗读；设备、金额、使用期和印量均为教学假设，练习同条件比较及结论适用范围。",
+        "contextNote": null,
+        "originalWordNote": "时态或尊敬成分；句末语尾",
+        "originalLemmas": [
+          "잡다"
+        ],
+        "neighbors": [
+          {
+            "id": "w17d1-reading-bridges-3-1",
+            "speaker": "B",
+            "ko": "이 보고서는 소모임에서 여섯 달 동안 사용할 프린터 두 대의 예상 비용을 비교한 것이다.",
+            "zh": "这份报告比较了小组准备使用六个月的两台打印机的预计费用。"
+          },
+          {
+            "id": "w17d1-reading-bridges-3-2",
+            "speaker": "B",
+            "ko": "A 제품은 구입비가 6만 원이고 매월 잉크값은 1만 2천 원으로 가정한다.",
+            "zh": "假设 A 产品的购买费用为六万韩元，每月墨水费用为一万二千韩元。"
+          },
+          {
+            "id": "w17d1-reading-bridges-3-4",
+            "speaker": "B",
+            "ko": "같은 양을 인쇄한다는 조건에서 여섯 달의 총비용은 A 제품이 13만 2천 원, B 제품이 12만 6천 원이다.",
+            "zh": "在打印量相同的条件下，六个月的总费用，A 产品为十三万二千韩元，B 产品为十二万六千韩元。"
+          },
+          {
+            "id": "w17d1-reading-bridges-3-5",
+            "speaker": "B",
+            "ko": "따라서 제시된 조건에서는 B 제품이 처음에는 더 비싸지만 총비용은 6천 원 적다.",
+            "zh": "因此，在给定条件下，B 产品虽然初次购买更贵，但总费用少六千韩元。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "70378"
+        ],
+        "dictionaryHeadwordMeaning": "抓；揪；捕",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w14d2-immersion-78-5",
+      "lessonId": "w14d2",
+      "ko": "각자 잘못 잡는 부분을 확인하기 어려워요.",
+      "wordIndex": 2,
+      "surface": "잡는",
+      "headword": "잡다",
+      "contextMeaning": "握；抓握设备",
+      "senseTag": "握持操作",
+      "morphologyNote": "잡는 是 잡다 的现在冠形形，修饰 부분；잘못 指握持操作有误，没有给出具体器具或握法。",
+      "dictionaryMeaning": "잡다：抓；揪；捕",
+      "otherSenses": [
+        "设定计划",
+        "估算",
+        "捕捉"
+      ],
+      "reason": "邻句明确设备操作要直接看、视频展示手部动作仍难确认每人的错误；不是抓拍场景或制定计划。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "很难确认每个人握错的地方。",
+        "speaker": "B",
+        "sectionKey": "新内容-w14d2-1",
+        "sectionLabel": "线上培训与现场操作",
+        "scene": "同事比较知识讲解和操作训练的不同需求。",
+        "contextNote": null,
+        "originalWordNote": "修饰名词的语尾",
+        "originalLemmas": [
+          "잡다"
+        ],
+        "neighbors": [
+          {
+            "id": "w14d2-immersion-78-3",
+            "speaker": "B",
+            "ko": "하지만 장비 조작은 직접 봐야 해요.",
+            "zh": "但设备操作需要现场看。"
+          },
+          {
+            "id": "w14d2-immersion-78-4",
+            "speaker": "A",
+            "ko": "영상으로 손동작을 보여 주면요?",
+            "zh": "用视频展示手部动作呢？"
+          },
+          {
+            "id": "w14d2-immersion-78-6",
+            "speaker": "A",
+            "ko": "이동 시간을 아낀다는 장점은 있죠.",
+            "zh": "确实有节省通勤时间的优点。"
+          },
+          {
+            "id": "w14d2-immersion-78-7",
+            "speaker": "B",
+            "ko": "그 시간에 재교육을 하면 이득이 줄어요.",
+            "zh": "如果用那段时间补训，收益就少了。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "70378"
+        ],
+        "dictionaryHeadwordMeaning": "抓；揪；捕",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w07d6-17",
+      "lessonId": "w07d6",
+      "ko": "좋아요. 먼저 문제를 풀어 봐요.",
+      "wordIndex": 3,
+      "surface": "풀어",
+      "headword": "풀다",
+      "contextMeaning": "解答；做题",
+      "senseTag": "解题",
+      "morphologyNote": "풀어 是 풀다 的连接形，后接 봐요 表尝试；本标签说明 풀다，辅助보다不改成看的对象。",
+      "dictionaryMeaning": "풀다：解开；解；拆开；打开",
+      "otherSenses": [
+        "解开绳结",
+        "拆包装或行李",
+        "化解情绪"
+      ],
+      "reason": "同学约图书馆一起学韩语，后句讨论错题为什么错；문제를 풀다 指求解题目。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "好，先试着做题。",
+        "speaker": "A",
+        "sectionKey": "新内容-w07d6-0",
+        "sectionLabel": "综合对话",
+        "scene": "同学交流韩语课的学习安排。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "풀다"
+        ],
+        "neighbors": [
+          {
+            "id": "w07d6-15",
+            "speaker": "A",
+            "ko": "저는 오후에 시간이 있어요.",
+            "zh": "我下午有时间。"
+          },
+          {
+            "id": "w07d6-16",
+            "speaker": "B",
+            "ko": "도서관에서 한국어를 같이 공부할까요?",
+            "zh": "我们在图书馆一起学韩语好吗？"
+          },
+          {
+            "id": "w07d6-18",
+            "speaker": "B",
+            "ko": "틀린 답은 왜 틀렸는지 이야기해요.",
+            "zh": "错题我们聊聊为什么错。"
+          },
+          {
+            "id": "w07d6-19",
+            "speaker": "A",
+            "ko": "모르는 단어도 정리해요.",
+            "zh": "不懂的词也整理一下。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "29761"
+        ],
+        "dictionaryHeadwordMeaning": "解开；解；拆开；打开",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w12d3-immersion-61-9",
+      "lessonId": "w12d3",
+      "ko": "짐은 아직 풀지 않았어요.",
+      "wordIndex": 2,
+      "surface": "풀지",
+      "headword": "풀다",
+      "contextMeaning": "打开、解开行李；开始取出行李物品",
+      "senseTag": "打开行李",
+      "morphologyNote": "풀지 后接 않았어요 为过去否定；짐을 풀다 是打开/整理行李，本句省略宾语助词而以짐은作主题。",
+      "dictionaryMeaning": "풀다：解开；解；拆开；打开",
+      "otherSenses": [
+        "解题",
+        "解开绑物",
+        "化解情绪"
+      ],
+      "reason": "旅客请求换成两床房，前台查余房并让其到大厅等；未开行李说明仍便于换房，不是解决一道行李题。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "行李还没有打开。",
+        "speaker": "A",
+        "sectionKey": "新内容-w12d3-1",
+        "sectionLabel": "房间里少了一张床",
+        "scene": "旅客与前台核对房型差异和可行安排。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "풀다"
+        ],
+        "neighbors": [
+          {
+            "id": "w12d3-immersion-61-7",
+            "speaker": "A",
+            "ko": "침대가 두 개 있는 방으로 바꿀 수 있나요?",
+            "zh": "能换成有两张床的房间吗？"
+          },
+          {
+            "id": "w12d3-immersion-61-8",
+            "speaker": "B",
+            "ko": "오늘 남은 방을 확인해 보겠습니다.",
+            "zh": "我确认今天剩余的房间。"
+          },
+          {
+            "id": "w12d3-immersion-61-10",
+            "speaker": "B",
+            "ko": "확인하는 동안 로비에서 기다리셔도 됩니다.",
+            "zh": "确认期间，您可以在大厅等。"
+          },
+          {
+            "id": "w12d3-immersion-61-11",
+            "speaker": "A",
+            "ko": "그런 방이 없으면 어떤 방법이 있나요?",
+            "zh": "没有那种房间，有什么办法呢？"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "29761"
+        ],
+        "dictionaryHeadwordMeaning": "解开；解；拆开；打开",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w02d2-immersion-6-4",
+      "lessonId": "w02d2",
+      "ko": "아버지는 어디 계세요?",
+      "wordIndex": 2,
+      "surface": "계세요?",
+      "headword": "계시다",
+      "contextMeaning": "在；位于照片中某处（敬称父亲）",
+      "senseTag": "敬称位置",
+      "morphologyNote": "계세요 是 계시다 礼貌体；它本身是 있다 的尊敬表达，尊敬正在谈论的父亲。어디 问照片里所在位置。",
+      "dictionaryMeaning": "계시다：在、存在（있다 的尊敬表达）",
+      "otherSenses": [
+        "-고 계시다：正做或持续持有",
+        "-어 계시다：持续某状态"
+      ],
+      "reason": "前句把一位认作父亲却被纠正为叔叔，下一句说父亲在叔叔后面；本处不是询问父亲居住城市，也不是命令他留在原地。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "爸爸在哪里？",
+        "speaker": "B",
+        "sectionKey": "新内容-w02d2-1",
+        "sectionLabel": "看家人的照片",
+        "scene": "朋友通过照片认识对方的家人。",
+        "contextNote": null,
+        "originalWordNote": "在或存在的尊敬表达；本句不是“계（计、互助会）”。",
+        "originalLemmas": [
+          "계시다"
+        ],
+        "neighbors": [
+          {
+            "id": "w02d2-immersion-6-2",
+            "speaker": "B",
+            "ko": "좋아요. 이분은 아버지세요?",
+            "zh": "好。这位是你爸爸吗？"
+          },
+          {
+            "id": "w02d2-immersion-6-3",
+            "speaker": "A",
+            "ko": "아니요. 제 삼촌이에요.",
+            "zh": "不是，是我叔叔。"
+          },
+          {
+            "id": "w02d2-immersion-6-5",
+            "speaker": "A",
+            "ko": "삼촌 뒤에 계세요.",
+            "zh": "在叔叔后面。"
+          },
+          {
+            "id": "w02d2-immersion-6-6",
+            "speaker": "B",
+            "ko": "옆에 계신 분은 어머니세요?",
+            "zh": "在旁边的那位是妈妈吗？"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "17749",
+          "61346"
+        ],
+        "dictionaryHeadwordMeaning": "在（있다 的尊敬表达）",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w05d6-16",
+      "lessonId": "w05d6",
+      "ko": "네, 꼭 가지고 계세요.",
+      "wordIndex": 3,
+      "surface": "계세요.",
+      "headword": "계시다",
+      "contextMeaning": "请留好；保持持有收据",
+      "senseTag": "敬称持续持有",
+      "morphologyNote": "가지고 계세요 由 가지다 的 -고 形与辅助 계시다 构成，礼貌请顾客继续持有；계시다 的尊敬对象为顾客。",
+      "dictionaryMeaning": "계시다：在、存在（있다 的尊敬表达）",
+      "otherSenses": [
+        "在某地点",
+        "正在做另一动作",
+        "处于某身份"
+      ],
+      "reason": "邻句说一周内可换且收据必要；省略宾语承接收据，不是让顾客待在店里。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "是的，请务必保留。",
+        "speaker": "B",
+        "sectionKey": "新内容-w05d6-0",
+        "sectionLabel": "综合对话",
+        "scene": "顾客比较包的价格与质量。",
+        "contextNote": null,
+        "originalWordNote": "在或存在的尊敬表达；本句不是“계（计、互助会）”。",
+        "originalLemmas": [
+          "계시다"
+        ],
+        "neighbors": [
+          {
+            "id": "w05d6-14",
+            "speaker": "B",
+            "ko": "일주일 안에는 가능합니다.",
+            "zh": "一周内可以换。"
+          },
+          {
+            "id": "w05d6-15",
+            "speaker": "A",
+            "ko": "영수증이 필요하겠네요.",
+            "zh": "看来要留好收据。"
+          },
+          {
+            "id": "w05d6-17",
+            "speaker": "A",
+            "ko": "그럼 이 가방을 살게요.",
+            "zh": "那我买这款包。"
+          },
+          {
+            "id": "w05d6-18",
+            "speaker": "B",
+            "ko": "포장해 드릴까요?",
+            "zh": "需要帮您包装吗？"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "17749",
+          "61346"
+        ],
+        "dictionaryHeadwordMeaning": "在（있다 的尊敬表达）",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w18d5-recurrence-advanced-2-12",
+      "lessonId": "w18d5",
+      "ko": "그 의견을 기록하고 시간이 바뀌면 읽고 계신 분들께도 알릴게요.",
+      "wordIndex": 6,
+      "surface": "계신",
+      "headword": "계시다",
+      "contextMeaning": "正在阅读（敬称读者）",
+      "senseTag": "敬称进行",
+      "morphologyNote": "읽고 계신 为 읽다 后接辅助 계시다，再以 -ㄴ 形修饰 분들；께 尊敬通知对象。",
+      "dictionaryMeaning": "계시다：在、存在（있다 的尊敬表达）",
+      "otherSenses": [
+        "敬称人在某处",
+        "持续持有物品",
+        "持续保持某状态"
+      ],
+      "reason": "图书馆读者与馆员商量噪声通知，当前馆员承诺时间变更也告知正在阅读者；不是仅说读者位于图书馆。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "我会记下这个意见，如果时间有变，也通知正在阅读的读者。",
+        "speaker": "B",
+        "sectionKey": "新内容-w18d5-5",
+        "sectionLabel": "阅读室的投诉，先确认声音从哪里来",
+        "scene": "A 是受到噪声影响的图书馆读者，B 是值班馆员。A 以为隔壁活动天天吵闹，B 澄清当天情况并共同确定提醒办法；目的为服务投诉处理，不是同事会后道歉。馆内安排为教学设定，双方使用礼貌的 해요 体，B 对读者适当用敬语。",
+        "contextNote": null,
+        "originalWordNote": "在或存在的尊敬表达；本句不是“계（计、互助会）”。",
+        "originalLemmas": [
+          "계시다"
+        ],
+        "neighbors": [
+          {
+            "id": "w18d5-recurrence-advanced-2-10",
+            "speaker": "B",
+            "ko": "네, 안내한 시간에 책을 읽기 어려웠다는 말씀으로 이해했어요.",
+            "zh": "好的，我理解您的意思是，在通知的时段内很难读书。"
+          },
+          {
+            "id": "w18d5-recurrence-advanced-2-11",
+            "speaker": "A",
+            "ko": "다음에는 시작 전에 끝나는 시간도 함께 알려 주시면 좋겠어요.",
+            "zh": "下次如果能在开始前同时告知结束时间，就好了。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "17749",
+          "61346"
+        ],
+        "dictionaryHeadwordMeaning": "在（있다 的尊敬表达）",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w04d1-immersion-14-4",
+      "lessonId": "w04d1",
+      "ko": "소스는 따로 드립니다.",
+      "wordIndex": 2,
+      "surface": "드립니다.",
+      "headword": "드리다",
+      "contextMeaning": "给您；提供酱料",
+      "senseTag": "谦敬给予",
+      "morphologyNote": "드립니다 为本动词 드리다 的正式礼貌体；소스는 为主题，따로 说明另外提供。",
+      "dictionaryMeaning": "드리다：动词：给、献上（对尊敬的人谦敬地说）；-아/어 드리다：为对方做。",
+      "otherSenses": [
+        "-어 드리다：谦敬地为对方做"
+      ],
+      "reason": "顾客问照片红酱是否已进炒饭，下一句因此可不辣，后句说明不加酱即可；本处是把酱另给顾客，不是替其做前一个动作。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "酱另外给您。",
+        "speaker": "B",
+        "sectionKey": "新内容-w04d1-1",
+        "sectionLabel": "不吃辣也能点的菜",
+        "scene": "顾客询问一道菜的味道、配菜和分量。",
+        "contextNote": null,
+        "originalWordNote": "句末语尾",
+        "originalLemmas": [
+          "드리다"
+        ],
+        "neighbors": [
+          {
+            "id": "w04d1-immersion-14-2",
+            "speaker": "B",
+            "ko": "채소와 고기를 넣은 볶음밥이에요.",
+            "zh": "是加蔬菜和肉的炒饭。"
+          },
+          {
+            "id": "w04d1-immersion-14-3",
+            "speaker": "A",
+            "ko": "사진에 있는 빨간 소스도 들어가요?",
+            "zh": "也会放照片里的红色酱吗？"
+          },
+          {
+            "id": "w04d1-immersion-14-5",
+            "speaker": "A",
+            "ko": "그럼 맵지 않게 먹을 수 있겠네요.",
+            "zh": "那可以吃不辣的了。"
+          },
+          {
+            "id": "w04d1-immersion-14-6",
+            "speaker": "B",
+            "ko": "네. 소스를 넣지 않으시면 됩니다.",
+            "zh": "是的，不放酱就可以。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "59252",
+          "61168"
+        ],
+        "dictionaryHeadwordMeaning": "动词：给、献上（对尊敬的人谦敬地说）；-아/어 드리다：为对方做。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w03d4-immersion-12-8",
+      "lessonId": "w03d4",
+      "ko": "머리 상태를 보고 먼저 설명해 드리겠습니다.",
+      "wordIndex": 5,
+      "surface": "드리겠습니다.",
+      "headword": "드리다",
+      "contextMeaning": "向您说明；为您作说明",
+      "senseTag": "谦敬辅助动作",
+      "morphologyNote": "설명해 后接辅助 드리다，드리겠습니다 表说话者承诺向顾客说明；谦敬受益者为顾客，不是给顾客一个叫说明的物件。",
+      "dictionaryMeaning": "드리다：动词：给、献上（对尊敬的人谦敬地说）；-아/어 드리다：为对方做。",
+      "otherSenses": [
+        "直接谦敬地给予物品"
+      ],
+      "reason": "顾客问是否能剪得和照片完全一样，随后问何时知道价格；理发方先查看头发状况再说明，不承诺一定完全一样。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "我们会先看头发状态，再向您说明。",
+        "speaker": "B",
+        "sectionKey": "新内容-w03d4-1",
+        "sectionLabel": "先问清预约内容",
+        "scene": "顾客预约剪发时确认项目和付款方式。",
+        "contextNote": null,
+        "originalWordNote": "时态或尊敬成分；句末语尾",
+        "originalLemmas": [
+          "드리다"
+        ],
+        "neighbors": [
+          {
+            "id": "w03d4-immersion-12-6",
+            "speaker": "B",
+            "ko": "원하시는 사진을 가져오셔도 됩니다.",
+            "zh": "可以带您想要的发型照片来。"
+          },
+          {
+            "id": "w03d4-immersion-12-7",
+            "speaker": "A",
+            "ko": "사진처럼 꼭 똑같이 되는 건가요?",
+            "zh": "会和照片完全一样吗？"
+          },
+          {
+            "id": "w03d4-immersion-12-9",
+            "speaker": "A",
+            "ko": "가격은 언제 알 수 있어요?",
+            "zh": "什么时候可以知道价格？"
+          },
+          {
+            "id": "w03d4-immersion-12-10",
+            "speaker": "B",
+            "ko": "시작하기 전에 알려 드립니다.",
+            "zh": "开始前会告诉您。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [
+          "59252",
+          "61168"
+        ],
+        "dictionaryHeadwordMeaning": "动词：给、献上（对尊敬的人谦敬地说）；-아/어 드리다：为对方做。",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w10d6-9",
+      "lessonId": "w10d6",
+      "ko": "평소에 드시는 약이 있어요?",
+      "wordIndex": 1,
+      "surface": "드시는",
+      "headword": "드시다",
+      "contextMeaning": "服用、吃药（尊敬患者）",
+      "senseTag": "敬称服药",
+      "morphologyNote": "드시는 是 드시다 的现在冠形形修饰 약；尊敬正在被医生询问的患者。平소에 限定平时习惯。",
+      "dictionaryMeaning": "드시다：吃、喝的敬语形式",
+      "otherSenses": [
+        "尊敬地吃饭",
+        "尊敬地喝饮料"
+      ],
+      "reason": "患者下一句说没有另外服用的药，随后医生谈本次药；这是询问既往用药，不是指定新药剂量或把약译成食物。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "平时在吃什么药吗？",
+        "speaker": "A",
+        "sectionKey": "新内容-w10d6-0",
+        "sectionLabel": "综合对话",
+        "scene": "患者向医生说明头痛，询问用药与复诊。",
+        "contextNote": null,
+        "originalWordNote": "修饰名词的语尾",
+        "originalLemmas": [
+          "드시다"
+        ],
+        "neighbors": [
+          {
+            "id": "w10d6-7",
+            "speaker": "A",
+            "ko": "열이나 다른 증상도 있나요?",
+            "zh": "还有发烧或其他症状吗？"
+          },
+          {
+            "id": "w10d6-8",
+            "speaker": "B",
+            "ko": "아니요, 지금은 이것만 있어요.",
+            "zh": "没有，目前只有这个症状。"
+          },
+          {
+            "id": "w10d6-10",
+            "speaker": "B",
+            "ko": "아니요, 따로 먹는 약은 없어요.",
+            "zh": "没有，没有另外服用的药。"
+          },
+          {
+            "id": "w10d6-11",
+            "speaker": "A",
+            "ko": "약을 드시고 푹 쉬세요.",
+            "zh": "吃了药好好休息。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "edited",
+        "sourceIds": [],
+        "dictionaryHeadwordMeaning": "吃、喝的敬语形式",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w04d5-immersion-18-1",
+      "lessonId": "w04d5",
+      "ko": "메뉴를 보기 전에 여쭤볼 게 있어요.",
+      "wordIndex": 3,
+      "surface": "여쭤볼",
+      "headword": "여쭈다",
+      "contextMeaning": "恭敬地问、请教",
+      "senseTag": "谦敬询问",
+      "morphologyNote": "여쭤 是 여쭈어 的缩合，后接 보다 再以 -ㄹ 修饰 게；本标签说明 여쭈다 的询问义，保持原空格和复合词形。",
+      "dictionaryMeaning": "여쭈다：问询；问；问候；问好 / 보다：动词：看、见；-아/어 보다：尝试；助词：比；副词：更（较正式）。",
+      "otherSenses": [
+        "恭敬问候、问好"
+      ],
+      "reason": "店员下一句问想知道什么，顾客继而说明不能吃花生；因此是请教菜的食材，不是打招呼问候。谦敬表达不推断店员年龄更大。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "看菜单前，我有件事想问。",
+        "speaker": "A",
+        "sectionKey": "新内容-w04d5-1",
+        "sectionLabel": "先问调料再下单",
+        "scene": "顾客向店员说明不能吃的食材，不擅自判断菜名。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾；修饰名词的语尾",
+        "originalLemmas": [
+          "여쭈다",
+          "보다"
+        ],
+        "neighbors": [
+          {
+            "id": "w04d5-immersion-18-2",
+            "speaker": "B",
+            "ko": "네. 무엇이 궁금하세요?",
+            "zh": "好的，您想知道什么？"
+          },
+          {
+            "id": "w04d5-immersion-18-3",
+            "speaker": "A",
+            "ko": "저는 땅콩을 먹을 수 없어요.",
+            "zh": "我不能吃花生。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "66573"
+        ],
+        "dictionaryHeadwordMeaning": "问询；问；问候；问好",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w11d1-immersion-53-8",
+      "lessonId": "w11d1",
+      "ko": "젖은 전기 제품을 만지지 마시고 상황을 확인할 때까지 떨어져 계세요.",
+      "wordIndex": 8,
+      "surface": "떨어져",
+      "headword": "떨어지다",
+      "contextMeaning": "离开一定距离；不要靠近",
+      "senseTag": "保持距离",
+      "morphologyNote": "떨어져 是 떨어지다 的连接形，后接 계세요 表请保持离开状态并尊敬对方；만지지 마시고 先劝勿触碰。",
+      "dictionaryMeaning": "떨어지다：掉；下降；落入；陷入",
+      "otherSenses": [
+        "物体滴落、掉落",
+        "程度或质量下降",
+        "脱离附着物"
+      ],
+      "reason": "前两句确认电器附近有水，后面请求管理室派人查看；此处指住户远离该处，不能照上一句滴水把它释成“往下掉”。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "请不要碰湿了的电器，确认情况前先离远一些。",
+        "speaker": "B",
+        "sectionKey": "新内容-w11d1-1",
+        "sectionLabel": "水从哪里滴下来",
+        "scene": "住户向管理人员描述漏水位置，并确认上门前安排。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "떨어지다"
+        ],
+        "neighbors": [
+          {
+            "id": "w11d1-immersion-53-6",
+            "speaker": "B",
+            "ko": "전기 제품 가까이에 물이 있나요?",
+            "zh": "水在电器附近吗？"
+          },
+          {
+            "id": "w11d1-immersion-53-7",
+            "speaker": "A",
+            "ko": "주전자 옆에 떨어져서 걱정입니다.",
+            "zh": "滴在热水壶旁边，我有点担心。"
+          },
+          {
+            "id": "w11d1-immersion-53-9",
+            "speaker": "A",
+            "ko": "관리실에서 바로 와 주실 수 있나요?",
+            "zh": "管理室能马上派人来吗？"
+          },
+          {
+            "id": "w11d1-immersion-53-10",
+            "speaker": "B",
+            "ko": "지금 담당자에게 알리고 방문 가능 시간을 확인하겠습니다.",
+            "zh": "现在告诉负责人，并确认可以上门的时间。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "89796"
+        ],
+        "dictionaryHeadwordMeaning": "掉；下降；落入；陷入",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w19d4-immersion-137-8",
+      "lessonId": "w19d4",
+      "ko": "피로가 쌓이면 집중의 질이 떨어질 수도 있어.",
+      "wordIndex": 4,
+      "surface": "떨어질",
+      "headword": "떨어지다",
+      "contextMeaning": "降低；下降（专注质量）",
+      "senseTag": "质量降低",
+      "morphologyNote": "떨어질 是 떨어지다 的冠形形接 수，도 有“也可能”；피로가 쌓이면 是条件，不是确定诊断。",
+      "dictionaryMeaning": "떨어지다：掉；下降；落入；陷入",
+      "otherSenses": [
+        "物理掉落",
+        "保持距离",
+        "附着物脱离"
+      ],
+      "reason": "前面讨论只增加页数和时间无效，后面缩范围并检查新资料；句子说明疲劳时专注质量可能降低。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "疲劳积累，专注质量也可能下降。",
+        "speaker": "B",
+        "sectionKey": "新内容-w19d4-1",
+        "sectionLabel": "学习目标与实际进度",
+        "scene": "语言学习者调整考试计划，区分时间、进度与能力。",
+        "contextNote": null,
+        "originalWordNote": "修饰名词的语尾",
+        "originalLemmas": [
+          "떨어지다"
+        ],
+        "neighbors": [
+          {
+            "id": "w19d4-immersion-137-6",
+            "speaker": "B",
+            "ko": "그럼 페이지 수만 늘리는 건 도움이 적겠네.",
+            "zh": "那仅增加页数，帮助有限啊。"
+          },
+          {
+            "id": "w19d4-immersion-137-7",
+            "speaker": "A",
+            "ko": "시간을 늘리면 해결될 줄 알았어.",
+            "zh": "我以为增加时间就能解决。"
+          },
+          {
+            "id": "w19d4-immersion-137-9",
+            "speaker": "A",
+            "ko": "먼저 약한 유형을 확인해서 범위를 줄일게.",
+            "zh": "我会先确认薄弱类型，缩小范围。"
+          },
+          {
+            "id": "w19d4-immersion-137-10",
+            "speaker": "B",
+            "ko": "새 자료에서 같은 문제를 푸는지도 봐.",
+            "zh": "也看能否在新材料中处理同类问题。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "89796"
+        ],
+        "dictionaryHeadwordMeaning": "掉；下降；落入；陷入",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w06d2-immersion-25-8",
+      "lessonId": "w06d2",
+      "ko": "대신 삼 층 사무실 안내가 붙어 있어요.",
+      "wordIndex": 5,
+      "surface": "붙어",
+      "headword": "붙다",
+      "contextMeaning": "贴着；附着在门上",
+      "senseTag": "附着告示",
+      "morphologyNote": "붙어 后接 있어요 表附着结果存在；안내가 是作为提示的告示，不是考试通过。",
+      "dictionaryMeaning": "붙다：粘上；吸附；考上；通过",
+      "otherSenses": [
+        "通过考试",
+        "附加条件或费用",
+        "着火"
+      ],
+      "reason": "快递员说门没有建筑名，收件人指出三楼办公室提示，下一句快递员找到了它；是门上的可见告示。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "但贴着三楼办公室的提示。",
+        "speaker": "B",
+        "sectionKey": "新内容-w06d2-1",
+        "sectionLabel": "送快递到后门",
+        "scene": "快递员与收件人确认建筑后门和交付地点。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "붙다"
+        ],
+        "neighbors": [
+          {
+            "id": "w06d2-immersion-25-6",
+            "speaker": "B",
+            "ko": "우체통을 지나면 작은 문이 있습니다.",
+            "zh": "经过邮筒就有一扇小门。"
+          },
+          {
+            "id": "w06d2-immersion-25-7",
+            "speaker": "A",
+            "ko": "문에 건물 이름이 없네요.",
+            "zh": "门上没有楼名呢。"
+          },
+          {
+            "id": "w06d2-immersion-25-9",
+            "speaker": "A",
+            "ko": "지금 그 안내를 찾았어요.",
+            "zh": "现在找到那个提示了。"
+          },
+          {
+            "id": "w06d2-immersion-25-10",
+            "speaker": "B",
+            "ko": "계단을 올라오시면 제가 기다리고 있을게요.",
+            "zh": "您上楼梯，我等着。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "74181"
+        ],
+        "dictionaryHeadwordMeaning": "粘上；吸附；考上；通过",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w17d1-immersion-110-9",
+      "lessonId": "w17d1",
+      "ko": "추가 비용이 붙을 수도 있겠다.",
+      "wordIndex": 2,
+      "surface": "붙을",
+      "headword": "붙다",
+      "contextMeaning": "另加；附带增加费用",
+      "senseTag": "附加费用",
+      "morphologyNote": "붙을 是 붙다 的冠形形接 수도 있겠다，表达可能附加费用的推测，不是确认已收费。",
+      "dictionaryMeaning": "붙다：粘上；吸附；考上；通过",
+      "otherSenses": [
+        "物体粘贴",
+        "考试通过",
+        "点着火"
+      ],
+      "reason": "前句提醒确认不同分店能否使用，后面按预计去的次数比较套餐；该项提醒可能附加费用。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "也可能另加费用。",
+        "speaker": "B",
+        "sectionKey": "新内容-w17d1-2",
+        "sectionLabel": "低价会员的退出成本",
+        "scene": "使用者比较会员套餐的价格、期限和退出条件。",
+        "contextNote": null,
+        "originalWordNote": "修饰名词的语尾",
+        "originalLemmas": [
+          "붙다"
+        ],
+        "neighbors": [
+          {
+            "id": "w17d1-immersion-110-7",
+            "speaker": "B",
+            "ko": "그러면 남은 기간을 못 쓰겠네.",
+            "zh": "那剩余期限就用不了。"
+          },
+          {
+            "id": "w17d1-immersion-110-8",
+            "speaker": "A",
+            "ko": "다른 지점에서 이용 가능한지도 확인해.",
+            "zh": "也确认能否在其他分店使用。"
+          },
+          {
+            "id": "w17d1-immersion-110-10",
+            "speaker": "A",
+            "ko": "매달 예상 이용 횟수도 적어 보자.",
+            "zh": "也写下每个月预计使用次数吧。"
+          },
+          {
+            "id": "w17d1-immersion-110-11",
+            "speaker": "B",
+            "ko": "야근이 많으면 두 번밖에 못 갈 수도 있어.",
+            "zh": "加班多时，也可能只能去两次。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "74181"
+        ],
+        "dictionaryHeadwordMeaning": "粘上；吸附；考上；通过",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w12d2-recurrence-foundation-8-10",
+      "lessonId": "w12d2",
+      "ko": "네. 기름병은 세워서 담을게요.",
+      "wordIndex": 2,
+      "surface": "세워서",
+      "headword": "세우다",
+      "contextMeaning": "把油瓶立起来、竖着放",
+      "senseTag": "使瓶子竖立",
+      "morphologyNote": "세워서 为 세우다 与 -어서 的缩合，后面的 담을게요 表店主将按此姿态装好。",
+      "dictionaryMeaning": "세우다：扶起；使站立；立起；挺起",
+      "otherSenses": [
+        "制定计划",
+        "建立设施",
+        "使车辆停下"
+      ],
+      "reason": "顾客请油和土豆分开装，店主答把油瓶立着装；不是让人站立或制定计划。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "可以，我把油瓶立着装好。",
+        "speaker": "B",
+        "sectionKey": "新内容-w12d2-3",
+        "sectionLabel": "看清袋底价格，再选油和土豆",
+        "scene": "A是来买厨房用品和食材的顾客，B是小食品店店主。A分辨两种大小的土豆袋并选择气味较淡的食用油，目的是确认购买规格和打包方式。使用礼貌的해요体；油的描述是虚构商品的店内说明。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "세우다"
+        ],
+        "neighbors": [
+          {
+            "id": "w12d2-recurrence-foundation-8-8",
+            "speaker": "B",
+            "ko": "이 기름은 냄새가 거의 안 나요.",
+            "zh": "这种油几乎没有气味。"
+          },
+          {
+            "id": "w12d2-recurrence-foundation-8-9",
+            "speaker": "A",
+            "ko": "좋아요. 감자하고 따로 담아 주실래요?",
+            "zh": "好。可以和土豆分开装吗？"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "58163"
+        ],
+        "dictionaryHeadwordMeaning": "扶起；使站立；立起；挺起",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w12d6-immersion-64-15",
+      "lessonId": "w12d6",
+      "ko": "이번 경험이 다음 계획을 세우는 데 도움이 되겠네요.",
+      "wordIndex": 4,
+      "surface": "세우는",
+      "headword": "세우다",
+      "contextMeaning": "制定、确立计划",
+      "senseTag": "制定计划",
+      "morphologyNote": "세우는 是 세우다 的现在冠形形；계획을 为对象，-는 데 指制定下次计划这一活动。",
+      "dictionaryMeaning": "세우다：扶起；使站立；立起；挺起",
+      "otherSenses": [
+        "物体竖立",
+        "建立机构",
+        "使机器停止"
+      ],
+      "reason": "朋友回顾旅行并说下次少排行程、某地多待；本句连接此次经验与下次制定计划，不是立起纸上的日程表。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "这次经历会有助于制定下次计划呢。",
+        "speaker": "A",
+        "sectionKey": "新内容-w12d6-1",
+        "sectionLabel": "回来之后找到了什么",
+        "scene": "朋友回顾旅行中改变的计划和难忘的小事。",
+        "contextNote": null,
+        "originalWordNote": "修饰名词的语尾",
+        "originalLemmas": [
+          "세우다"
+        ],
+        "neighbors": [
+          {
+            "id": "w12d6-immersion-64-13",
+            "speaker": "A",
+            "ko": "다음 여행에서는 무엇을 바꾸고 싶어요?",
+            "zh": "下次旅行想改变什么？"
+          },
+          {
+            "id": "w12d6-immersion-64-14",
+            "speaker": "B",
+            "ko": "일정은 덜 넣고 한곳에 조금 더 오래 있고 싶어요.",
+            "zh": "少安排些行程，在一个地方多待一会儿。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "58163"
+        ],
+        "dictionaryHeadwordMeaning": "扶起；使站立；立起；挺起",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w18d4-5",
+      "lessonId": "w18d4",
+      "ko": "규칙을 지키지 않는 경우에는 어떻게 하죠?",
+      "wordIndex": 1,
+      "surface": "지키지",
+      "headword": "지키다",
+      "contextMeaning": "遵守；按规则做",
+      "senseTag": "遵守规则",
+      "morphologyNote": "지키지 后接 않는 为否定冠形形，修饰 경우；규칙을 是遵守的对象。",
+      "dictionaryMeaning": "지키다：守护；保卫；守卫",
+      "otherSenses": [
+        "守护权益或安全",
+        "守住地点",
+        "保持状态"
+      ],
+      "reason": "前面提准确说明/管理/居民实践共同作用，后句要求先确认有无机会知道规则再按流程处理；本句询问不遵守时怎么办，不是武力守卫规则。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "对于不遵守规则的情况，该怎么办？",
+        "speaker": "A",
+        "sectionKey": "新内容-w18d4-0",
+        "sectionLabel": "今天的对话",
+        "scene": "区分个人责任、制度条件和执行方式。",
+        "contextNote": null,
+        "originalWordNote": "连接语尾",
+        "originalLemmas": [
+          "지키다"
+        ],
+        "neighbors": [
+          {
+            "id": "w18d4-3",
+            "speaker": "A",
+            "ko": "시설을 바꾸면 문제가 모두 해결될까요?",
+            "zh": "换设施就能解决所有问题吗？"
+          },
+          {
+            "id": "w18d4-4",
+            "speaker": "B",
+            "ko": "그것만으로는 어렵죠. 정확한 안내와 관리, 주민의 실천이 함께 필요해요.",
+            "zh": "单靠那个很难，需要准确说明、管理和居民实践共同配合。"
+          },
+          {
+            "id": "w18d4-6",
+            "speaker": "B",
+            "ko": "먼저 규칙을 알 수 있었는지 확인하고, 반복되는 문제는 정해진 절차로 대응해야겠어요.",
+            "zh": "应先确认对方有机会知道规则，再按既定流程处理反复发生的问题。"
+          },
+          {
+            "id": "w18d4-7",
+            "speaker": "A",
+            "ko": "개인을 탓하는 것과 환경을 개선하는 것을 따로 볼 필요는 없겠네요.",
+            "zh": "看来不必把个人责任和环境改善割裂来看。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "29754"
+        ],
+        "dictionaryHeadwordMeaning": "守护；保卫；守卫",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    },
+    {
+      "lineId": "w20d6-deep-w19-22-24-11",
+      "lessonId": "w20d6",
+      "ko": "자세한 사정을 공개해야만 선택을 존중하는 방식이라면, 손님은 자신의 경계를 지키기 위해 원하지 않는 개인 정보를 먼저 제공해야 하는 모순에 놓일 수 있습니다.",
+      "wordIndex": 9,
+      "surface": "지키기",
+      "headword": "지키다",
+      "contextMeaning": "维护、守住自己的边界",
+      "senseTag": "保护个人边界",
+      "morphologyNote": "지키기 为 지키다 加 -기，위해 表目的；경계를 指个人不愿透露信息的界限，不是地理边境。",
+      "dictionaryMeaning": "지키다：守护；保卫；守卫",
+      "otherSenses": [
+        "遵守约定或规则",
+        "守卫地点",
+        "维持状态"
+      ],
+      "reason": "前句决定直接尊重不喝酒并摆出饮料，当前用条件论证如果须说明私事才被尊重，会形成矛盾；并非说客人已实际交出了隐私。",
+      "confidence": "reviewed-project-inference",
+      "sourceEvidence": {
+        "zh": "如果只有公开详细情况，选择才被尊重，客人就可能陷入矛盾：为守住边界，先提供自己不想透露的个人信息。",
+        "speaker": "B",
+        "sectionKey": "新内容-w20d6-3",
+        "sectionLabel": "让新客人参与而不是让他猜规则",
+        "scene": "虚构家庭节庆的接待案例报告；时间、人数和活动规则属于教学设定，不宣称统一的韩国礼俗。",
+        "contextNote": null,
+        "originalWordNote": "名词化语尾",
+        "originalLemmas": [
+          "지키다"
+        ],
+        "neighbors": [
+          {
+            "id": "w20d6-deep-w19-22-24-9",
+            "speaker": "B",
+            "ko": "이 반대가 지키려는 것은 관심과 따뜻함이지만, 그 목적을 이루는 방법이 반드시 같은 제안을 반복하는 것일 필요는 없으며 물이나 다른 음식을 준비하는 방식도 가능합니다.",
+            "zh": "这个反对想维护的是关心与温暖，但达到该目的，不必非得重复同一提议，也可以准备水或其他食物。"
+          },
+          {
+            "id": "w20d6-deep-w19-22-24-10",
+            "speaker": "B",
+            "ko": "따라서 주인은 술을 마시지 않는 이유를 손님 대신 자세히 설명하기보다, 마시지 않겠다는 말을 그대로 받아들이고 선택할 수 있는 음료를 눈에 보이게 놓기로 했습니다.",
+            "zh": "因此，主人不替客人详细解释不饮酒的原因，而决定直接接受其“不喝”的表示，并把可选饮料放在看得见的地方。"
+          },
+          {
+            "id": "w20d6-deep-w19-22-24-12",
+            "speaker": "B",
+            "ko": "가족을 기억하는 활동도 이 집에서는 사진을 보며 각자의 이야기를 나누는 방식이었는데, 처음 온 사람에게는 참여를 권하는 말만으로 무엇을 해야 하는지 알기 어려웠습니다.",
+            "zh": "在这个家中，纪念家人的活动是看照片、分享各自故事，但首次来的人只听“请参加”，难以知道要做什么。"
+          },
+          {
+            "id": "w20d6-deep-w19-22-24-13",
+            "speaker": "B",
+            "ko": "주인은 말을 하지 않고 듣기만 해도 된다고 설명했고, 손님은 자신이 알지 못하는 기억을 꾸며 내기보다 함께 앉아서 듣는 방식으로 존중을 표현하기로 했습니다.",
+            "zh": "主人说明不说话、只听也可以；客人决定不编造自己不知道的记忆，而以一起坐着倾听来表达尊重。"
+          }
+        ]
+      },
+      "lexicalBasis": {
+        "sourceFile": "data/vocabulary.json",
+        "usageFile": "data/vocabulary-usage.json",
+        "source": "krdict",
+        "sourceIds": [
+          "29754"
+        ],
+        "dictionaryHeadwordMeaning": "守护；保卫；守卫",
+        "localUsageHasLimitedSampleSenses": true
+      }
+    }
+  ],
+  "negativeCases": [
+    {
+      "decisionLineId": "w01d3-2",
+      "testType": "exact-lock-field-mutation",
+      "mutateField": "lineId",
+      "expected": "Return unchanged input when any exact field differs."
+    },
+    {
+      "decisionLineId": "w01d3-2",
+      "testType": "exact-lock-field-mutation",
+      "mutateField": "ko",
+      "expected": "Return unchanged input when any exact field differs."
+    },
+    {
+      "decisionLineId": "w01d3-2",
+      "testType": "exact-lock-field-mutation",
+      "mutateField": "wordIndex",
+      "expected": "Return unchanged input when any exact field differs."
+    },
+    {
+      "decisionLineId": "w01d3-2",
+      "testType": "exact-lock-field-mutation",
+      "mutateField": "surface",
+      "expected": "Return unchanged input when any exact field differs."
+    },
+    {
+      "decisionLineId": "w01d3-2",
+      "testType": "exact-lock-field-mutation",
+      "mutateField": "headword",
+      "expected": "Return unchanged input when any exact field differs."
+    },
+    {
+      "decisionLineId": "w01d3-2",
+      "testType": "same-conjugation-different-line-and-sense",
+      "counterpart": {
+        "lineId": "w20d4-deep-w19-22-19-7",
+        "ko": "그럼 아예 빼는 게 낫다고 보세요?",
+        "wordIndex": 5,
+        "surface": "보세요?",
+        "headword": "보다"
+      },
+      "expected": "Do not transfer looking-at-book sense to a question about judgement."
+    },
+    {
+      "decisionLineId": "w02d2-immersion-6-4",
+      "testType": "same-headword-different-construction",
+      "counterpart": {
+        "lineId": "w18d5-recurrence-advanced-2-12",
+        "ko": "그 의견을 기록하고 시간이 바뀌면 읽고 계신 분들께도 알릴게요.",
+        "wordIndex": 6,
+        "surface": "계신",
+        "headword": "계시다"
+      },
+      "expected": "Do not transfer location-of-father sense to ongoing reading."
+    },
+    {
+      "decisionLineId": "w11d1-immersion-53-8",
+      "testType": "same-headword-neighbor-different-sense",
+      "counterpart": {
+        "lineId": "w11d1-immersion-53-7",
+        "ko": "주전자 옆에 떨어져서 걱정입니다.",
+        "wordIndex": 2,
+        "surface": "떨어져서",
+        "headword": "떨어지다"
+      },
+      "expected": "Do not transfer keep-distance sense to water dripping by the kettle."
+    },
+    {
+      "testType": "wrong-lemma-requires-index-repair-first",
+      "lineIds": [
+        "w16d3-8",
+        "w19d4-deep-w19-22-8-11",
+        "w25d1-deep-w23-26-25-11",
+        "w25d3-immersion-174-15"
+      ],
+      "expected": "Do not add an appropriate-looking Chinese context sense to wrong lemmas."
+    }
+  ],
+  "outOfScopeFindings": [
+    {
+      "lineId": "w16d3-8",
+      "lessonId": "w16d3",
+      "ko": "네. 감정은 존중하면서 확인 가능한 사실은 정확히 바로잡으면 됩니다.",
+      "zh": "对，尊重感受，同时准确纠正可核实的事实。",
+      "wordIndex": 7,
+      "surface": "바로잡으면",
+      "originalLemmas": [
+        "바로",
+        "잡다"
+      ],
+      "dictionaryMeaning": "바로：笔直地；照实；如实 / 잡다：抓；揪；捕",
+      "scene": "面对负面反馈，区分可核实内容与情绪。",
+      "neighbors": [
+        {
+          "id": "w16d3-6",
+          "speaker": "B",
+          "ko": "먼저 안내가 늦어진 점을 인정하고, 실제 조치와 남은 절차를 설명하는 게 좋겠습니다.",
+          "zh": "最好先承认说明延迟，再解释实际措施和剩余步骤。"
+        },
+        {
+          "id": "w16d3-7",
+          "speaker": "A",
+          "ko": "고객이 답답했다고 느낀 것까지 틀렸다고 할 수는 없겠죠.",
+          "zh": "也不能说顾客感到焦急这个感受是错的吧。"
+        }
+      ],
+      "status": "separate-exact-index-repair-required-not-a-context-sense-positive",
+      "suggestedHeadword": "바로잡다",
+      "suggestedAction": "exact-lemma-correction",
+      "issue": "收录词바로잡다的纠正义；当前拆成바로/잡다，不能把这些组成词误算成该整词的可靠用义。"
+    },
+    {
+      "lineId": "w19d4-deep-w19-22-8-11",
+      "lessonId": "w19d4",
+      "ko": "팀은 공개 날짜와 마지막 수정 날짜를 나란히 표시하고, 이용자가 변경된 상황을 알려 주면 담당자가 확인한 뒤 수정하는 절차도 안내서 안에 포함했습니다.",
+      "zh": "团队并列标明公开日期和最后修改日期，并在指南中加入流程：使用者报告变化后，由负责人核实再修订。",
+      "wordIndex": 18,
+      "surface": "안내서",
+      "originalLemmas": [
+        "안",
+        "내다"
+      ],
+      "dictionaryMeaning": "안：名词：里面、内部；否定副词：不。 / 내다：开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+      "scene": "虚构社区指南项目报告；场所数量、完成进度与截止日期均为教学设定，讨论公开范围和质量标准。",
+      "neighbors": [
+        {
+          "id": "w19d4-deep-w19-22-8-9",
+          "speaker": "B",
+          "ko": "이때 확인된 곳이라는 표현도 무엇을 확인했는지가 없으면 지나치게 넓게 읽힐 수 있으므로, 입구 사진의 촬영 시점과 관리자의 답변 여부를 함께 적었습니다.",
+          "zh": "此时，如果不说明核实了什么，“已核实地点”也可能被过度解读，因此他们一同记录了入口照片拍摄时间和是否收到管理者回复。"
+        },
+        {
+          "id": "w19d4-deep-w19-22-8-10",
+          "speaker": "B",
+          "ko": "사진에 보이지 않는 통로가 있을 수도 있고 관리자의 답변 이후에 공사가 시작될 수도 있기 때문에, 자료의 출처를 적는 것만으로 내용이 영원히 유효해지는 것은 아닙니다.",
+          "zh": "因为可能有照片未拍到的通道，也可能在管理者回复后开始施工，所以写明资料来源，并不意味着内容永远有效。"
+        },
+        {
+          "id": "w19d4-deep-w19-22-8-12",
+          "speaker": "B",
+          "ko": "다만 이용자의 제보가 들어오기를 기다리는 방식만으로 품질을 유지하면 잘못된 정보 때문에 이미 불편을 겪은 사람에게 검증의 부담을 떠넘기게 될 수 있습니다.",
+          "zh": "但如果仅靠等待使用者反馈来维持质量，就可能把核实的负担转嫁给已经因错误信息遭遇不便的人。"
+        },
+        {
+          "id": "w19d4-deep-w19-22-8-13",
+          "speaker": "B",
+          "ko": "그 점을 보완하려고 팀은 다음 달에 다시 확인할 항목을 정하되, 모든 정보를 같은 간격으로 확인하기보다 공사나 운영 시간처럼 변하기 쉬운 내용에 먼저 시간을 쓰기로 했습니다.",
+          "zh": "为补足这一点，团队确定下个月需复核的项目，并不按同样间隔核实所有信息，而优先把时间用于施工、营业时间等易变内容。"
+        }
+      ],
+      "status": "separate-exact-index-repair-required-not-a-context-sense-positive",
+      "suggestedHeadword": null,
+      "suggestedAction": "unlink-whole-uncollected-compound-and-keep-context-hint",
+      "issue": "안내서指指南，当前安/否定+内다并非此词的可靠词根；整词未收录，不以另造词条假增覆盖。"
+    },
+    {
+      "lineId": "w25d1-deep-w23-26-25-11",
+      "lessonId": "w25d1",
+      "ko": "안내는 선택으로 두고 독서 모임은 따로 검토할게요.",
+      "zh": "接待引导由您自行选择，读书会我们会另外讨论。",
+      "wordIndex": 0,
+      "surface": "안내는",
+      "originalLemmas": [
+        "안",
+        "내다"
+      ],
+      "dictionaryMeaning": "안：名词：里面、内部；否定副词：不。 / 내다：开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+      "scene": "教学假设：社区活动管理员想让退休成员自动转入志愿值班，退休教师希望保留自主选择与照护时间。",
+      "neighbors": [
+        {
+          "id": "w25d1-deep-w23-26-25-9",
+          "speaker": "A",
+          "ko": "부담을 덜자는 계획이 다른 부담을 넘겨주고 있었네요.",
+          "zh": "原来我们减轻负担的计划，却把另一种负担转给了您。"
+        },
+        {
+          "id": "w25d1-deep-w23-26-25-10",
+          "speaker": "B",
+          "ko": "저도 도움이 필요해요. 맡을 일과 받을 지원을 함께 말하죠.",
+          "zh": "我也需要帮助。我们把我要承担的工作和能得到的支持一起谈吧。"
+        },
+        {
+          "id": "w25d1-deep-w23-26-25-12",
+          "speaker": "B",
+          "ko": "그러면 참여하겠어요. 나이가 같다고 생활까지 같은 것은 아니니까요.",
+          "zh": "这样我愿意参加。年龄相同并不代表生活也相同。"
+        }
+      ],
+      "status": "separate-exact-index-repair-required-not-a-context-sense-positive",
+      "suggestedHeadword": "안내",
+      "suggestedAction": "exact-lemma-correction",
+      "issue": "안내+主题助词는，是接待引导/说明名词；不是否定안与内다活用。"
+    },
+    {
+      "lineId": "w25d3-immersion-174-15",
+      "lessonId": "w25d3",
+      "ko": "안내는 당사자가 이해하는 언어로 제공할 수 있다.",
+      "zh": "可以用当事人理解的语言提供引导。",
+      "wordIndex": 0,
+      "surface": "안내는",
+      "originalLemmas": [
+        "안",
+        "내다"
+      ],
+      "dictionaryMeaning": "안：名词：里面、内部；否定副词：不。 / 내다：开；钻；打；划；表示前句中的行动依靠自己的力量最终得以实现。",
+      "scene": "讨论劳动需求、权利、长期融入和地方差异。",
+      "neighbors": [
+        {
+          "id": "w25d3-immersion-174-13",
+          "speaker": "B",
+          "ko": "언어 지원은 서비스 이용을 도울 수 있다.",
+          "zh": "语言支持可以帮助使用服务。"
+        },
+        {
+          "id": "w25d3-immersion-174-14",
+          "speaker": "B",
+          "ko": "이해하기 어려운 계약은 권리 행사를 막는다.",
+          "zh": "难以理解的合同会妨碍行使权利。"
+        },
+        {
+          "id": "w25d3-immersion-174-16",
+          "speaker": "B",
+          "ko": "고용주의 설명만으로 정보를 제한해서는 안 된다.",
+          "zh": "不能把信息限制为仅由雇主说明。"
+        },
+        {
+          "id": "w25d3-immersion-174-17",
+          "speaker": "B",
+          "ko": "독립적인 상담 통로가 필요하다.",
+          "zh": "需要独立咨询渠道。"
+        }
+      ],
+      "status": "separate-exact-index-repair-required-not-a-context-sense-positive",
+      "suggestedHeadword": "안내",
+      "suggestedAction": "exact-lemma-correction",
+      "issue": "안내+主题助词는，是接待引导/说明名词；不是否定안与内다活用。"
+    }
+  ],
+  "sources": {
+    "localFiles": [
+      "data/vocabulary.json",
+      "data/vocabulary-usage.json"
+    ],
+    "officialWebSourcesRead": [
+      {
+        "title": "韩国语基础词典内다1",
+        "url": "https://krdict.korean.go.kr/eng/dicSearch/SearchView?ParaWordNo=89906",
+        "readEvidence": "实际读取第13/14/17/20义，分别支持表现感情、交文件、付款、发出声音；本地usage只保留部分早期义项。"
+      },
+      {
+        "title": "韩国语基础词典잡다",
+        "url": "https://krdict.korean.go.kr/jpn/dicSearch/SearchView?ParaWordNo=70378",
+        "readEvidence": "实际读取第1/15/22义，区分握持、确定计划与估算数量。"
+      },
+      {
+        "title": "韩国语基础词典나다2",
+        "url": "https://krdict.korean.go.kr/eng/dicSearch/SearchView?ParaWordNo=62134",
+        "readEvidence": "实际读取辅助动词第2义与-고 나다结构，支持动作结束后。"
+      },
+      {
+        "title": "韩国语基础词典세우다",
+        "url": "https://krdict.korean.go.kr/eng/dicSearch/SearchView?ParaWordNo=58163",
+        "readEvidence": "实际读取第4义制定计划及第12义使物体竖立。"
+      },
+      {
+        "title": "韩国语基础词典바로잡다",
+        "url": "https://krdict.korean.go.kr/eng/dicSearch/SearchView?ParaWordNo=15441",
+        "readEvidence": "实际读取第2义纠正错误，支持单独精确修复词根。"
+      }
+    ],
+    "unavailableWebReads": [
+      "KRDict jpn 89906/58163 initially inaccessible; eng pages then actually read.",
+      "KRDict eng/jpn 62171 and eng 61346 unavailable; no online-read success claimed for these pages."
+    ],
+    "scope": "官方词典支持一般词义或构式，课程本句义仍是项目根据真实上下文推断，不是官方审校。"
+  },
+  "limitations": [
+    "仅38个精确旧原句位置，不把相同词形推广到未审场景。",
+    "dictionaryMeaning保留Word.meaning原串；lemma、组成词、空格、标点与原note均不改。",
+    "一词多lemmas的词形只给指定headword释义，不把整个surface伪装成单一词头。",
+    "所有38项有实际可用邻句，sourceEvidence不补造人物或台词。",
+    "本地usage只采样部分义项，不能因某义缺失就认定课程链接错；编辑词条也不一概宣称官方原词典。",
+    "4条精确误链另修，不计正例。",
+    "没有独立母语教师审校、自动客观正确率或考试能力证明。",
+    "仅只读素材研究和helper回归；不代表root后续编译/浏览器/整站verify/发布完成。"
+  ],
+  "validation": {
+    "helper": "lib/dialogue-context-sense.ts applyReviewedContextSense",
+    "checkedAgainst": "current public/immersion originals; 8269 records",
+    "positiveApplications": 38,
+    "rejectedMutations": 266,
+    "dictionaryMeaningExactMatches": 38,
+    "prior41LineIdOverlap": 0,
+    "originalMeaningLemmasNotesPreserved": true,
+    "testSource": "/tmp/korean-round5-helper-check.ts",
+    "scope": "Read-only helper checks; no course generation, whole-project verify or browser/hosting operation."
+  }
+}

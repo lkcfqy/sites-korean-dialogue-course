@@ -1,0 +1,33 @@
+import assert from "node:assert/strict";
+import {readFileSync,writeFileSync} from "node:fs";
+import {foundationUnits} from "../data/foundation";
+import {grammarWeeks,grammarExercises} from "../data/grammar-course";
+import {baseGrammarExercises} from "../data/base-grammar-exercises";
+import {listeningTexts,readingTexts,comprehensionExercises} from "../data/comprehension-course";
+import {completionTasks,completionExercises,dataTasks} from "../data/writing-course";
+import {stages,stageExercises} from "../data/stage-assessments";
+import {intensiveWeeks} from "../data/intensive-course";
+import {lessons} from "../data/course";
+import {dailyExercises} from "../lib/daily-exercises";
+import type {Exercise} from "../data/exercise-types";
+import type {UsageSense} from "../lib/vocabulary-usage-types";
+const usage:Record<string,UsageSense[]>=JSON.parse(readFileSync(new URL("../data/vocabulary-usage.json",import.meta.url),"utf8"));
+const words:{ko:string}[]=JSON.parse(readFileSync(new URL("../data/vocabulary.json",import.meta.url),"utf8"));
+assert.equal(Object.keys(usage).length,words.length);
+for(const word of words){const senses=usage[word.ko];assert.ok(senses?.length,`missing ${word.ko}`);assert.ok(senses.some(s=>s.sentences.length||s.conversation.length),`no usable context ${word.ko}`);for(const s of senses){assert.ok(s.meaning&&s.definition);if(s.source==="krdict")assert.ok(s.entryId&&s.senseId);if(s.source==="edited"||s.contextSource==="edited")assert.equal(s.sentences.length,s.sentenceZh?.length);}}
+for(const collection of [grammarWeeks,listeningTexts,readingTexts,completionTasks])assert.equal(collection.length,26);
+assert.equal(foundationUnits.length,12);assert.deepEqual(stages.map(s=>s.week),[4,8,12,16,20,24,26]);
+const all:Exercise[]=[];
+for(const u of foundationUnits)all.push(...u.drills.map(d=>({id:d.id,week:1,skill:"foundation" as const,prompt:d.prompt,audio:d.audio,accepted:d.answer,explanation:d.reason,sourceTitle:u.title})));
+for(let w=1;w<=26;w++)all.push(...grammarExercises(w),...baseGrammarExercises(w),...comprehensionExercises(w,"listening"),...comprehensionExercises(w,"reading"),...completionExercises(w));
+for(const s of stages)all.push(...stageExercises(s,"listening"),...stageExercises(s,"reading"));
+assert.equal(new Set(all.map(q=>q.id)).size,all.length);
+for(const q of all){assert.ok(q.accepted.length&&q.accepted.every(x=>x.trim()));assert.ok(q.prompt&&q.explanation&&q.sourceTitle);assert.ok(q.audio||q.passage||q.skill==="grammar");if(q.options){assert.equal(new Set(q.options).size,q.options.length);assert.ok(q.accepted.every(x=>q.options!.includes(x)));assert.ok(q.options.length>=3);}if(q.skill==="listening")assert.ok(q.audio&&!q.passage,"listening answer leaked into text prompt");}
+for(const d of dataTasks)assert.ok(d.model.length>=200&&d.model.length<=300,`${d.title} model length`);
+assert.equal(dataTasks.length,12);
+for(const w of intensiveWeeks.filter(w=>w.week>=19))assert.deepEqual([w.writing.min,w.writing.max],[600,700]);
+const practiceTexts=new Set([...listeningTexts,...readingTexts,...intensiveWeeks.map(w=>({text:w.reading.ko}))].map(t=>"text"in t?t.text:(t as unknown as {ko:string}).ko));
+for(const s of stages)for(const skill of ["listening","reading"] as const)assert.ok(!practiceTexts.has(s[skill].text),"assessment material reused from practice");
+const daily=lessons.filter(l=>l.kind==="new").flatMap(l=>dailyExercises(l));assert.equal(daily.length,312);assert.equal(new Set(daily.map(q=>q.id)).size,312);
+const stats={foundationUnits:12,foundationQuestions:foundationUnits.reduce((n,u)=>n+u.drills.length,0),grammarTeachingOccurrences:130,grammarQuestions:130,weeklyListeningTexts:26,weeklyReadingTexts:26,closeReadingTexts:26,weeklyComprehensionQuestions:156,stageAssessments:7,stageTexts:14,stageQuestions:56,completionTasks:26,completionQuestions:52,dataWritingTasks:12,advancedEssayTasks:8,dailyDictationQuestions:312,distinctAssessedQuestions:all.length+daily.length,headwordsWithUsage:words.length,dictionaryHeadwords:Object.values(usage).filter(s=>s.some(x=>x.source==="krdict")).length,authoredUsageHeadwords:Object.values(usage).filter(s=>s.some(x=>x.source==="edited"||x.contextSource==="edited")).length};
+writeFileSync(new URL("../data/curriculum/exercise-statistics.json",import.meta.url),JSON.stringify(stats,null,2)+"\n");console.log(JSON.stringify(stats,null,2));

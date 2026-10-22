@@ -1,0 +1,3392 @@
+{
+  "schemaVersion": 1,
+  "independentNativeSpeakerReview": false,
+  "sourceFile": "data/immersion/gap-expansion-e.json",
+  "sourceSha256": "0d8982e5a62f5c0a740f7965f13c130f2f3eed07c5ec6a95c8638247bb380924",
+  "baselineOriginalLines": 8269,
+  "selectedCount": 40,
+  "newLines": 200,
+  "sceneCount": 20,
+  "scope": "保留26周主课；用户明确允许结课后新的不同目的场景，第一场w26d6(日181)，第二场w27d6(日188)，相隔7课程日。不是第27周主课，也不是复制复习。",
+  "targets": [
+    {
+      "headword": "도전",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d1",
+      "firstScheduledCourseDay": 176,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "挑战，挑衅",
+          "definition": "正面鼓动对方迎战。",
+          "entryId": "14398",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "挑战",
+          "definition": "(喻义)为了取得有价值的东西或目标而面对困难。",
+          "entryId": "14398",
+          "senseId": "2"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "第一次做短介绍：先明确可完成的挑战",
+          "scene": "同龄学习伙伴A、B互用해요体，准备周末读书会的两分钟介绍。交流目的：把首次开口的挑战拆小，确认排练和反馈方式。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-1-1",
+              "wordIndex": 7,
+              "surface": "도전이에요.",
+              "lemmas": [
+                "도전"
+              ],
+              "ko": "사람들 앞에서 책을 소개하는 건 저한테 새로운 도전이에요.",
+              "zh": "在大家面前介绍书，对我来说是新的挑战。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-1-9",
+              "wordIndex": 2,
+              "surface": "도전해",
+              "lemmas": [
+                "도전"
+              ],
+              "ko": "그 방법으로 도전해 볼게요. 오늘은 이유 두 문장이 목표예요.",
+              "zh": "我试着用这个方法挑战一下。今天目标是说两句理由。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "介绍结束后：为听众预留提问",
+          "scene": "同龄学习伙伴A、B互用해요体，介绍已结束，回看听众的追问。交流目的：调整下一次的听众互动，而非重复原排练。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-2-2",
+              "wordIndex": 6,
+              "surface": "도전도",
+              "lemmas": [
+                "도전"
+              ],
+              "ko": "저도 들었어요. 마지막에는 질문을 받아 보는 도전도 했죠.",
+              "zh": "我也听了。最后还挑战了接受提问，对吧。"
+            },
+            {
+              "lineId": "w27d6-gap-expansion-e-2-9",
+              "wordIndex": 2,
+              "surface": "도전은",
+              "lemmas": [
+                "도전"
+              ],
+              "ko": "네. 다음 도전은 더 길게 말하기보다 질문을 이해하고 답하는 거예요.",
+              "zh": "好。下一次挑战是理解问题并回答，而不是说得更长。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "挑战",
+          "definition": "(喻义)为了取得有价值的东西或目标而面对困难。",
+          "entryId": "14398",
+          "senseId": "2"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "차츰",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d1",
+      "firstScheduledCourseDay": 176,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "渐渐，逐渐",
+          "definition": "状态或程度的变化随着时间的推移一直一点一点地。",
+          "entryId": "37250",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "第一次做短介绍：先明确可完成的挑战",
+          "scene": "同龄学习伙伴A、B互用해요体，准备周末读书会的两分钟介绍。交流目的：把首次开口的挑战拆小，确认排练和反馈方式。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-1-3",
+              "wordIndex": 2,
+              "surface": "차츰",
+              "lemmas": [
+                "차츰"
+              ],
+              "ko": "한꺼번에 외우기보다 차츰 늘리고 싶어요.",
+              "zh": "比起一次全背下来，我想逐渐增加。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "介绍结束后：为听众预留提问",
+          "scene": "同龄学习伙伴A、B互用해요体，介绍已结束，回看听众的追问。交流目的：调整下一次的听众互动，而非重复原排练。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-2-6",
+              "wordIndex": 1,
+              "surface": "차츰",
+              "lemmas": [
+                "차츰"
+              ],
+              "ko": "설명을 차츰 줄이되, 꼭 필요한 장면 하나는 남겨 봐요.",
+              "zh": "逐渐压缩说明，但试着保留一个必要情节吧。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "渐渐，逐渐",
+          "definition": "状态或程度的变化随着时间的推移一直一点一点地。",
+          "entryId": "37250",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "한창",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "正旺，正盛，正是时候",
+          "definition": "某事最有活力、最旺盛发展的时候；或指某种状态最成熟的时候。",
+          "entryId": "89055",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "正，正好",
+          "definition": "某事发展最蓬勃旺盛的样子；或指某个状态发展到最完善的样子。",
+          "entryId": "89056",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "第一次做短介绍：先明确可完成的挑战",
+          "scene": "同龄学习伙伴A、B互用해요体，准备周末读书会的两分钟介绍。交流目的：把首次开口的挑战拆小，确认排练和反馈方式。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-1-2",
+              "wordIndex": 5,
+              "surface": "한창이에요.",
+              "lemmas": [
+                "한창"
+              ],
+              "ko": "지금 다른 팀도 발표 연습이 한창이에요. 우리도 두 문장부터 시작할까요?",
+              "zh": "现在其他组也正在热火朝天地练习发表。我们也从两句话开始好吗？"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "介绍结束后：为听众预留提问",
+          "scene": "同龄学习伙伴A、B互用해요体，介绍已结束，回看听众的追问。交流目的：调整下一次的听众互动，而非重复原排练。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-2-7",
+              "wordIndex": 4,
+              "surface": "한창이라",
+              "lemmas": [
+                "한창"
+              ],
+              "ko": "다른 팀은 지금 토론이 한창이라 끝나는 시간을 기다려야 해요.",
+              "zh": "其他组现在正讨论得热烈，得等他们结束。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "正旺，正盛，正是时候",
+          "definition": "某事最有活力、最旺盛发展的时候；或指某种状态最成熟的时候。",
+          "entryId": "89055",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "마음껏",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "尽情地",
+          "definition": "不管多少，直到心满意足。",
+          "entryId": "15717",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "第一次做短介绍：先明确可完成的挑战",
+          "scene": "同龄学习伙伴A、B互用해요体，准备周末读书会的两分钟介绍。交流目的：把首次开口的挑战拆小，确认排练和反馈方式。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-1-6",
+              "wordIndex": 2,
+              "surface": "마음껏",
+              "lemmas": [
+                "마음껏"
+              ],
+              "ko": "연습할 때는 마음껏 다시 해 봐요. 제가 끝까지 기다릴게요.",
+              "zh": "练习时尽管再试。我会等你说完。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "介绍结束后：为听众预留提问",
+          "scene": "同龄学习伙伴A、B互用해요体，介绍已结束，回看听众的追问。交流目的：调整下一次的听众互动，而非重复原排练。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-2-4",
+              "wordIndex": 3,
+              "surface": "마음껏",
+              "lemmas": [
+                "마음껏"
+              ],
+              "ko": "다음에는 발표 끝에 마음껏 물어보시라고 말하고 시간을 남겨요.",
+              "zh": "下次在发表结尾请大家尽管提问，并留出时间吧。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "尽情地",
+          "definition": "不管多少，直到心满意足。",
+          "entryId": "15717",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "차이점",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d1",
+      "firstScheduledCourseDay": 176,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "差异，不同点",
+          "definition": "相互间的不同之处。",
+          "entryId": "37245",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "对照打印稿：先约定检查标准",
+          "scene": "同事A、B互用해요体，测试一份虚构活动传单。交流目的：比较两次打印的差异，设定同样的检查标准；不作设备性能保证。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-3-1",
+              "wordIndex": 2,
+              "surface": "차이점을",
+              "lemmas": [
+                "차이점"
+              ],
+              "ko": "두 인쇄물의 차이점을 먼저 적을까요?",
+              "zh": "我们先写下两份打印稿的不同点好吗？"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-3-9",
+              "wordIndex": 0,
+              "surface": "차이점을",
+              "lemmas": [
+                "차이점"
+              ],
+              "ko": "차이점을 적은 뒤 담당자에게 확인을 부탁할게요.",
+              "zh": "写好不同点后，我会请负责人确认。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "处理读者反馈：修正传单检查项目",
+          "scene": "同事A、B互用해요体，读者反馈传单的小字看不清。交流目的：修订检查标准，区分此次改进与全面性能结论。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-4-2",
+              "wordIndex": 4,
+              "surface": "차이점만",
+              "lemmas": [
+                "차이점"
+              ],
+              "ko": "지난번에는 두 장의 제목 차이점만 자세히 봤네요.",
+              "zh": "上次我们只仔细看了两张的标题差异。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "差异，不同点",
+          "definition": "相互间的不同之处。",
+          "entryId": "37245",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "표준",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "标准",
+          "definition": "衡量事物性质或程度等的根据或准则。",
+          "entryId": "84205",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "标准",
+          "definition": "属于一般或平均程度的。",
+          "entryId": "84205",
+          "senseId": "2"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "对照打印稿：先约定检查标准",
+          "scene": "同事A、B互用해요体，测试一份虚构活动传单。交流目的：比较两次打印的差异，设定同样的检查标准；不作设备性能保证。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-3-2",
+              "wordIndex": 7,
+              "surface": "표준이",
+              "lemmas": [
+                "표준"
+              ],
+              "ko": "좋아요. 같은 파일을 썼는지 확인하는 게 비교의 표준이 되겠네요.",
+              "zh": "好。确认是否使用了同一文件，可以作为比较的标准。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-3-7",
+              "wordIndex": 3,
+              "surface": "표준으로",
+              "lemmas": [
+                "표준"
+              ],
+              "ko": "작은 글씨도 같은 표준으로 비교해야겠네요.",
+              "zh": "小字也得按同样的标准比较。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "处理读者反馈：修正传单检查项目",
+          "scene": "同事A、B互用해요体，读者反馈传单的小字看不清。交流目的：修订检查标准，区分此次改进与全面性能结论。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-4-3",
+              "wordIndex": 2,
+              "surface": "표준에",
+              "lemmas": [
+                "표준"
+              ],
+              "ko": "우리 검사 표준에 글자 크기도 넣어야겠어요.",
+              "zh": "我们的检查标准也得加入字号。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "标准",
+          "definition": "衡量事物性质或程度等的根据或准则。",
+          "entryId": "84205",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "향상되다",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "동사",
+          "meaning": "上升，提高，提升",
+          "definition": "实力、水准、技术等变得更高。",
+          "entryId": "85089",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "对照打印稿：先约定检查标准",
+          "scene": "同事A、B互用해요体，测试一份虚构活动传单。交流目的：比较两次打印的差异，设定同样的检查标准；不作设备性能保证。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-3-4",
+              "wordIndex": 6,
+              "surface": "향상됐다고",
+              "lemmas": [
+                "향상되다"
+              ],
+              "ko": "이 한 번의 결과만으로 기계 성능이 향상됐다고 하기는 어려워요.",
+              "zh": "仅凭这一次结果，很难说机器性能提高了。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "处理读者反馈：修正传单检查项目",
+          "scene": "同事A、B互用해요体，读者反馈传单的小字看不清。交流目的：修订检查标准，区分此次改进与全面性能结论。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-4-8",
+              "wordIndex": 4,
+              "surface": "향상됐다고",
+              "lemmas": [
+                "향상되다"
+              ],
+              "ko": "읽기 편해졌다면 그 부분이 향상됐다고 구체적으로 적어요.",
+              "zh": "如果更方便阅读，就具体写明这一部分得到了改进。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "동사",
+          "meaning": "上升，提高，提升",
+          "definition": "实力、水准、技术等变得更高。",
+          "entryId": "85089",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "정상적",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d3",
+      "firstScheduledCourseDay": 178,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "正常的",
+          "definition": "没有特别变动或问题，状态正规的。",
+          "entryId": "31755",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "관형사",
+          "meaning": "正常的",
+          "definition": "没有特别变动或问题，状态正规的。",
+          "entryId": "31754",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "对照打印稿：先约定检查标准",
+          "scene": "同事A、B互用해요体，测试一份虚构活动传单。交流目的：比较两次打印的差异，设定同样的检查标准；不作设备性能保证。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-3-5",
+              "wordIndex": 3,
+              "surface": "정상적이라고",
+              "lemmas": [
+                "정상적"
+              ],
+              "ko": "그래도 지금 출력은 정상적이라고 봐도 될까요?",
+              "zh": "不过，可以认为这次输出正常吗？"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "处理读者反馈：修正传单检查项目",
+          "scene": "同事A、B互用해요体，读者反馈传单的小字看不清。交流目的：修订检查标准，区分此次改进与全面性能结论。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-4-5",
+              "wordIndex": 5,
+              "surface": "정상적인",
+              "lemmas": [
+                "정상적"
+              ],
+              "ko": "한 사람만 읽을 수 있으면 정상적인 안내문이라고 말하기 어렵겠죠?",
+              "zh": "只有一个人能读懂，就很难说这是正常可用的说明吧？"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "正常的",
+          "definition": "没有特别变动或问题，状态正规的。",
+          "entryId": "31755",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "관형사",
+          "meaning": "正常的",
+          "definition": "没有特别变动或问题，状态正规的。",
+          "entryId": "31754",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "극히",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d1",
+      "firstScheduledCourseDay": 176,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "极其",
+          "definition": "无比，非常。",
+          "entryId": "37161",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "小样本问卷：说明人数和限定范围",
+          "scene": "学生A、B互用해요体，整理虚构读书活动的24份问卷。交流目的：把数字、大小评价及调查范围分开说明，所有数字为教学设定。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-5-4",
+              "wordIndex": 1,
+              "surface": "극히",
+              "lemmas": [
+                "극히"
+              ],
+              "ko": "대상이 극히 제한적이지만, 이 참가자들이 겪은 문제는 볼 수 있어요.",
+              "zh": "虽然对象范围极其有限，但能看这些参加者遇到的问题。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "再次收问卷：不要混算人数与份数",
+          "scene": "学生A、B互用해요体，对第二次虚构问卷的31份回答核对去重。交流目的：确认人数能否累加，修改小样本结论，不沿用前次数字。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-6-8",
+              "wordIndex": 4,
+              "surface": "극히",
+              "lemmas": [
+                "극히"
+              ],
+              "ko": "대조할 수 있는 항목이 극히 적어서 변화 전체를 말하기는 어려워요.",
+              "zh": "能对照的项目极少，很难说明整体变化。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "极其",
+          "definition": "无比，非常。",
+          "entryId": "37161",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "상당히",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "颇，非常",
+          "definition": "水平或实力、 程度相当高地。",
+          "entryId": "16218",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "相当多地",
+          "definition": "颇为多地。",
+          "entryId": "16218",
+          "senseId": "2"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "小样本问卷：说明人数和限定范围",
+          "scene": "学生A、B互用해요体，整理虚构读书活动的24份问卷。交流目的：把数字、大小评价及调查范围分开说明，所有数字为教学设定。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-5-5",
+              "wordIndex": 4,
+              "surface": "상당히",
+              "lemmas": [
+                "상당히"
+              ],
+              "ko": "응답을 정리하는 데 시간이 상당히 걸렸어요.",
+              "zh": "整理回答花了相当多时间。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "再次收问卷：不要混算人数与份数",
+          "scene": "学生A、B互用해요体，对第二次虚构问卷的31份回答核对去重。交流目的：确认人数能否累加，修改小样本结论，不沿用前次数字。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-6-1",
+              "wordIndex": 6,
+              "surface": "상당히",
+              "lemmas": [
+                "상당히"
+              ],
+              "ko": "이번에는 응답 서른한 개를 받았어요. 지난번보다 상당히 늘었죠?",
+              "zh": "这次收到了三十一份回答，比上次增加了不少吧？"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "相当多地",
+          "definition": "颇为多地。",
+          "entryId": "16218",
+          "senseId": "2"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "미만",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d3",
+      "firstScheduledCourseDay": 178,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "未满",
+          "definition": "未能达到一定的数量或程度。",
+          "entryId": "15762",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "小样本问卷：说明人数和限定范围",
+          "scene": "学生A、B互用해요体，整理虚构读书活动的24份问卷。交流目的：把数字、大小评价及调查范围分开说明，所有数字为教学设定。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-5-2",
+              "wordIndex": 2,
+              "surface": "미만이네요.",
+              "lemmas": [
+                "미만"
+              ],
+              "ko": "서른 명 미만이네요. 전체 학생의 의견이라고 쓰면 안 되겠어요.",
+              "zh": "不到三十人。不能写成全体学生的意见。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "再次收问卷：不要混算人数与份数",
+          "scene": "学生A、B互用해요体，对第二次虚构问卷的31份回答核对去重。交流目的：确认人数能否累加，修改小样本结论，不沿用前次数字。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-6-3",
+              "wordIndex": 4,
+              "surface": "미만인지",
+              "lemmas": [
+                "미만"
+              ],
+              "ko": "실제 사람이 서른 명 미만인지 아직 모르는 거네요.",
+              "zh": "就是说实际人数是否不足三十，还不知道。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "未满",
+          "definition": "未能达到一定的数量或程度。",
+          "entryId": "15762",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "상당하다",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当好，相当强",
+          "definition": "水平或实力、 程度非常高。",
+          "entryId": "29025",
+          "senseId": "2"
+        },
+        {
+          "source": "krdict",
+          "pos": "동사",
+          "meaning": "相当于，合",
+          "definition": "达到一定的数额或数值。",
+          "entryId": "93635",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当，相应",
+          "definition": "接近于或适于某个程度。",
+          "entryId": "29025",
+          "senseId": "3"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "价值，相当于",
+          "definition": "等同于一定的额数或数值。",
+          "entryId": "29025",
+          "senseId": "4"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当大，相当多",
+          "definition": "十分多。",
+          "entryId": "29025",
+          "senseId": "5"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "小样本问卷：说明人数和限定范围",
+          "scene": "学生A、B互用해요体，整理虚构读书活动的24份问卷。交流目的：把数字、大小评价及调查范围分开说明，所有数字为教学设定。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-5-8",
+              "wordIndex": 5,
+              "surface": "상당하군요.",
+              "lemmas": [
+                "상당하다"
+              ],
+              "ko": "적은 응답이라도 검토에 드는 노력은 상당하군요.",
+              "zh": "即使回答数量不多，核查也需要相当大的努力啊。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "再次收问卷：不要混算人数与份数",
+          "scene": "学生A、B互用해요体，对第二次虚构问卷的31份回答核对去重。交流目的：确认人数能否累加，修改小样本结论，不沿用前次数字。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-6-5",
+              "wordIndex": 4,
+              "surface": "상당한",
+              "lemmas": [
+                "상당하다"
+              ],
+              "ko": "이렇게 범위를 구분하는 데 상당한 시간이 필요하네요.",
+              "zh": "这样区分范围，需要花相当多时间啊。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "相当大，相当多",
+          "definition": "十分多。",
+          "entryId": "29025",
+          "senseId": "5"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。 本地29025 sense5为数量相当大／多；官网显示序号可能不同，按定义辨义。"
+    },
+    {
+      "headword": "편견",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d1",
+      "firstScheduledCourseDay": 176,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "偏见",
+          "definition": "不公平、不正确正的，片面的见解。",
+          "entryId": "81998",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "采访提纲：避免由身份猜测意见",
+          "scene": "同学A、B互用해요体，准备虚构校园采访。交流目的：改掉带有偏见的提问，说明间接信息的来源与待核范围。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-7-2",
+              "wordIndex": 5,
+              "surface": "편견일",
+              "lemmas": [
+                "편견"
+              ],
+              "ko": "그건 신입생이라는 이유만으로 의견을 짐작한 편견일 수 있어요.",
+              "zh": "这可能是仅凭新生身份就猜测意见的偏见。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-7-7",
+              "wordIndex": 1,
+              "surface": "편견이",
+              "lemmas": [
+                "편견"
+              ],
+              "ko": "처음부터 편견이 들어간 선택지만 주면 답도 좁아지겠죠.",
+              "zh": "一开始只给带偏见的选项，回答范围也会变窄吧。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "采访后整理：保留分歧而不贴标签",
+          "scene": "同学A、B互用해요体，采访完成后核对虚构摘要。交流目的：区分本人原话和间接推测，描述意见形成过程而不按身份归类。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-8-2",
+              "wordIndex": 3,
+              "surface": "편견",
+              "lemmas": [
+                "편견"
+              ],
+              "ko": "그 차이를 세대의 편견 때문이라고 바로 설명하지는 말아요.",
+              "zh": "先别立刻把这种差异解释成一代人的偏见。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "偏见",
+          "definition": "不公平、不正确正的，片面的见解。",
+          "entryId": "81998",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "간접",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d3",
+      "firstScheduledCourseDay": 178,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "间接",
+          "definition": "两者不直接连接在一起，而是通过中间的其他事物相连。",
+          "entryId": "16216",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "采访提纲：避免由身份猜测意见",
+          "scene": "同学A、B互用해요体，准备虚构校园采访。交流目的：改掉带有偏见的提问，说明间接信息的来源与待核范围。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-7-9",
+              "wordIndex": 0,
+              "surface": "간접",
+              "lemmas": [
+                "간접"
+              ],
+              "ko": "간접 정보는 배경으로만 남기고 실제 답과 섞지 않을게요.",
+              "zh": "我会把间接信息只作为背景，避免与实际回答混在一起。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "采访后整理：保留分歧而不贴标签",
+          "scene": "同学A、B互用해요体，采访完成后核对虚构摘要。交流目的：区分本人原话和间接推测，描述意见形成过程而不按身份归类。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-8-5",
+              "wordIndex": 2,
+              "surface": "간접",
+              "lemmas": [
+                "간접"
+              ],
+              "ko": "친구가 전한 간접 정보는 인터뷰 요약에서 뺄까요?",
+              "zh": "朋友转述的间接信息，要从采访摘要中去掉吗？"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "间接",
+          "definition": "两者不直接连接在一起，而是通过中间的其他事物相连。",
+          "entryId": "16216",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "형성",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "形成",
+          "definition": "具备某种状态或模样。",
+          "entryId": "85843",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "采访提纲：避免由身份猜测意见",
+          "scene": "同学A、B互用해요体，准备虚构校园采访。交流目的：改掉带有偏见的提问，说明间接信息的来源与待核范围。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-7-6",
+              "wordIndex": 2,
+              "surface": "형성",
+              "lemmas": [
+                "형성"
+              ],
+              "ko": "네. 의견의 형성 과정을 이해하려면 답한 뒤에 그 이유를 물어봐요.",
+              "zh": "好。要了解意见形成的过程，可以在对方回答后再问原因。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "采访后整理：保留分歧而不贴标签",
+          "scene": "同学A、B互用해요体，采访完成后核对虚构摘要。交流目的：区分本人原话和间接推测，描述意见形成过程而不按身份归类。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-8-4",
+              "wordIndex": 1,
+              "surface": "형성에",
+              "lemmas": [
+                "형성"
+              ],
+              "ko": "의견의 형성에 영향을 준 조건을 원문과 함께 적어요.",
+              "zh": "把影响意见形成的条件与原话一起写下来。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "形成",
+          "definition": "具备某种状态或模样。",
+          "entryId": "85843",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "철저히",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d3",
+      "firstScheduledCourseDay": 178,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "彻底地，透彻地，全面地",
+          "definition": "做某事细心谨慎而完美无缺地。",
+          "entryId": "25315",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "采访提纲：避免由身份猜测意见",
+          "scene": "同学A、B互用해요体，准备虚构校园采访。交流目的：改掉带有偏见的提问，说明间接信息的来源与待核范围。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-7-4",
+              "wordIndex": 4,
+              "surface": "철저히",
+              "lemmas": [
+                "철저히"
+              ],
+              "ko": "그 친구가 누구에게 들었는지도 철저히 확인해야겠네요.",
+              "zh": "也得仔细核实那个朋友是从谁那里听说的。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "采访后整理：保留分歧而不贴标签",
+          "scene": "同学A、B互用해요体，采访完成后核对虚构摘要。交流目的：区分本人原话和间接推测，描述意见形成过程而不按身份归类。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-8-7",
+              "wordIndex": 5,
+              "surface": "철저히",
+              "lemmas": [
+                "철저히"
+              ],
+              "ko": "응답자의 말을 제가 바꾼 부분은 철저히 다시 볼게요.",
+              "zh": "我会仔细复查自己改写了受访者原话的部分。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "彻底地，透彻地，全面地",
+          "definition": "做某事细心谨慎而完美无缺地。",
+          "entryId": "25315",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "여전하다",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d1",
+      "firstScheduledCourseDay": 176,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "依旧，依然",
+          "definition": "与以前一样。",
+          "entryId": "15214",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "走廊休息区：说清个人体验与未解决问题",
+          "scene": "住户A、管理人员B互用해요体，讨论虚构休息区的移动桌椅。交流目的：区分个人体验、持续问题和未验证影响。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-9-2",
+              "wordIndex": 4,
+              "surface": "여전하네요.",
+              "lemmas": [
+                "여전하다"
+              ],
+              "ko": "그래도 입구가 좁다는 의견은 여전하네요.",
+              "zh": "不过，认为入口狭窄的意见还是一样。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-9-8",
+              "wordIndex": 5,
+              "surface": "여전할",
+              "lemmas": [
+                "여전하다"
+              ],
+              "ko": "다른 물건을 옮기는 사람에게는 문제가 여전할 수도 있죠.",
+              "zh": "对搬其他物品的人来说，问题可能仍然存在。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "走廊复查：依据不同使用者调整摆放",
+          "scene": "住户A、管理人员B互用해요体，复查移动桌椅后收集的虚构意见。交流目的：处理未解决的搬运问题，明确调整依据。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-10-2",
+              "wordIndex": 4,
+              "surface": "여전했나요?",
+              "lemmas": [
+                "여전하다"
+              ],
+              "ko": "상자를 옮기는 분들의 불편은 여전했나요?",
+              "zh": "搬箱子的人仍然觉得不方便吗？"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "依旧，依然",
+          "definition": "与以前一样。",
+          "entryId": "15214",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "한결",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d1",
+      "firstScheduledCourseDay": 176,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "更，更加",
+          "definition": "比以前进一步地。",
+          "entryId": "84083",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "走廊休息区：说清个人体验与未解决问题",
+          "scene": "住户A、管理人员B互用해요体，讨论虚构休息区的移动桌椅。交流目的：区分个人体验、持续问题和未验证影响。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-9-1",
+              "wordIndex": 4,
+              "surface": "한결",
+              "lemmas": [
+                "한결"
+              ],
+              "ko": "의자를 옮긴 뒤에는 지나가기가 한결 편해요.",
+              "zh": "椅子挪动后，走过去方便多了。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-9-6",
+              "wordIndex": 1,
+              "surface": "한결",
+              "lemmas": [
+                "한결"
+              ],
+              "ko": "그럼 한결 편하다는 말도 본인 경험의 범위로 적어 주세요.",
+              "zh": "那么“方便多了”也请写明是你个人体验范围内的说法。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "走廊复查：依据不同使用者调整摆放",
+          "scene": "住户A、管理人员B互用해요体，复查移动桌椅后收集的虚构意见。交流目的：处理未解决的搬运问题，明确调整依据。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-10-1",
+              "wordIndex": 4,
+              "surface": "한결",
+              "lemmas": [
+                "한결"
+              ],
+              "ko": "작은 가방으로 다니는 분들은 한결 편해졌다고 했어요.",
+              "zh": "背小包来往的人说方便多了。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "更，更加",
+          "definition": "比以前进一步地。",
+          "entryId": "84083",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "더욱",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "更加，进一步，越来越，愈加",
+          "definition": "程度更深；更重。",
+          "entryId": "14369",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "走廊休息区：说清个人体验与未解决问题",
+          "scene": "住户A、管理人员B互用해요体，讨论虚构休息区的移动桌椅。交流目的：区分个人体验、持续问题和未验证影响。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-9-3",
+              "wordIndex": 3,
+              "surface": "더욱",
+              "lemmas": [
+                "더욱"
+              ],
+              "ko": "큰 상자를 들면 더욱 불편할 수 있겠어요.",
+              "zh": "拿着大箱子时可能更不方便。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "走廊复查：依据不同使用者调整摆放",
+          "scene": "住户A、管理人员B互用해요体，复查移动桌椅后收集的虚构意见。交流目的：处理未解决的搬运问题，明确调整依据。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-10-4",
+              "wordIndex": 4,
+              "surface": "더욱",
+              "lemmas": [
+                "더욱"
+              ],
+              "ko": "의견을 들으니 무엇을 바꿀지 더욱 분명해지네요.",
+              "zh": "听到意见后，更清楚该改什么了。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "更加，进一步，越来越，愈加",
+          "definition": "程度更深；更重。",
+          "entryId": "14369",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "자연히",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d3",
+      "firstScheduledCourseDay": 178,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "自然地，不由得",
+          "definition": "没有任何意图或努力等而自行地。",
+          "entryId": "24789",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "走廊休息区：说清个人体验与未解决问题",
+          "scene": "住户A、管理人员B互用해요体，讨论虚构休息区的移动桌椅。交流目的：区分个人体验、持续问题和未验证影响。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-9-7",
+              "wordIndex": 3,
+              "surface": "자연히",
+              "lemmas": [
+                "자연히"
+              ],
+              "ko": "배치를 바꾸면 불편이 자연히 사라질 거라고 생각했어요.",
+              "zh": "我原以为布局一变，不便就会自然消失。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "走廊复查：依据不同使用者调整摆放",
+          "scene": "住户A、管理人员B互用해요体，复查移动桌椅后收集的虚构意见。交流目的：处理未解决的搬运问题，明确调整依据。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-10-5",
+              "wordIndex": 3,
+              "surface": "자연히",
+              "lemmas": [
+                "자연히"
+              ],
+              "ko": "시간이 지나면 사람들이 자연히 익숙해질 거라고만 생각했네요.",
+              "zh": "之前我只想着时间一长，大家自然会习惯。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "自然地，不由得",
+          "definition": "没有任何意图或努力等而自行地。",
+          "entryId": "24789",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "손쉽다",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "容易，轻松",
+          "definition": "事情处理或操作不难。",
+          "entryId": "15603",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "阳台花盆：把想法改成具体观察",
+          "scene": "同龄合住者A、B互用해요体，讨论自家虚构阳台花盆；只描述手边土和摆放，不给植物养护或食用安全规则。交流目的：核实当前状况，不凭愿望推断结果。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-11-1",
+              "wordIndex": 2,
+              "surface": "손쉽게",
+              "lemmas": [
+                "손쉽다"
+              ],
+              "ko": "작은 화분이면 손쉽게 옮길 수 있을 줄 알았어요.",
+              "zh": "我原以为小花盆就能轻松搬动。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-11-7",
+              "wordIndex": 1,
+              "surface": "손쉽다고",
+              "lemmas": [
+                "손쉽다"
+              ],
+              "ko": "네. 손쉽다고 생각해서 준비를 안 한 게 문제였네요.",
+              "zh": "好。问题是我以为容易，就没做准备。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "交换花盆照片：不要把一个变化算成全有效",
+          "scene": "同龄朋友A、B互用해요体，交流虚构花盆照片和此前摆放经历。交流目的：澄清照片观察能说明什么，纠正未经核实的成功判断。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-12-7",
+              "wordIndex": 6,
+              "surface": "손쉽겠어요.",
+              "lemmas": [
+                "손쉽다"
+              ],
+              "ko": "같은 위치에서 사진을 찍어 두는 일은 손쉽겠어요.",
+              "zh": "在同一个位置拍照留存，应该容易做。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "容易，轻松",
+          "definition": "事情处理或操作不难。",
+          "entryId": "15603",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "뜻대로",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "随心所欲地，随意地",
+          "definition": "任凭自己的意愿。",
+          "entryId": "28109",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "阳台花盆：把想法改成具体观察",
+          "scene": "同龄合住者A、B互用해요体，讨论自家虚构阳台花盆；只描述手边土和摆放，不给植物养护或食用安全规则。交流目的：核实当前状况，不凭愿望推断结果。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-11-3",
+              "wordIndex": 0,
+              "surface": "뜻대로",
+              "lemmas": [
+                "뜻대로"
+              ],
+              "ko": "뜻대로 되지 않으니 먼저 어디에 둘지 정해야겠어요.",
+              "zh": "没有按预想进行，得先确定放在哪里。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "交换花盆照片：不要把一个变化算成全有效",
+          "scene": "同龄朋友A、B互用해요体，交流虚构花盆照片和此前摆放经历。交流目的：澄清照片观察能说明什么，纠正未经核实的成功判断。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-12-2",
+              "wordIndex": 1,
+              "surface": "뜻대로",
+              "lemmas": [
+                "뜻대로"
+              ],
+              "ko": "모양은 뜻대로 됐지만 문이 잘 열리는지도 확인했어요?",
+              "zh": "样子是如你所愿了，但也确认门能否好好打开了吗？"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "随心所欲地，随意地",
+          "definition": "任凭自己的意愿。",
+          "entryId": "28109",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "곧잘",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "挺好，善于",
+          "definition": "相当好。",
+          "entryId": "25517",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "时常",
+          "definition": "常常，经常。",
+          "entryId": "25517",
+          "senseId": "2"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "阳台花盆：把想法改成具体观察",
+          "scene": "同龄合住者A、B互用해요体，讨论自家虚构阳台花盆；只描述手边土和摆放，不给植物养护或食用安全规则。交流目的：核实当前状况，不凭愿望推断结果。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-11-5",
+              "wordIndex": 3,
+              "surface": "곧잘",
+              "lemmas": [
+                "곧잘"
+              ],
+              "ko": "저는 작은 물건은 곧잘 옮기는데 이건 둘이 들어야겠어요.",
+              "zh": "我搬小物件通常还行，但这个得两个人抬。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "交换花盆照片：不要把一个变化算成全有效",
+          "scene": "同龄朋友A、B互用해요体，交流虚构花盆照片和此前摆放经历。交流目的：澄清照片观察能说明什么，纠正未经核实的成功判断。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-12-5",
+              "wordIndex": 3,
+              "surface": "곧잘",
+              "lemmas": [
+                "곧잘"
+              ],
+              "ko": "저는 잎 색을 곧잘 기억한다고 생각했는데 이전 사진이 없어요.",
+              "zh": "我原以为自己通常记得住叶子颜色，但没有以前的照片。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "挺好，善于",
+          "definition": "相当好。",
+          "entryId": "25517",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "바싹",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "干巴巴",
+          "definition": "几乎没有水分，干枯或减少的样子。",
+          "entryId": "15808",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "紧紧地",
+          "definition": "非常紧贴或靠近的样子。",
+          "entryId": "15808",
+          "senseId": "2"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "猛然，骤然",
+          "definition": "突然增加或减少的样子。",
+          "entryId": "15808",
+          "senseId": "3"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "顽固地，刚愎地",
+          "definition": "固执己见的样子。",
+          "entryId": "15808",
+          "senseId": "4"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "紧绷地",
+          "definition": "非常紧张或使劲的样子。",
+          "entryId": "15808",
+          "senseId": "5"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "瘪瘪地",
+          "definition": "身体非常消瘦的样子。",
+          "entryId": "15808",
+          "senseId": "6"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "阳台花盆：把想法改成具体观察",
+          "scene": "同龄合住者A、B互用해요体，讨论自家虚构阳台花盆；只描述手边土和摆放，不给植物养护或食用安全规则。交流目的：核实当前状况，不凭愿望推断结果。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-11-4",
+              "wordIndex": 1,
+              "surface": "바싹",
+              "lemmas": [
+                "바싹"
+              ],
+              "ko": "벽에 바싹 붙여 놓으면 문을 여는 데 걸릴 것 같아요.",
+              "zh": "紧贴墙放的话，可能会挡着开门。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "交换花盆照片：不要把一个变化算成全有效",
+          "scene": "同龄朋友A、B互用해요体，交流虚构花盆照片和此前摆放经历。交流目的：澄清照片观察能说明什么，纠正未经核实的成功判断。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-12-3",
+              "wordIndex": 5,
+              "surface": "바싹",
+              "lemmas": [
+                "바싹"
+              ],
+              "ko": "문은 열려요. 다만 잎 하나가 바싹 말라 있더라고요.",
+              "zh": "门能打开。不过发现有一片叶子完全干了。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "干巴巴",
+          "definition": "几乎没有水分，干枯或减少的样子。",
+          "entryId": "15808",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "紧紧地",
+          "definition": "非常紧贴或靠近的样子。",
+          "entryId": "15808",
+          "senseId": "2"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。 第一场靠墙很近为sense2，第二场叶子干透为sense1；不将两义套到所有同形词。"
+    },
+    {
+      "headword": "새로이",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "重新",
+          "definition": "再一次崭新地。",
+          "entryId": "16233",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "新",
+          "definition": "从前没有的东西第一次。",
+          "entryId": "16233",
+          "senseId": "2"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "新成员说明：修订欢迎邮件",
+          "scene": "读书会负责人A、协助者B互用해요体，准备给虚构新成员发欢迎说明；未发送真实消息。交流目的：写明参与方式，避免冒犯及未约定义务。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-13-1",
+              "wordIndex": 4,
+              "surface": "새로이",
+              "lemmas": [
+                "새로이"
+              ],
+              "ko": "신규 회원에게 보낼 안내를 새로이 쓰고 있어요.",
+              "zh": "我正在重新写给新会员的说明。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-13-7",
+              "wordIndex": 2,
+              "surface": "새로이",
+              "lemmas": [
+                "새로이"
+              ],
+              "ko": "그 방법을 새로이 적으면 부담이 줄겠네요.",
+              "zh": "重新写明这种方式，应该会减轻负担。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "收到欢迎反馈：明确修改后的规则",
+          "scene": "读书会负责人A、协助者B互用해요体，根据虚构新成员反馈核对欢迎说明。交流目的：澄清旧版与新版差异，避免将建议写成义务。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-14-4",
+              "wordIndex": 0,
+              "surface": "새로이",
+              "lemmas": [
+                "새로이"
+              ],
+              "ko": "새로이 정리할 때 확인과 읽기의 차이를 분명히 쓰면 좋겠어요.",
+              "zh": "重新整理时，最好写清“查看”和“阅读”的区别。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "重新",
+          "definition": "再一次崭新地。",
+          "entryId": "16233",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "신규",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "新，全新",
+          "definition": "重新做某事。",
+          "entryId": "13996",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "新成员说明：修订欢迎邮件",
+          "scene": "读书会负责人A、协助者B互用해요体，准备给虚构新成员发欢迎说明；未发送真实消息。交流目的：写明参与方式，避免冒犯及未约定义务。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-13-1",
+              "wordIndex": 0,
+              "surface": "신규",
+              "lemmas": [
+                "신규"
+              ],
+              "ko": "신규 회원에게 보낼 안내를 새로이 쓰고 있어요.",
+              "zh": "我正在重新写给新会员的说明。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-13-5",
+              "wordIndex": 0,
+              "surface": "신규",
+              "lemmas": [
+                "신규"
+              ],
+              "ko": "신규 회원도 소개 시간에 긴 이야기를 해야 하나요?",
+              "zh": "新会员也得在自我介绍时说很长吗？"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "收到欢迎反馈：明确修改后的规则",
+          "scene": "读书会负责人A、协助者B互用해요体，根据虚构新成员反馈核对欢迎说明。交流目的：澄清旧版与新版差异，避免将建议写成义务。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-14-1",
+              "wordIndex": 0,
+              "surface": "신규",
+              "lemmas": [
+                "신규"
+              ],
+              "ko": "신규 회원 한 분이 모든 책을 미리 읽어야 하는지 물었어요.",
+              "zh": "一位新会员问，是否必须提前读完所有书。"
+            },
+            {
+              "lineId": "w27d6-gap-expansion-e-14-7",
+              "wordIndex": 0,
+              "surface": "신규",
+              "lemmas": [
+                "신규"
+              ],
+              "ko": "신규 회원에게는 어느 안내가 최신인지 함께 알려 줄게요.",
+              "zh": "我会一并告知新会员哪份说明是最新的。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "新，全新",
+          "definition": "重新做某事。",
+          "entryId": "13996",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "강조",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d2",
+      "firstScheduledCourseDay": 177,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "强调",
+          "definition": "特别突出或强力主张某种东西。",
+          "entryId": "15703",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "新成员说明：修订欢迎邮件",
+          "scene": "读书会负责人A、协助者B互用해요体，准备给虚构新成员发欢迎说明；未发送真实消息。交流目的：写明参与方式，避免冒犯及未约定义务。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-13-4",
+              "wordIndex": 7,
+              "surface": "강조가",
+              "lemmas": [
+                "강조"
+              ],
+              "ko": "네. 가능한 날을 고를 수 있다는 점은 강조가 필요해요.",
+              "zh": "好。能选择方便的日期这一点，需要强调。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "收到欢迎反馈：明确修改后的规则",
+          "scene": "读书会负责人A、协助者B互用해요体，根据虚构新成员反馈核对欢迎说明。交流目的：澄清旧版与新版差异，避免将建议写成义务。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-14-2",
+              "wordIndex": 10,
+              "surface": "강조가",
+              "lemmas": [
+                "강조"
+              ],
+              "ko": "관심 있는 책 한 권을 고르는 게 중심이죠. 그 부분에 강조가 필요했어요.",
+              "zh": "重点是选一本感兴趣的书。这一部分需要强调。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "强调",
+          "definition": "特别突出或强力主张某种东西。",
+          "entryId": "15703",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "삼가다",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "동사",
+          "meaning": "谨慎，注意",
+          "definition": "语言或行动小心。",
+          "entryId": "16204",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "동사",
+          "meaning": "节制，忌",
+          "definition": "避开某事或某物，或减少次数。",
+          "entryId": "16204",
+          "senseId": "2"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "新成员说明：修订欢迎邮件",
+          "scene": "读书会负责人A、协助者B互用해요体，准备给虚构新成员发欢迎说明；未发送真实消息。交流目的：写明参与方式，避免冒犯及未约定义务。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-13-2",
+              "wordIndex": 4,
+              "surface": "삼가는",
+              "lemmas": [
+                "삼가다"
+              ],
+              "ko": "꼭 참석해야 한다는 표현은 삼가는 게 좋겠어요.",
+              "zh": "最好避免用“必须出席”这种说法。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-13-8",
+              "wordIndex": 8,
+              "surface": "삼가요.",
+              "lemmas": [
+                "삼가다"
+              ],
+              "ko": "참석 여부를 답하지 않았다고 의사가 없다고 단정하는 말도 삼가요.",
+              "zh": "也应避免因没回复是否出席，就断言对方没意愿。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "收到欢迎反馈：明确修改后的规则",
+          "scene": "读书会负责人A、协助者B互用해요体，根据虚构新成员反馈核对欢迎说明。交流目的：澄清旧版与新版差异，避免将建议写成义务。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-14-5",
+              "wordIndex": 7,
+              "surface": "삼가겠어요.",
+              "lemmas": [
+                "삼가다"
+              ],
+              "ko": "전부 읽지 않았다고 준비가 부족하다고 말하는 것도 삼가겠어요.",
+              "zh": "我也会避免因没有全读完，就说对方准备不足。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "동사",
+          "meaning": "节制，忌",
+          "definition": "避开某事或某物，或减少次数。",
+          "entryId": "16204",
+          "senseId": "2"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "창조적",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "创造的，创造性的",
+          "definition": "首次制作或新建之前没有的东西的。",
+          "entryId": "24905",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "관형사",
+          "meaning": "创造的，创造性的",
+          "definition": "首次制作或新建之前没有的东西的。",
+          "entryId": "24904",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "读书展示：按兴趣选择表达方式",
+          "scene": "同龄读书伙伴A、B互用해요体，准备虚构小组展示。交流目的：挑选符合参与者兴趣的展示方式，确认检查流程。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-15-1",
+              "wordIndex": 0,
+              "surface": "창조적인",
+              "lemmas": [
+                "창조적"
+              ],
+              "ko": "창조적인 발표를 하라고 했는데 어떻게 시작해야 할까요?",
+              "zh": "说要做有创意的发表，该怎么开始呢？"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-15-10",
+              "wordIndex": 0,
+              "surface": "창조적이라는",
+              "lemmas": [
+                "창조적"
+              ],
+              "ko": "창조적이라는 말이 근거 없이 꾸며도 된다는 뜻은 아니죠.",
+              "zh": "“有创意”不等于可以无依据地编造，对吧。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "展示分工：保留不同兴趣和不同意见",
+          "scene": "同龄读书伙伴A、B互用해요体，展示方案调整为两种解读并列。交流目的：重新分工并处理不同解读，不重复首次选择方案。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-16-3",
+              "wordIndex": 4,
+              "surface": "창조적인",
+              "lemmas": [
+                "창조적"
+              ],
+              "ko": "둘 중 하나만 골라야 창조적인 발표가 되는 걸까요?",
+              "zh": "必须只选其中一种，才是有创意的发表吗？"
+            },
+            {
+              "lineId": "w27d6-gap-expansion-e-16-4",
+              "wordIndex": 5,
+              "surface": "창조적일",
+              "lemmas": [
+                "창조적"
+              ],
+              "ko": "두 해석을 나란히 놓는 것도 창조적일 수 있죠.",
+              "zh": "把两种解读并列展示，也可以有创意啊。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "创造的，创造性的",
+          "definition": "首次制作或新建之前没有的东西的。",
+          "entryId": "24905",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "관형사",
+          "meaning": "创造的，创造性的",
+          "definition": "首次制作或新建之前没有的东西的。",
+          "entryId": "24904",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "마땅하다",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "合适，恰当",
+          "definition": "很符合或很合适某个条件。",
+          "entryId": "15693",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "称心",
+          "definition": "满意。",
+          "entryId": "15693",
+          "senseId": "2"
+        },
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "理应，应该",
+          "definition": "正确，合乎道理或理所当然。",
+          "entryId": "15693",
+          "senseId": "3"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "读书展示：按兴趣选择表达方式",
+          "scene": "同龄读书伙伴A、B互用해요体，准备虚构小组展示。交流目的：挑选符合参与者兴趣的展示方式，确认检查流程。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-15-4",
+              "wordIndex": 6,
+              "surface": "마땅한",
+              "lemmas": [
+                "마땅하다"
+              ],
+              "ko": "맞아요. 두 관심사를 함께 보여 줄 마땅한 방법을 찾고 싶어요.",
+              "zh": "对。我想找一个合适的方法，同时展现这两种兴趣。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "展示分工：保留不同兴趣和不同意见",
+          "scene": "同龄读书伙伴A、B互用해요体，展示方案调整为两种解读并列。交流目的：重新分工并处理不同解读，不重复首次选择方案。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-16-5",
+              "wordIndex": 2,
+              "surface": "마땅한",
+              "lemmas": [
+                "마땅하다"
+              ],
+              "ko": "차이를 설명할 마땅한 문장이 잘 떠오르지 않아요.",
+              "zh": "我想不出解释这种差异的合适句子。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "형용사",
+          "meaning": "合适，恰当",
+          "definition": "很符合或很合适某个条件。",
+          "entryId": "15693",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "관심사",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "关心的事，兴趣点，关心的问题",
+          "definition": "吸引关注的事情或对象。",
+          "entryId": "23998",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "读书展示：按兴趣选择表达方式",
+          "scene": "同龄读书伙伴A、B互用해요体，准备虚构小组展示。交流目的：挑选符合参与者兴趣的展示方式，确认检查流程。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-15-2",
+              "wordIndex": 2,
+              "surface": "관심사가",
+              "lemmas": [
+                "관심사"
+              ],
+              "ko": "먼저 우리 관심사가 같은지 확인해 봐요.",
+              "zh": "先确认我们的兴趣是否一致吧。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-15-4",
+              "wordIndex": 2,
+              "surface": "관심사를",
+              "lemmas": [
+                "관심사"
+              ],
+              "ko": "맞아요. 두 관심사를 함께 보여 줄 마땅한 방법을 찾고 싶어요.",
+              "zh": "对。我想找一个合适的方法，同时展现这两种兴趣。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "展示分工：保留不同兴趣和不同意见",
+          "scene": "同龄读书伙伴A、B互用해요体，展示方案调整为两种解读并列。交流目的：重新分工并处理不同解读，不重复首次选择方案。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-16-2",
+              "wordIndex": 0,
+              "surface": "관심사가",
+              "lemmas": [
+                "관심사"
+              ],
+              "ko": "관심사가 다르니까 본 장면도 조금 달랐어요.",
+              "zh": "因为兴趣不同，关注的情节也有些不一样。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "关心的事，兴趣点，关心的问题",
+          "definition": "吸引关注的事情或对象。",
+          "entryId": "23998",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "이중",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "二重，双重",
+          "definition": "两层；或指两层的东西。",
+          "entryId": "24979",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "读书展示：按兴趣选择表达方式",
+          "scene": "同龄读书伙伴A、B互用해요体，准备虚构小组展示。交流目的：挑选符合参与者兴趣的展示方式，确认检查流程。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-15-6",
+              "wordIndex": 6,
+              "surface": "이중으로",
+              "lemmas": [
+                "이중"
+              ],
+              "ko": "좋아요. 그림 설명과 책 내용이 맞는지 이중으로 확인해요.",
+              "zh": "好。对图画说明和书中内容是否一致，做两重核查吧。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-15-7",
+              "wordIndex": 0,
+              "surface": "이중",
+              "lemmas": [
+                "이중"
+              ],
+              "ko": "이중 확인은 어떤 순서로 하죠?",
+              "zh": "双重核查按什么顺序做呢？"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "展示分工：保留不同兴趣和不同意见",
+          "scene": "同龄读书伙伴A、B互用해요体，展示方案调整为两种解读并列。交流目的：重新分工并处理不同解读，不重复首次选择方案。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-16-7",
+              "wordIndex": 1,
+              "surface": "이중",
+              "lemmas": [
+                "이중"
+              ],
+              "ko": "지난번 이중 확인 덕분에 책에 없는 설명은 뺐어요.",
+              "zh": "多亏上次的双重核查，删掉了书中没有的说明。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "二重，双重",
+          "definition": "两层；或指两层的东西。",
+          "entryId": "24979",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "뜻밖에",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d3",
+      "firstScheduledCourseDay": 178,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "意外地，出乎意料地，没想到",
+          "definition": "与预料或预想的不一样。",
+          "entryId": "15234",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "借桌游：先核实意外缺件",
+          "scene": "同龄朋友A、B互用해요体，借到虚构桌游后发现卡片少于盒中说明。交流目的：核实意外缺件和反馈方式，时间为双方此次约定。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-17-1",
+              "wordIndex": 2,
+              "surface": "뜻밖에",
+              "lemmas": [
+                "뜻밖에"
+              ],
+              "ko": "상자를 열었는데 뜻밖에 카드가 두 장 부족했어요.",
+              "zh": "打开盒子后，意外发现少了两张卡。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "归还桌游：解释找到的卡片与剩余问题",
+          "scene": "同龄朋友A、B互用해요体，归还虚构桌游前发现卡片在另一小袋中。交流目的：纠正此前反馈并讨论包装说明，未借用前次数量作新的事实。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-18-1",
+              "wordIndex": 6,
+              "surface": "뜻밖에",
+              "lemmas": [
+                "뜻밖에"
+              ],
+              "ko": "카드 두 장을 작은 봉투에서 찾았어요. 뜻밖에 다른 곳에 들어 있었네요.",
+              "zh": "在小袋子里找到了那两张卡，没想到装在别处。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "意外地，出乎意料地，没想到",
+          "definition": "与预料或预想的不一样。",
+          "entryId": "15234",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "이내",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d3",
+      "firstScheduledCourseDay": 178,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "马上，立刻",
+          "definition": "当时就；或指不推迟而立即。",
+          "entryId": "24107",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "以内",
+          "definition": "一定范围之内。",
+          "entryId": "24109",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "관형사",
+          "meaning": "(强调)我的。",
+          "definition": "(强调)我的。",
+          "entryId": "71633",
+          "senseId": "1"
+        },
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "之后就",
+          "definition": "从某时一直。",
+          "entryId": "24107",
+          "senseId": "2"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "借桌游：先核实意外缺件",
+          "scene": "同龄朋友A、B互用해요体，借到虚构桌游后发现卡片少于盒中说明。交流目的：核实意外缺件和反馈方式，时间为双方此次约定。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-17-7",
+              "wordIndex": 4,
+              "surface": "이내에",
+              "lemmas": [
+                "이내"
+              ],
+              "ko": "친구가 오늘 두 시간 이내에 답할 수 있다고 했어요.",
+              "zh": "朋友说今天能在两小时以内回复。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "归还桌游：解释找到的卡片与剩余问题",
+          "scene": "同龄朋友A、B互用해요体，归还虚构桌游前发现卡片在另一小袋中。交流目的：纠正此前反馈并讨论包装说明，未借用前次数量作新的事实。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-18-5",
+              "wordIndex": 2,
+              "surface": "이내에",
+              "lemmas": [
+                "이내"
+              ],
+              "ko": "두 시간 이내에 답해 준 친구 덕분에 빨리 찾았어요.",
+              "zh": "多亏朋友在两小时内回复，很快找到了。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "以内",
+          "definition": "一定范围之内。",
+          "entryId": "24109",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "짐작",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "估计，估量，估摸",
+          "definition": "大致地推断情况或处境。",
+          "entryId": "29021",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "借桌游：先核实意外缺件",
+          "scene": "同龄朋友A、B互用해요体，借到虚构桌游后发现卡片少于盒中说明。交流目的：核实意外缺件和反馈方式，时间为双方此次约定。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-17-3",
+              "wordIndex": 4,
+              "surface": "짐작은",
+              "lemmas": [
+                "짐작"
+              ],
+              "ko": "네. 빠진 카드가 뭔지 짐작은 하지만 확실하지 않아요.",
+              "zh": "对。我能猜测少了什么卡，但不确定。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "归还桌游：解释找到的卡片与剩余问题",
+          "scene": "同龄朋友A、B互用해요体，归还虚构桌游前发现卡片在另一小袋中。交流目的：纠正此前反馈并讨论包装说明，未借用前次数量作新的事实。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-18-3",
+              "wordIndex": 1,
+              "surface": "짐작이",
+              "lemmas": [
+                "짐작"
+              ],
+              "ko": "제 짐작이 틀렸다는 것도 함께 말할게요.",
+              "zh": "我会一并说明之前的猜测错了。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "估计，估量，估摸",
+          "definition": "大致地推断情况或处境。",
+          "entryId": "29021",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "불평",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d3",
+      "firstScheduledCourseDay": 178,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "不满，牢骚",
+          "definition": "对某事或某人感到不满意；或将此种心情通过言行表现出来。",
+          "entryId": "24523",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "借桌游：先核实意外缺件",
+          "scene": "同龄朋友A、B互用해요体，借到虚构桌游后发现卡片少于盒中说明。交流目的：核实意外缺件和反馈方式，时间为双方此次约定。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-17-5",
+              "wordIndex": 3,
+              "surface": "불평하면",
+              "lemmas": [
+                "불평"
+              ],
+              "ko": "빌려준 친구에게 바로 불평하면 기분이 상할까 봐 망설여져요.",
+              "zh": "我犹豫着，怕立刻向借给我的朋友抱怨会让对方不高兴。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-17-6",
+              "wordIndex": 0,
+              "surface": "불평하기보다",
+              "lemmas": [
+                "불평"
+              ],
+              "ko": "불평하기보다 확인한 수와 번호를 알려 주면 어떨까요?",
+              "zh": "比起抱怨，告知已核实的数量和编号，怎么样？"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "归还桌游：解释找到的卡片与剩余问题",
+          "scene": "同龄朋友A、B互用해요体，归还虚构桌游前发现卡片在另一小袋中。交流目的：纠正此前反馈并讨论包装说明，未借用前次数量作新的事实。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-18-7",
+              "wordIndex": 6,
+              "surface": "불평하고",
+              "lemmas": [
+                "불평"
+              ],
+              "ko": "네. 처음부터 나뉘어 있다는 표시가 없어서 불평하고 싶었어요.",
+              "zh": "好。因为一开始没标明分开放，我曾想抱怨。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "不满，牢骚",
+          "definition": "对某事或某人感到不满意；或将此种心情通过言行表现出来。",
+          "entryId": "24523",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "차마",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d3",
+      "firstScheduledCourseDay": 178,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "忍心",
+          "definition": "由于害羞或可惜而实在。",
+          "entryId": "37241",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "分享愿望：先询问是否愿意说",
+          "scene": "同龄朋友A、B互用해요体，谈虚构校内公开朗读活动的免费名额抽签。交流目的：在尊重私心边界下表达愿望，不作成功保证。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-19-1",
+              "wordIndex": 3,
+              "surface": "차마",
+              "lemmas": [
+                "차마"
+              ],
+              "ko": "낭독회 신청서를 쓰다가 차마 제 소원을 적지 못했어요.",
+              "zh": "写朗读会申请表时，我终究没能把自己的愿望写上。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-19-9",
+              "wordIndex": 2,
+              "surface": "차마",
+              "lemmas": [
+                "차마"
+              ],
+              "ko": "떨어질까 봐 차마 연습도 시작하지 못했는데 오늘은 해 볼게요.",
+              "zh": "我怕落选，连练习都没能开始，但今天试试。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "落选之后：另约朗读机会",
+          "scene": "同龄朋友A、B互用해요体，虚构公开朗读抽签未中后安排朋友间朗读。交流目的：说明真实心情，另找实现愿望的方式，不假称抽签证明能力。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-20-1",
+              "wordIndex": 4,
+              "surface": "차마",
+              "lemmas": [
+                "차마"
+              ],
+              "ko": "이번 추첨은 안 됐어요. 차마 결과를 먼저 말하지 못했어요.",
+              "zh": "这次没抽中。我一直没能先开口说结果。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "부사",
+          "meaning": "忍心",
+          "definition": "由于害羞或可惜而实在。",
+          "entryId": "37241",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "속마음",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "内心，心思",
+          "definition": "不外露的实际的心意。",
+          "entryId": "15590",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "分享愿望：先询问是否愿意说",
+          "scene": "同龄朋友A、B互用해요体，谈虚构校内公开朗读活动的免费名额抽签。交流目的：在尊重私心边界下表达愿望，不作成功保证。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-19-2",
+              "wordIndex": 4,
+              "surface": "속마음을",
+              "lemmas": [
+                "속마음"
+              ],
+              "ko": "쓰고 싶지 않으면 자세한 속마음을 밝힐 필요는 없어요.",
+              "zh": "如果不想写，就不必透露详细的内心想法。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-19-6",
+              "wordIndex": 3,
+              "surface": "속마음을",
+              "lemmas": [
+                "속마음"
+              ],
+              "ko": "그럼 제게 말한 속마음을 제가 대신 공개하지 않을게요.",
+              "zh": "那么你告诉我的内心想法，我不会代你公开。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "落选之后：另约朗读机会",
+          "scene": "同龄朋友A、B互用해요体，虚构公开朗读抽签未中后安排朋友间朗读。交流目的：说明真实心情，另找实现愿望的方式，不假称抽签证明能力。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-20-2",
+              "wordIndex": 0,
+              "surface": "속마음을",
+              "lemmas": [
+                "속마음"
+              ],
+              "ko": "속마음을 말하기 어려웠군요. 지금 이야기해 줘서 고마워요.",
+              "zh": "内心想法很难说出口啊。谢谢你现在告诉我。"
+            },
+            {
+              "lineId": "w27d6-gap-expansion-e-20-7",
+              "wordIndex": 2,
+              "surface": "속마음도",
+              "lemmas": [
+                "속마음"
+              ],
+              "ko": "그 정도라면 속마음도 제가 말하고 싶은 만큼만 이야기할 수 있겠어요.",
+              "zh": "那样的话，我也能只谈自己愿意说的那部分内心想法。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "内心，心思",
+          "definition": "不外露的实际的心意。",
+          "entryId": "15590",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "소원",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "心愿，愿望",
+          "definition": "希望某事得以实现；或指希望的那件事。",
+          "entryId": "49246",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "分享愿望：先询问是否愿意说",
+          "scene": "同龄朋友A、B互用해요体，谈虚构校内公开朗读活动的免费名额抽签。交流目的：在尊重私心边界下表达愿望，不作成功保证。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-19-1",
+              "wordIndex": 5,
+              "surface": "소원을",
+              "lemmas": [
+                "소원"
+              ],
+              "ko": "낭독회 신청서를 쓰다가 차마 제 소원을 적지 못했어요.",
+              "zh": "写朗读会申请表时，我终究没能把自己的愿望写上。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-19-3",
+              "wordIndex": 1,
+              "surface": "소원은",
+              "lemmas": [
+                "소원"
+              ],
+              "ko": "제 소원은 처음 쓴 글을 사람들 앞에서 읽는 거예요.",
+              "zh": "我的愿望是在人们面前朗读自己第一次写的文章。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-19-4",
+              "wordIndex": 2,
+              "surface": "소원을",
+              "lemmas": [
+                "소원"
+              ],
+              "ko": "왜 그런 소원을 갖게 됐는지도 이야기하고 싶어요?",
+              "zh": "你还想谈谈为什么产生这个愿望吗？"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "落选之后：另约朗读机会",
+          "scene": "同龄朋友A、B互用해요体，虚构公开朗读抽签未中后安排朋友间朗读。交流目的：说明真实心情，另找实现愿望的方式，不假称抽签证明能力。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-20-5",
+              "wordIndex": 5,
+              "surface": "소원은",
+              "lemmas": [
+                "소원"
+              ],
+              "ko": "그래도 사람들 앞에서 읽고 싶다는 소원은 여전해요.",
+              "zh": "不过，想在人们面前朗读的愿望依然没有变。"
+            },
+            {
+              "lineId": "w27d6-gap-expansion-e-20-9",
+              "wordIndex": 0,
+              "surface": "소원을",
+              "lemmas": [
+                "소원"
+              ],
+              "ko": "소원을 말한 걸 후회하지 않도록 공개 범위는 제가 정할게요.",
+              "zh": "为了不后悔说出愿望，公开范围由我自己决定。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "心愿，愿望",
+          "definition": "希望某事得以实现；或指希望的那件事。",
+          "entryId": "49246",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    },
+    {
+      "headword": "행운",
+      "classification": "material-gap-for-reviewed-target-usage",
+      "priorityReason": "第26周尚无课内用例，补足高级日常表达和阅读所需的程度、判断、意愿与目的表达；不把词典例句当课程场景。",
+      "firstScheduledLessonId": "w26d4",
+      "firstScheduledCourseDay": 179,
+      "originalLinesAtSelection": 0,
+      "dictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "幸运",
+          "definition": "好运气；或指幸福的运势。",
+          "entryId": "85119",
+          "senseId": "1"
+        }
+      ],
+      "sceneEvidence": [
+        {
+          "lessonId": "w26d6",
+          "courseDay": 181,
+          "title": "分享愿望：先询问是否愿意说",
+          "scene": "同龄朋友A、B互用해요体，谈虚构校内公开朗读活动的免费名额抽签。交流目的：在尊重私心边界下表达愿望，不作成功保证。",
+          "examples": [
+            {
+              "lineId": "w26d6-gap-expansion-e-19-7",
+              "wordIndex": 4,
+              "surface": "행운도",
+              "lemmas": [
+                "행운"
+              ],
+              "ko": "무료 참가 자리가 추첨이라 행운도 필요하겠네요.",
+              "zh": "免费参加名额是抽签决定的，也需要好运啊。"
+            },
+            {
+              "lineId": "w26d6-gap-expansion-e-19-8",
+              "wordIndex": 0,
+              "surface": "행운을",
+              "lemmas": [
+                "행운"
+              ],
+              "ko": "행운을 기다리는 동안 읽을 부분을 고를 수는 있겠죠.",
+              "zh": "在等待好运时，还是可以选择要读的部分吧。"
+            }
+          ]
+        },
+        {
+          "lessonId": "w27d6",
+          "courseDay": 188,
+          "title": "落选之后：另约朗读机会",
+          "scene": "同龄朋友A、B互用해요体，虚构公开朗读抽签未中后安排朋友间朗读。交流目的：说明真实心情，另找实现愿望的方式，不假称抽签证明能力。",
+          "examples": [
+            {
+              "lineId": "w27d6-gap-expansion-e-20-3",
+              "wordIndex": 0,
+              "surface": "행운이",
+              "lemmas": [
+                "행운"
+              ],
+              "ko": "행운이 없었다고 생각하니 연습한 것도 헛일 같았어요.",
+              "zh": "想到没得到好运，觉得之前练习也像白费了。"
+            },
+            {
+              "lineId": "w27d6-gap-expansion-e-20-8",
+              "wordIndex": 1,
+              "surface": "행운에만",
+              "lemmas": [
+                "행운"
+              ],
+              "ko": "네. 행운에만 맡기지 않고 다른 자리를 마련해 보는 거죠.",
+              "zh": "对。我们是在安排别的机会，不只交给好运。"
+            }
+          ]
+        }
+      ],
+      "recurrenceGap": 7,
+      "usedDictionarySenses": [
+        {
+          "source": "krdict",
+          "pos": "명사",
+          "meaning": "幸运",
+          "definition": "好运气；或指幸福的运势。",
+          "entryId": "85119",
+          "senseId": "1"
+        }
+      ],
+      "senseInterpretation": "项目逐句语境判断，词典字段仅支持词义/POS；不是词典机构审校了新句。"
+    }
+  ],
+  "allUniqueToBaselineAndBatch": true,
+  "noReviewOnlyDay7": true,
+  "annotationMode": "read-only annotate in memory; final publication audit required",
+  "authorRevisions": [
+    {
+      "scene": 7,
+      "line": 6,
+      "before": {
+        "speaker": "B",
+        "ko": "네. 그런 선호가 형성된 이유는 답한 뒤에 물어봐요.",
+        "zh": "好。在对方回答后，再问这种偏好形成的原因。"
+      },
+      "after": {
+        "speaker": "B",
+        "ko": "네. 의견의 형성 과정을 이해하려면 답한 뒤에 그 이유를 물어봐요.",
+        "zh": "好。要了解意见形成的过程，可以在对方回答后再问原因。"
+      },
+      "reason": "目标是名词형성，原句只体现형성되다；改成自然的形成过程询问，仍保留交流目的。",
+      "assetIndex": 6,
+      "lineIndex": 5
+    },
+    {
+      "scene": 8,
+      "line": 4,
+      "before": {
+        "speaker": "B",
+        "ko": "그렇게 의견이 형성된 조건을 원문과 함께 적어요.",
+        "zh": "把意见形成的这些条件与原话一起写下来。"
+      },
+      "after": {
+        "speaker": "B",
+        "ko": "의견의 형성에 영향을 준 조건을 원문과 함께 적어요.",
+        "zh": "把影响意见形成的条件与原话一起写下来。"
+      },
+      "reason": "明确名词형성，不以相关派生词代替目标。",
+      "assetIndex": 7,
+      "lineIndex": 3
+    },
+    {
+      "scene": 13,
+      "line": 4,
+      "before": {
+        "speaker": "B",
+        "ko": "네. 가능한 날을 고를 수 있다는 점을 강조해 주세요.",
+        "zh": "好。请强调可以选择方便的日期。"
+      },
+      "after": {
+        "speaker": "B",
+        "ko": "네. 가능한 날을 고를 수 있다는 점은 강조가 필요해요.",
+        "zh": "好。能选择方便的日期这一点，需要强调。"
+      },
+      "reason": "名词강조实际用例；保持欢迎说明要突出的内容。",
+      "assetIndex": 12,
+      "lineIndex": 3
+    },
+    {
+      "scene": 14,
+      "line": 2,
+      "before": {
+        "speaker": "B",
+        "ko": "우리가 강조하려던 건 관심 있는 책 한 권을 고르는 거였죠.",
+        "zh": "我们想强调的是选一本自己感兴趣的书，对吧。"
+      },
+      "after": {
+        "speaker": "B",
+        "ko": "관심 있는 책 한 권을 고르는 게 중심이죠. 그 부분에 강조가 필요했어요.",
+        "zh": "重点是选一本感兴趣的书。这一部分需要强调。"
+      },
+      "reason": "复现场景也使用名词강조，仍说明此前说明不够突出重点。",
+      "assetIndex": 13,
+      "lineIndex": 1
+    },
+    {
+      "scene": 15,
+      "line": 3,
+      "before": {
+        "speaker": "A",
+        "ko": "저는 인물의 선택에 관심이 있고 당신은 그림을 좋아하죠?",
+        "zh": "我关心人物的选择，你喜欢图画，对吧？"
+      },
+      "after": {
+        "speaker": "A",
+        "ko": "저는 인물의 선택에 관심이 있어요. 그림을 좋아하신다고 하셨죠?",
+        "zh": "我关心人物的选择。你说过喜欢图画，对吧？"
+      },
+      "reason": "同龄礼貌交流中避免不自然的당신直接称呼。",
+      "assetIndex": 14,
+      "lineIndex": 2
+    },
+    {
+      "scene": 16,
+      "line": 6,
+      "before": {
+        "speaker": "B",
+        "ko": "당신이 본 행동과 제가 본 행동을 먼저 구체적으로 적어요.",
+        "zh": "先具体写下你注意到的行为和我注意到的行为吧。"
+      },
+      "after": {
+        "speaker": "B",
+        "ko": "서로 눈여겨본 행동을 먼저 구체적으로 적어요.",
+        "zh": "先具体写下各自注意到的行为吧。"
+      },
+      "reason": "同龄伙伴自然指代，意思不变。",
+      "assetIndex": 15,
+      "lineIndex": 5
+    },
+    {
+      "scene": 19,
+      "line": 4,
+      "before": {
+        "speaker": "B",
+        "ko": "그 이야기를 지금 말해 줘도 괜찮아요?",
+        "zh": "你现在愿意把这件事告诉我，可以吗？"
+      },
+      "after": {
+        "speaker": "B",
+        "ko": "왜 그런 소원을 갖게 됐는지도 이야기하고 싶어요?",
+        "zh": "你还想谈谈为什么产生这个愿望吗？"
+      },
+      "reason": "使B的询問明确针对对方愿意分享的范围，避免主语歧义。",
+      "assetIndex": 18,
+      "lineIndex": 3
+    },
+    {
+      "scene": 19,
+      "line": 5,
+      "before": {
+        "speaker": "A",
+        "ko": "네. 당신에게는 말하고 싶었는데 다른 사람에게는 아직 어려워요.",
+        "zh": "可以。我想告诉你，但目前对其他人说还很困难。"
+      },
+      "after": {
+        "speaker": "A",
+        "ko": "네. 지금은 가까운 친구에게만 말하고 싶어요. 다른 사람에게는 아직 어려워요.",
+        "zh": "愿意。不过现在只想告诉亲近的朋友，对其他人说还很困难。"
+      },
+      "reason": "自然指代亲近朋友，保留尚不愿公开的边界。",
+      "assetIndex": 18,
+      "lineIndex": 4
+    },
+    {
+      "assetIndex": 6,
+      "lineIndex": 1,
+      "before": {
+        "speaker": "B",
+        "ko": "그건 나이로 의견을 짐작한 편견일 수 있어요.",
+        "zh": "这可能是根据年龄猜测意见的偏见。"
+      },
+      "after": {
+        "speaker": "B",
+        "ko": "그건 신입생이라는 이유만으로 의견을 짐작한 편견일 수 있어요.",
+        "zh": "这可能是仅凭新生身份就猜测意见的偏见。"
+      },
+      "reason": "新生身份没有提供年龄证据，消除无根据的年龄推断，保留偏见目标义。"
+    },
+    {
+      "assetIndex": 7,
+      "lineIndex": 0,
+      "before": {
+        "speaker": "A",
+        "ko": "인터뷰 두 사람이 같은 수업에 대해 다른 의견을 냈어요.",
+        "zh": "接受采访的两个人，对同一门课提出了不同意见。"
+      },
+      "after": {
+        "speaker": "A",
+        "ko": "인터뷰에 응한 두 사람이 같은 수업에 대해 다른 의견을 냈어요.",
+        "zh": "接受采访的两个人，对同一门课提出了不同意见。"
+      },
+      "reason": "补全接受采访者的限定成分，保持原译主体。"
+    },
+    {
+      "assetIndex": 4,
+      "lineIndex": 8,
+      "before": {
+        "speaker": "A",
+        "ko": "그럼 스물네 명의 응답에서 확인한 문제라고 제목을 바꿀게요.",
+        "zh": "那我把标题改为“在二十四份回答中确认的问题”。"
+      },
+      "after": {
+        "speaker": "A",
+        "ko": "그럼 스물네 명의 응답에서 확인한 문제라고 제목을 바꿀게요.",
+        "zh": "那我把标题改为“在二十四人的回答中确认的问题”。"
+      },
+      "reason": "명의以人数计，不改译成回答份数。"
+    },
+    {
+      "assetIndex": 16,
+      "lineIndex": 3,
+      "before": {
+        "speaker": "B",
+        "ko": "짐작한 이름으로 신고하지 말고 번호부터 확인해요.",
+        "zh": "别按猜测的名称反馈，先确认编号吧。"
+      },
+      "after": {
+        "speaker": "B",
+        "ko": "짐작한 이름을 알려 주지 말고 번호부터 확인해요.",
+        "zh": "别把猜测的名称告诉对方，先确认编号吧。"
+      },
+      "reason": "朋友借物反馈不符合词典中신고行政或上级报告义，改为日常告知，保留짐작。"
+    }
+  ]
+}

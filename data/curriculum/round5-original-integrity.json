@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "baselineGit": "170d269947a8569aa31387a5fa42932cf57645c1",
+  "baselineOriginalsSha256": "8fe80e224209735c64928d631f5f63f0b16a6dde8d20d56d8c06d33901e1700f",
+  "baselineSectionsSha256": "705acc7aa28f4a6d229515b36d54c5a7261abbab4aabbc30786971859bb6237b",
+  "baselineOriginalLines": 8269,
+  "currentOriginalLines": 8949,
+  "addedOriginalLines": 680,
+  "preservedOldIds": 8269,
+  "preservedFields": [
+    "ko",
+    "zh",
+    "speaker",
+    "register"
+  ],
+  "changedOldOriginalLines": 0,
+  "mainLessonVocabularyListsPreserved": 182,
+  "oldSectionKeysSourcesAndLineListsPreserved": 3564,
+  "mainCourseDays": 182,
+  "publishedExtraLessonIds": [
+    "w27d6"
+  ],
+  "independentNativeSpeakerReview": false
+}

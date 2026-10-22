@@ -1,0 +1,436 @@
+{
+  "mainWords": 4980,
+  "allLevel1And2Retained": 2952,
+  "level3Early": 228,
+  "level3Late": 1800,
+  "foundationLevel1Only": true,
+  "lateLevel2Slots": 120,
+  "lateLevel2OriginalWeekMin": 15,
+  "sameDaySceneWords": 1746,
+  "wordsWithAnyScene": 2979,
+  "annotationMode": "canonical machine annotations; unresolved candidates excluded",
+  "improvingPairSwaps": 942,
+  "costBeforeSwaps": -4006.8,
+  "costAfterSwaps": -7968.1,
+  "weeks": [
+    {
+      "week": 1,
+      "newWords": 60,
+      "levels": {
+        "1": 60
+      },
+      "sameDaySceneWords": 58,
+      "sameDayRate": 0.967
+    },
+    {
+      "week": 2,
+      "newWords": 60,
+      "levels": {
+        "1": 60
+      },
+      "sameDaySceneWords": 56,
+      "sameDayRate": 0.933
+    },
+    {
+      "week": 3,
+      "newWords": 150,
+      "levels": {
+        "1": 145,
+        "2": 4,
+        "3": 1
+      },
+      "sameDaySceneWords": 72,
+      "sameDayRate": 0.48
+    },
+    {
+      "week": 4,
+      "newWords": 150,
+      "levels": {
+        "1": 136,
+        "2": 10,
+        "3": 4
+      },
+      "sameDaySceneWords": 70,
+      "sameDayRate": 0.467
+    },
+    {
+      "week": 5,
+      "newWords": 150,
+      "levels": {
+        "1": 138,
+        "2": 10,
+        "3": 2
+      },
+      "sameDaySceneWords": 75,
+      "sameDayRate": 0.5
+    },
+    {
+      "week": 6,
+      "newWords": 150,
+      "levels": {
+        "1": 134,
+        "2": 13,
+        "3": 3
+      },
+      "sameDaySceneWords": 66,
+      "sameDayRate": 0.44
+    },
+    {
+      "week": 7,
+      "newWords": 180,
+      "levels": {
+        "1": 130,
+        "2": 43,
+        "3": 7
+      },
+      "sameDaySceneWords": 85,
+      "sameDayRate": 0.472
+    },
+    {
+      "week": 8,
+      "newWords": 180,
+      "levels": {
+        "1": 71,
+        "2": 99,
+        "3": 10
+      },
+      "sameDaySceneWords": 105,
+      "sameDayRate": 0.583
+    },
+    {
+      "week": 9,
+      "newWords": 180,
+      "levels": {
+        "1": 30,
+        "2": 131,
+        "3": 19
+      },
+      "sameDaySceneWords": 93,
+      "sameDayRate": 0.517
+    },
+    {
+      "week": 10,
+      "newWords": 180,
+      "levels": {
+        "1": 7,
+        "2": 160,
+        "3": 13
+      },
+      "sameDaySceneWords": 70,
+      "sameDayRate": 0.389
+    },
+    {
+      "week": 11,
+      "newWords": 180,
+      "levels": {
+        "1": 4,
+        "2": 158,
+        "3": 18
+      },
+      "sameDaySceneWords": 90,
+      "sameDayRate": 0.5
+    },
+    {
+      "week": 12,
+      "newWords": 180,
+      "levels": {
+        "1": 1,
+        "2": 175,
+        "3": 4
+      },
+      "sameDaySceneWords": 54,
+      "sameDayRate": 0.3
+    },
+    {
+      "week": 13,
+      "newWords": 210,
+      "levels": {
+        "2": 193,
+        "3": 17
+      },
+      "sameDaySceneWords": 73,
+      "sameDayRate": 0.348
+    },
+    {
+      "week": 14,
+      "newWords": 210,
+      "levels": {
+        "2": 183,
+        "3": 27
+      },
+      "sameDaySceneWords": 77,
+      "sameDayRate": 0.367
+    },
+    {
+      "week": 15,
+      "newWords": 210,
+      "levels": {
+        "2": 171,
+        "3": 39
+      },
+      "sameDaySceneWords": 62,
+      "sameDayRate": 0.295
+    },
+    {
+      "week": 16,
+      "newWords": 210,
+      "levels": {
+        "2": 185,
+        "3": 25
+      },
+      "sameDaySceneWords": 54,
+      "sameDayRate": 0.257
+    },
+    {
+      "week": 17,
+      "newWords": 210,
+      "levels": {
+        "2": 197,
+        "3": 13
+      },
+      "sameDaySceneWords": 45,
+      "sameDayRate": 0.214
+    },
+    {
+      "week": 18,
+      "newWords": 210,
+      "levels": {
+        "2": 184,
+        "3": 26
+      },
+      "sameDaySceneWords": 57,
+      "sameDayRate": 0.271
+    },
+    {
+      "week": 19,
+      "newWords": 240,
+      "levels": {
+        "2": 15,
+        "3": 225
+      },
+      "sameDaySceneWords": 48,
+      "sameDayRate": 0.2
+    },
+    {
+      "week": 20,
+      "newWords": 240,
+      "levels": {
+        "2": 15,
+        "3": 225
+      },
+      "sameDaySceneWords": 48,
+      "sameDayRate": 0.2
+    },
+    {
+      "week": 21,
+      "newWords": 240,
+      "levels": {
+        "2": 15,
+        "3": 225
+      },
+      "sameDaySceneWords": 80,
+      "sameDayRate": 0.333
+    },
+    {
+      "week": 22,
+      "newWords": 240,
+      "levels": {
+        "2": 15,
+        "3": 225
+      },
+      "sameDaySceneWords": 54,
+      "sameDayRate": 0.225
+    },
+    {
+      "week": 23,
+      "newWords": 240,
+      "levels": {
+        "2": 15,
+        "3": 225
+      },
+      "sameDaySceneWords": 76,
+      "sameDayRate": 0.317
+    },
+    {
+      "week": 24,
+      "newWords": 240,
+      "levels": {
+        "2": 15,
+        "3": 225
+      },
+      "sameDaySceneWords": 64,
+      "sameDayRate": 0.267
+    },
+    {
+      "week": 25,
+      "newWords": 240,
+      "levels": {
+        "2": 15,
+        "3": 225
+      },
+      "sameDaySceneWords": 65,
+      "sameDayRate": 0.271
+    },
+    {
+      "week": 26,
+      "newWords": 240,
+      "levels": {
+        "2": 15,
+        "3": 225
+      },
+      "sameDaySceneWords": 49,
+      "sameDayRate": 0.204
+    }
+  ],
+  "mismatchSamples": [
+    {
+      "lessonId": "w01d1",
+      "title": "第一天报到",
+      "sameDayCount": 10,
+      "offSceneSample": [],
+      "lateCoreSample": [
+        "저",
+        "이름",
+        "학생",
+        "선생님",
+        "한국어",
+        "뭐",
+        "자리",
+        "새"
+      ]
+    },
+    {
+      "lessonId": "w07d1",
+      "title": "听到了却没听懂",
+      "sameDayCount": 17,
+      "offSceneSample": [
+        "자연",
+        "반복",
+        "아들",
+        "구경",
+        "지우다",
+        "실례",
+        "끝내다",
+        "스무",
+        "일흔",
+        "그러나",
+        "공항",
+        "여권"
+      ],
+      "lateCoreSample": [
+        "받침",
+        "소리",
+        "문장",
+        "다",
+        "나다",
+        "동안",
+        "마지막",
+        "공원"
+      ]
+    },
+    {
+      "lessonId": "w13d1",
+      "title": "第一次独自处理问题",
+      "sameDayCount": 16,
+      "offSceneSample": [
+        "돌다",
+        "무섭다",
+        "앓다",
+        "혀",
+        "후배",
+        "터뜨리다",
+        "디자인",
+        "털",
+        "쥐",
+        "얼다",
+        "손톱",
+        "포스터"
+      ],
+      "lateCoreSample": [
+        "정보",
+        "전혀",
+        "떠오르다",
+        "처리하다",
+        "아래층",
+        "연락처",
+        "뒤쪽",
+        "수리"
+      ]
+    },
+    {
+      "lessonId": "w19d1",
+      "title": "辞职之前先验证方向",
+      "sameDayCount": 11,
+      "offSceneSample": [
+        "앞서",
+        "불확실성",
+        "반면",
+        "한때",
+        "드디어",
+        "운전사",
+        "중반",
+        "생물",
+        "기원전",
+        "이달",
+        "애초",
+        "금세"
+      ],
+      "lateCoreSample": [
+        "초보자",
+        "직장",
+        "소개",
+        "조사하다"
+      ]
+    },
+    {
+      "lessonId": "w21d1",
+      "title": "收入增加却没有更宽裕",
+      "sameDayCount": 18,
+      "offSceneSample": [
+        "도입",
+        "그야말로",
+        "증권사",
+        "도달하다",
+        "날리다",
+        "여럿",
+        "생산자",
+        "인하",
+        "모금",
+        "멎다",
+        "일대",
+        "소지품"
+      ],
+      "lateCoreSample": [
+        "월급"
+      ]
+    },
+    {
+      "lessonId": "w26d1",
+      "title": "先定义争论的对象",
+      "sameDayCount": 4,
+      "offSceneSample": [
+        "생명",
+        "극히",
+        "향상",
+        "등등",
+        "차츰",
+        "쫓기다",
+        "막상",
+        "선언하다",
+        "잡아먹다",
+        "도전",
+        "딱딱하다",
+        "뜻밖"
+      ],
+      "lateCoreSample": []
+    }
+  ],
+  "limitations": [
+    "Original lesson dates are a theme proxy; no semantic embedding or human teacher judgment is used.",
+    "Fixed 4,980-word capacity still requires off-scene words; those need explicitly marked supplemental examples.",
+    "Full annotations improve occurrence counts. Exact/observed-surface fallback undercounts new inflections.",
+    "All level-1/2 retention and 120 introductory slots necessarily delay some basic words; no level-1 words are assigned after week 12."
+  ],
+  "annotationScope": "Canonical dictionary-backed lemmas on original course lines; unresolved candidates excluded. Machine annotations, not independently reviewed text occurrence coverage.",
+  "optimizationMetricsScope": "Historical scheduling run only; cost and swap counts are not recomputed by annotation rebuilds."
+}

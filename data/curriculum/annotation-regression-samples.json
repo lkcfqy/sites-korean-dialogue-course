@@ -1,0 +1,151 @@
+{
+  "provenance": {
+    "method": "agent-assisted correction regression samples",
+    "independentNativeSpeakerReview": false,
+    "scope": "Expected lexical roots and constrained context meanings. These assertions are separate from morphology generation and are not language certification."
+  },
+  "cases": [
+    {
+      "lineId": "w09d4-3",
+      "token": "귀가",
+      "expectedLemmas": ["귀"],
+      "forbiddenLemmas": ["귀가"],
+      "expectedMeaningIncludes": "耳"
+    },
+    {
+      "lineId": "w04d3-7",
+      "token": "따뜻한",
+      "expectedLemmas": ["따뜻하다"],
+      "forbiddenLemmas": ["하다"],
+      "expectedMeaningIncludes": "暖"
+    },
+    {
+      "lineId": "w14d2-3",
+      "token": "복잡한",
+      "expectedLemmas": ["복잡하다"],
+      "forbiddenLemmas": ["하다"],
+      "expectedMeaningIncludes": "复杂"
+    },
+    {
+      "lineId": "w02d5-3",
+      "token": "계세요?",
+      "expectedLemmas": ["계시다"],
+      "forbiddenLemmas": ["계"],
+      "expectedMeaningIncludes": "尊敬"
+    },
+    {
+      "lineId": "w02d2-immersion-6-4",
+      "token": "계세요?",
+      "expectedLemmas": ["계시다"],
+      "forbiddenLemmas": ["계"]
+    },
+    {
+      "lineId": "w07d3-immersion-31-8",
+      "token": "계세요”라고",
+      "expectedLemmas": ["계시다"],
+      "forbiddenLemmas": ["계"]
+    },
+    {
+      "lineId": "w17d2-7",
+      "token": "사는",
+      "expectedLemmas": ["살다"],
+      "forbiddenLemmas": ["사다"],
+      "expectedMeaningIncludes": "居住"
+    },
+    {
+      "lineId": "w21d3-deep-w19-22-30-16",
+      "token": "사는",
+      "expectedLemmas": ["살다"],
+      "forbiddenLemmas": ["사다"]
+    },
+    {
+      "lineId": "w25d1-deep-w23-26-26-4",
+      "token": "사는",
+      "expectedLemmas": ["살다"],
+      "forbiddenLemmas": ["사다"]
+    },
+    {
+      "lineId": "w21d1-2",
+      "token": "사는",
+      "expectedLemmas": ["사다"],
+      "forbiddenLemmas": ["살다"],
+      "expectedMeaningIncludes": "购买"
+    },
+    {
+      "lineId": "w21d1-deep-w19-22-26-11",
+      "token": "사는",
+      "expectedLemmas": ["사다"],
+      "forbiddenLemmas": ["살다"]
+    },
+    {
+      "lineId": "w21d4-immersion-151-5",
+      "token": "사는",
+      "expectedLemmas": ["사다"],
+      "forbiddenLemmas": ["살다"]
+    },
+    {
+      "lineId": "w01d6-5",
+      "token": "만나서",
+      "expectedLemmas": ["만나다"]
+    },
+    {
+      "lineId": "w01d6-11",
+      "token": "세",
+      "expectedLemmas": ["세"]
+    },
+    {
+      "lineId": "w01d6-11",
+      "token": "시에",
+      "expectedLemmas": ["시"]
+    },
+    {
+      "lineId": "w01d6-14",
+      "token": "봐요.",
+      "expectedLemmas": ["보다"]
+    }
+  ],
+  "speakerCases": [
+    {
+      "lineId": "w10d5-immersion-51-1",
+      "expectedSpeaker": "A",
+      "reason": "The patient reports reduced discomfort."
+    },
+    {
+      "lineId": "w10d5-immersion-51-14",
+      "expectedSpeaker": "A",
+      "reason": "The same patient asks what information to communicate."
+    },
+    {
+      "lineId": "w10d5-immersion-51-15",
+      "expectedSpeaker": "B",
+      "reason": "The clinic staff answers the patient; role continuity, not medical validation."
+    },
+    {
+      "lineId": "w10d5-immersion-51-18",
+      "expectedSpeaker": "A",
+      "reason": "The patient promises to bring personal notes."
+    },
+    {
+      "lineId": "w10d5-immersion-51-22",
+      "expectedSpeaker": "A",
+      "reason": "The patient states their own intention at the end."
+    }
+  ],
+  "lessonCases": [
+    {
+      "lessonId": "w01d6",
+      "expectedSceneVocabulary": [
+        "가다",
+        "보다",
+        "만나다",
+        "세",
+        "이야기하다",
+        "오늘",
+        "시간",
+        "오후",
+        "시",
+        "내일"
+      ]
+    }
+  ]
+}

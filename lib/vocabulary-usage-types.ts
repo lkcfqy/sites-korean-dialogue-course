@@ -1,0 +1,1 @@
+export type UsageSense = { source:"krdict"|"edited";contextSource?:"edited";pos:string;meaning:string;definition:string;annotation:string;phrases:string[];sentences:string[];sentenceZh?:string[];conversation:string[];pronunciation:string[];forms:string[];entryId:string;senseId:string };

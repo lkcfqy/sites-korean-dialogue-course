@@ -1,0 +1,252 @@
+{
+  "scope": "第23–26周原创深度补充；仅内容资产，不改变主词顺序和UI。",
+  "asset": "/tmp/korean-depth-assets/deep-w23-26.json",
+  "lessons": 24,
+  "scenes": 48,
+  "lines": 722,
+  "dialogueLines": 288,
+  "passageLines": 434,
+  "totalHangulSyllables": 33266,
+  "maxKoreanLineChars": 98,
+  "exactDuplicateKoreanLines": 0,
+  "exactMatchesWithStage2Stage3": 0,
+  "checks": {
+    "schemaAndCoverage": "passed",
+    "koreanCjkContamination": "none",
+    "passageMinimumHangulSyllables": 940,
+    "passageMaximumHangulSyllables": 1113,
+    "passageParagraphs": "5–6 contiguous argument paragraphs",
+    "passageVoice": "all B, continuous reading",
+    "sentenceLimit": "all <=240 chars"
+  },
+  "authorLanguageReview": {
+    "method": "原生成阶段的语义与数量自查记录；本次词根校订由代理和自动规则完成，未经过人工或独立韩国母语教师审校。",
+    "corrections": [
+      "w23d6把四次出错预约写成四人，改回四次预约，避免次数与人数混用。",
+      "w24d4把活动增加写成既有责任减少，改为休息及既有任务可用时间减少。",
+      "w24d5将暗示同一群体的确认问句改为询问出席者与全体居民是否同一群体。",
+      "w24d1移除韩语句中误入的汉字并改为自然韩语。"
+    ],
+    "outstandingKnownErrors": [],
+    "limits": [
+      "未经过独立韩国母语教师或编辑审校；正式长文的措辞仍可做风格润色。",
+      "此文件是新增材料，不将旧短文计入900音节门槛。",
+      "假设数字只用于教学，不引用实际研究、法律、统计或预测。"
+    ],
+    "humanReview": false,
+    "independentNativeSpeakerReview": false
+  },
+  "numericReview": [
+    "w23d1：12+12=24；8/12与4/12仅相关差异。",
+    "w23d3：95一致+4错误拒绝+1错误批准=100。",
+    "w23d5：40人分两组；70→80与70→73，三名退出的均值口径留作需核实条件。",
+    "w23d6：10×6=60；10×2+4×10=60，四次不等于四人。",
+    "w24d1：8独立设备+6共用=14。",
+    "w24d3：25完成+20选择性观看+15想继续却退出=60；另40未开始=100。",
+    "w24d5：18赞成+2暂缓=20，不扩大为全体居民。",
+    "w25d2：12人中8人有意向，其中3人有时间计划，不将意向当预测。",
+    "w25d3：5结课+3时间冲突=8。",
+    "w25d4：3独立空间+3共用空间=6，省通勤不自动等于闲暇。",
+    "w25d5：80访客与2户咨询，不与定居人数混用；12乘车人次为另一个教学条件。",
+    "w25d6：5人商店中1人休两周，培训人员的损失时间列入成本。",
+    "w26d3：12人单词任务+10分与8人解释任务无变化，不直接求平均。",
+    "w26d4：5天×12次=60次，明确可能为同人重复。",
+    "w26d5：两段各6次课，干扰24→12；内容不同，不断言因果。",
+    "w26d6：100×10=40×25=1000；原40人每人支付额少15，净利益仍需税收及既有支援。"
+  ],
+  "byLesson": [
+    {
+      "lessonId": "w23d1",
+      "dialogueLines": 12,
+      "passageLines": 20,
+      "passageHangulSyllables": 1024,
+      "lessonHangulSyllables": 1396,
+      "paragraphCount": 6
+    },
+    {
+      "lessonId": "w23d2",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 940,
+      "lessonHangulSyllables": 1388,
+      "paragraphCount": 6
+    },
+    {
+      "lessonId": "w23d3",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 977,
+      "lessonHangulSyllables": 1394,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w23d4",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 986,
+      "lessonHangulSyllables": 1399,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w23d5",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 968,
+      "lessonHangulSyllables": 1387,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w23d6",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 967,
+      "lessonHangulSyllables": 1400,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w24d1",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 985,
+      "lessonHangulSyllables": 1399,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w24d2",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 970,
+      "lessonHangulSyllables": 1400,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w24d3",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1008,
+      "lessonHangulSyllables": 1398,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w24d4",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1021,
+      "lessonHangulSyllables": 1336,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w24d5",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 977,
+      "lessonHangulSyllables": 1370,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w24d6",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 975,
+      "lessonHangulSyllables": 1327,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w25d1",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1076,
+      "lessonHangulSyllables": 1399,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w25d2",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1070,
+      "lessonHangulSyllables": 1395,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w25d3",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1082,
+      "lessonHangulSyllables": 1398,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w25d4",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1065,
+      "lessonHangulSyllables": 1362,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w25d5",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1082,
+      "lessonHangulSyllables": 1400,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w25d6",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1104,
+      "lessonHangulSyllables": 1394,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w26d1",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1053,
+      "lessonHangulSyllables": 1372,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w26d2",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1060,
+      "lessonHangulSyllables": 1376,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w26d3",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1094,
+      "lessonHangulSyllables": 1400,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w26d4",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1078,
+      "lessonHangulSyllables": 1399,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w26d5",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1052,
+      "lessonHangulSyllables": 1380,
+      "paragraphCount": 5
+    },
+    {
+      "lessonId": "w26d6",
+      "dialogueLines": 12,
+      "passageLines": 18,
+      "passageHangulSyllables": 1113,
+      "lessonHangulSyllables": 1397,
+      "paragraphCount": 6
+    }
+  ],
+  "errors": []
+}
